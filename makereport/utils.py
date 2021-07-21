@@ -80,7 +80,8 @@ def get_verifyPkcs7(report_id, sign_from=None):
 
     verified = signers['verified']
     certificateVerified = signers['certificateVerified']
-    LINK = "http://e-otsenka.uz{}".format(report.pdf_report.url)  # Here is the link
+
+    # LINK = "http://e-otsenka.uz{}".format(report.pdf_report.url)  # Here is the link
 
     if sign_from == 1:
         report.pdf_qr_code_user = qr_code(signature, valid_from)
