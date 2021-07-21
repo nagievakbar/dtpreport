@@ -3,7 +3,7 @@ from django.views.generic import View
 import os
 from DTPreport import settings as s
 from makereport.models import Report, Documents, Contract, Calculation, \
-    HoldsImages, TemplateBase, TemplateMixing, TemplateAgreement, TemplateAdditional, Enumeration, Closing, Disposable
+    HoldsImages, TemplateBase, TemplateMixing, TemplateAgreement, TemplateAdditional, Enumeration, Closing
 from pdf_report.pdf_merger import PDFMerger
 from pdf_report.utils import PyPDFML, generate_pdf, get_name
 

@@ -8,7 +8,7 @@ from PIL import Image
 from pdf_report.pdf_merger import PDFMerger
 from pdf_report.views import generate_pdf_report, generate_pdf_enumeration
 from django.db.models import Q
-from makereport.models import TemplateBase, Report, TemplateAdditional, Enumeration, Disposable
+from makereport.models import TemplateBase, Report, TemplateAdditional, Enumeration
 
 
 @shared_task(name="reduce_image")

@@ -1153,12 +1153,11 @@ class DisposableView(View):
         return render(request, self.template_name, context)
 
     def get_context_forms(self, context: dict) -> dict:
-        disposable_from = DisposableForm(Disposable())
+        disposable_from = DisposableForm(Report())
         image_form = ImageForm(Images())
         passphoto_form = PPhotoForm(PassportPhotos())
         otherphoto_form = OPhotoForm(OtherPhotos())
         checks_form = ChecksForm(Checks())
-
         context['image_form'] = image_form
         context['passphoto_form'] = passphoto_form
         context['disposable_from'] = disposable_from

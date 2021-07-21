@@ -479,19 +479,11 @@ def create_report_additional(request):
     return report
 
 
-def create_report_disposable(request) -> Report :
+def create_report_disposable(request) -> Report:
     report = create_report(request)
     report.type_report = 3
     report.save()
     return report
-
-
-def create_disposable() -> Disposable:
-    disposable = Disposable.objects.create(
-        holds_images=HoldsImages.objects.create()
-    )
-
-    return disposable
 
 
 from django.core.paginator import Paginator

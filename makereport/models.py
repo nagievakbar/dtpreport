@@ -424,7 +424,6 @@ TYPE_OF_REPORT = (
 )
 
 
-
 class Closing(models.Model):
     report_number = models.CharField(max_length=100, blank=True, null=True)
     movable_property = models.CharField(max_length=100, blank=True, null=True)
@@ -461,53 +460,61 @@ def delete_pdf(path):
         pass
 
 
-class Disposable(models.Model):
-    pdf_disposable = models.FileField(blank=True, null=True, upload_to='uploads_disposable/%Y/%m/%d',
-                                      verbose_name='Одноразовый пдф')
-    pdf_created = models.FileField(blank=True, null=True, upload_to='uploads_created/%Y/%m/%d',
-                                   verbose_name="Объединенный пдф")
-    report_id = models.ForeignKey('Report', null=True, blank=True, on_delete=models.CASCADE)
+def delete_pdf_path(obj):
+    try:
+        delete_pdf(obj.path)
+    except:
+        pass
 
-    def clear_pdf(self):
-        delete_pdf(self.pdf_disposable.path)
-        self.pdf_disposable.delete()
 
-    def delete(self, *args, **kwargs):
-        self.clear_pdf()
-        delete_pdf(self.pdf_created.path)
-        super(Disposable, self).delete(*args, **kwargs)
+# class Disposable(models.Model):
+#     pdf_disposable = models.FileField(blank=True, null=True, upload_to='uploads_disposable/%Y/%m/%d',
+#                                       verbose_name='Одноразовый пдф')
+#     pdf_created = models.FileField(blank=True, null=True, upload_to='uploads_created/%Y/%m/%d',
+#                                    verbose_name="Объединенный пдф")
+#     report_id = models.ForeignKey('Report', null=True, blank=True, on_delete=models.CASCADE)
+#
+#     def clear_pdf(self):
+#         delete_pdf_path(self.pdf_disposable)
+#         self.pdf_disposable.delete()
+#
+#     def delete(self, *args, **kwargs):
+#         self.clear_pdf()
+#         delete_pdf_path(self.pdf_created)
+#         super(Disposable, self).delete(*args, **kwargs)
+#
+#     @property
+#     def url_pdf_disposable(self):
+#         try:
+#             url = self.pdf_disposable.url
+#         except:
+#             url = ""
+#         return url
+#
+#     def save_disposable_pdf(self, data):
+#         filename = "disposable_{}_{}.pdf".format(datetime.now().timestamp(), self.id)
+#         try:
+#             path = self.pdf_disposable.path
+#         except ValueError:
+#             path = None
+#
+#         self.pdf_disposable.save(filename, data)
+#         self.save()
+#
+#         delete_pdf(path)
+#
+#     def save_created_pdf(self, data):
+#         filename = "created_{}_{}.pdf".format(datetime.now().timestamp(), self.id)
+#         try:
+#             path = self.pdf_created.path
+#         except ValueError:
+#             path = None
+#
+#         self.pdf_created.save(filename, data)
+#         self.save()
+#
+#         delete_pdf(path)
 
-    @property
-    def url_pdf_disposable(self):
-        try:
-            url = self.pdf_disposable.url
-        except:
-            url = ""
-        return url
-
-    def save_disposable_pdf(self, data):
-        filename = "disposable_{}_{}.pdf".format(datetime.now().timestamp(), self.id)
-        try:
-            path = self.pdf_disposable.path
-        except ValueError:
-            path = None
-
-        self.pdf_disposable.save(filename, data)
-        self.save()
-
-        delete_pdf(path)
-
-    def save_created_pdf(self, data):
-        filename = "created_{}_{}.pdf".format(datetime.now().timestamp(), self.id)
-        try:
-            path = self.pdf_created.path
-        except ValueError:
-            path = None
-
-        self.pdf_created.save(filename, data)
-        self.save()
-
-        delete_pdf(path)
 
 # 0 is usual report
 # 1 is additional report
@@ -586,13 +593,9 @@ class Report(models.Model):
 
     def delete(self, *args, **kwargs):
 
-        delete_pdf(self.passport_photo.path)
-        delete_pdf(self.registration_photo.path)
-        delete_pdf(self.pdf_report.path)
-
-        self.car.delete()
-        self.contract.customer.delete()
-        self.contract.delete()
+        delete_pdf_path(self.passport_photo)
+        delete_pdf_path(self.registration_photo)
+        delete_pdf_path(self.pdf_report)
         return super(Report, self).delete(*args, **kwargs)
 
     def precise_iznos_ki(self):
@@ -662,7 +665,7 @@ class Report(models.Model):
         self.key = figure
 
     def clear_pdf(self):
-        delete_pdf(self.pdf_report.path)
+        delete_pdf_path(self.pdf_report)
         self.pdf_report.delete()
 
     @property
