@@ -153,7 +153,7 @@
             <tbody>
             {% for report in reports %}
                 <tr>
-                    <td style="border-bottom: 1px solid #fff;" data-title="№">{{ forloop.counter }}</td>
+                    <td style="border-bottom: 1px solid #fff;" data-title="№">{{ report.report_id }}</td>
                     {#                  <td style="border-bottom: 1px solid #fff;" data-title="Дата">{{ report.created_at|date:"d.m.Y" }}</td>#}
                     <td style="border-bottom: 1px solid #fff;"
                         data-title="Дата">{{ report.report_number }}</td>

@@ -168,38 +168,12 @@
                     <td style="border-bottom: 1px solid #fff;" data-title="Ключ">{{ report.key }}</td>
                     <td style="border-bottom: 1px solid #fff;" data-title="Отчет">{{ report.report_date }}</td>
                     <td style="border-bottom: 1px solid #fff;" data-title="Функции" data-type="currency">
-                        {#                        {% if report.pdf_qr_code_company == None or report.pdf_qr_code_user == None %}#}
-                        {#                            <span>Подпись</span>#}
-                        {#                        {% else %}#}
-                        {#                             <span>Документ подписан</span>#}
-                        {#                        {% endif %}#}
-                        {#                        <div class="inline_button">#}
-                        {#                            {% if report.pdf_qr_code_company == None %}#}
-                        {#                                <button class="btn btn-primary"#}
-                        {#                                        href="#" data-bs-toggle="modal"#}
-                        {#                                        data-bs-target="#exampleModal"#}
-                        {#                                        sign="{{ report.signed }}"#}
-                        {#                                        sign_from='0'#}
-                        {#                                        data-bs-report="{{ report.report_id }}"#}
-                        {#                                    pkcs7="{{ report.pdf_report_pkcs7.0 }}"#}
-                        {#                                        data-bs-whatever="{{ report.pdf_report_base64 }}">Компании#}
-                        {#                                </button>#}
-                        {#                            {% endif %}#}
-                        {#                            {% if report.pdf_qr_code_user == None %}#}
-                        {#                                <button class="btn btn-primary"#}
-                        {#                                        href="#" data-bs-toggle="modal"#}
-                        {#                                        data-bs-target="#exampleModal"#}
-                        {#                                        sign="{{ report.signed }}"#}
-                        {#                                        sign_from='1'#}
-                        {#                                        data-bs-report="{{ report.report_id }}"#}
-                        {#                                    pkcs7="{{ report.pdf_report_pkcs7.0 }}"#}
-                        {#                                        data-bs-whatever="{{ report.pdf_report_base64 }}">Руководителя#}
-                        {#                                </button>#}
-                        {#                            {% endif %}#}
-                        {% if report.type_report == 0 %}
-                            <a href="{% url 'edit_report' report.report_id %}">Изменить</a>
+                        {% if report.type_report == 3 %}
+                            <a href="{% url 'disposable_view_edit' report.report_id %}">Изменить</a>
                         {% elif report.type_report == 2 %}
                             <a href="{% url 'enumeration_view_edit' report.report_id %}">Изменить</a>
+                        {% else %}
+                            <a href="{% url 'edit_report' report.report_id %}">Изменить</a>
                         {% endif %}
                         <button class="delete-report" type="button" id_report="{{ report.report_id }}"
                                 data-toggle="modal" data-target="#exampleModal">Удалить

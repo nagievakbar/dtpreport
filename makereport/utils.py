@@ -230,7 +230,6 @@ def get_consumable_ajax(request):
 
 
 def get_wear_ajax(request):
-
     point = request.GET.get('point', None)
     weight = request.GET.get('weight', None)
     wear = ((0.208 - 0.003 * float(point)) * float(weight) ** 0.7) * 100
@@ -475,6 +474,13 @@ def create_report_enumeration(request):
 def create_report_additional(request):
     report = create_report(request)
     report.type_report = 1
+    report.save()
+    return report
+
+
+def create_report_disposable(request) -> Report :
+    report = create_report(request)
+    report.type_report = 3
     report.save()
     return report
 

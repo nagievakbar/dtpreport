@@ -424,9 +424,7 @@ TYPE_OF_REPORT = (
 )
 
 
-# 0 is usual report
-# 1 is additional report
-# 2 is enumeration report
+
 class Closing(models.Model):
     report_number = models.CharField(max_length=100, blank=True, null=True)
     movable_property = models.CharField(max_length=100, blank=True, null=True)
@@ -468,7 +466,7 @@ class Disposable(models.Model):
                                       verbose_name='Одноразовый пдф')
     pdf_created = models.FileField(blank=True, null=True, upload_to='uploads_created/%Y/%m/%d',
                                    verbose_name="Объединенный пдф")
-    holds_images = models.ForeignKey('HoldsImages', null=True, blank=True, on_delete=models.CASCADE)
+    report_id = models.ForeignKey('Report', null=True, blank=True, on_delete=models.CASCADE)
 
     def clear_pdf(self):
         delete_pdf(self.pdf_disposable.path)
@@ -511,7 +509,10 @@ class Disposable(models.Model):
 
         delete_pdf(path)
 
-
+# 0 is usual report
+# 1 is additional report
+# 2 is enumeration report
+# 3 is disposable report
 class Report(models.Model):
     type_report = models.IntegerField(default=0, choices=TYPE_OF_REPORT)
     report_id = models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')
@@ -631,26 +632,27 @@ class Report(models.Model):
             return 0
 
     def get_total_report_price(self):
-        print('get_total_report_price')
         try:
-            print("TOTAL SUM")
-            print(self.service_cost)
-            print(self.get_product_acc_cost())
-            print(self.consumable_cost)
-            print(int(self.service_cost + self.get_product_acc_cost() + self.consumable_cost));
             self.total_report_cost = ' '.join(
                 '{:,}'.format(int(self.service_cost + self.get_product_acc_cost() + self.consumable_cost)).split(','))
         except:
             return 0
 
     def get_total_report_cost_txt(self):
+
         try:
+            print("REPORT TYPE {}".format(self.type_report))
+            if self.type_report == 3:
+                print(int(self.total_report_cost))
+                price = num2text(int(self.total_report_cost),
+                                 main_units=((u'сум', u'сум', u'суммов'), 'f'))
+                return price
             self.total_report_cost_txt = num2text(
                 int(self.service_cost + self.get_product_acc_cost() + self.consumable_cost),
                 main_units=((u'сум', u'сум', u'суммов'), 'f'))
             return self.total_report_cost_txt
         except:
-            return 0
+            return num2text(0, main_units=((u'сум', u'сум', u'суммов'), 'f'))
 
     def set_private_key(self):
         while True:
@@ -658,6 +660,50 @@ class Report(models.Model):
             if not Report.objects.filter(key=figure).exists():
                 break
         self.key = figure
+
+    def clear_pdf(self):
+        delete_pdf(self.pdf_report.path)
+        self.pdf_report.delete()
+
+    @property
+    def url_pdf_disposable(self):
+        try:
+            url = self.pdf_report.url
+        except:
+            url = ""
+        return url
+
+    def save_disposable_pdf(self, data):
+        filename = "disposable_{}_{}.pdf".format(datetime.now().timestamp(), self.report_id)
+        try:
+            path = self.pdf_report.path
+        except ValueError:
+            path = None
+
+        self.pdf_report.save(filename, data)
+        self.save()
+
+        delete_pdf(path)
+
+    @property
+    def id(self):
+        return self.report_id
+
+    @property
+    def holds_images(self):
+        return HoldsImages.objects.get(report_id=self.id)
+
+    def save_created_pdf(self, data):
+        filename = "created_{}_{}.pdf".format(datetime.now().timestamp(), self.report_id)
+        try:
+            path = self.pdf_report_additional.path
+        except ValueError:
+            path = None
+
+        self.pdf_report_additional.save(filename, data)
+        self.save()
+
+        delete_pdf(path)
 
     class Meta:
         verbose_name = 'Отчёт'

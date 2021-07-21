@@ -1,12 +1,12 @@
 import PyPDF2
 from django.core.files.base import ContentFile
 
-from makereport.models import Disposable, Documents
+from makereport.models import  Documents, Report
 
 
 class PDFMerger:
     def __init__(self, id: int):
-        self.disposable_model = Disposable.objects.get(id=id)
+        self.disposable_model = Report.objects.get(report_id=id)
         self.pdf_writer = PyPDF2.PdfFileWriter()
 
     def concatenate_pdf(self):
@@ -20,7 +20,7 @@ class PDFMerger:
 
     # I will use pdf writer for creating merged pdf
     def write_first_pdf(self) -> int:
-        pdf_file = self.disposable_model.pdf_disposable
+        pdf_file = self.disposable_model.pdf_report
         pdf_first_reader = PyPDF2.PdfFileReader(pdf_file)
         number_of_pages = pdf_first_reader.numPages
         self._write(pdf_first_reader)

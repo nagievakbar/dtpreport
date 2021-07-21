@@ -111,20 +111,6 @@ class CarForm(forms.ModelForm):
                   'type_of_car']
 
 
-class ContractForm(forms.ModelForm):
-    """docstring for ContractForm."""
-
-    contract_date = forms.CharField(required=False,
-                                    widget=forms.TextInput(attrs={'placeholder': 'Дата договора', 'class': 'input_in'}))
-    contract_number = forms.CharField(
-        required=False,
-        widget=forms.TextInput(attrs={'placeholder': 'Номер договора', 'class': 'input_in'}))
-
-    class Meta:
-        model = Contract
-        fields = ['contract_date', 'contract_number']
-
-
 class CalculationForm(forms.ModelForm):
     total = forms.CharField(required=False,
                             widget=forms.TextInput(
@@ -150,18 +136,18 @@ class CalculationForm(forms.ModelForm):
         ]
 
 
-class ContractFormEdit(forms.ModelForm):
-    """docstring for ContractForm."""
-    contract_date = forms.CharField(
-        required=False,
-        widget=forms.TextInput(attrs={'placeholder': 'Дата договора', 'class': 'input_in'}))
-    contract_number = forms.CharField(
-        required=False,
-        widget=forms.TextInput(attrs={'placeholder': 'Номер договора', 'class': 'input_in'}))
-
-    class Meta:
-        model = Contract
-        fields = ['contract_date', 'contract_number']
+# class ContractFormEdit(forms.ModelForm):
+#     """docstring for ContractForm."""
+#     contract_date = forms.CharField(
+#         required=False,
+#         widget=forms.TextInput(attrs={'placeholder': 'Дата договора', 'class': 'input_in'}))
+#     contract_number = forms.CharField(
+#         required=False,
+#         widget=forms.TextInput(attrs={'placeholder': 'Номер договора', 'class': 'input_in'}))
+#
+#     class Meta:
+#         model = Contract
+#         fields = ['contract_date', 'contract_number']
 
 
 class CustomerForm(forms.ModelForm):
@@ -335,14 +321,14 @@ class OPhotoForm(forms.ModelForm):
 
 
 class DisposableForm(forms.ModelForm):
-    pdf_disposable = forms.CharField(
+    pdf_report = forms.CharField(
         required=False,
         widget=forms.FileInput(
             attrs={'id': 'disposable_pdf', 'type': 'file', 'name': 'input', 'multiple': False}))
 
     class Meta:
-        model = Disposable
-        fields = ['pdf_disposable']
+        model = Report
+        fields = ['pdf_report']
 
 
 class ChecksForm(forms.ModelForm):
@@ -436,3 +422,76 @@ class ClosingForm(forms.ModelForm):
         model = Closing
         exclude = ('sign',)
         fields = '__all__'
+
+
+class CarClosingForm(forms.ModelForm):
+    """docstring for CarForm."""
+    brand_text = forms.CharField(required=False,
+                                 widget=forms.TextInput(attrs={'placeholder': 'Марка', 'class': 'input_in'}))
+    car_number = forms.CharField(required=False,
+                                 widget=forms.TextInput(attrs={'placeholder': 'Номер машины', 'class': 'input_in'}))
+    release_date = forms.CharField(required=False, widget=forms.TextInput(
+        attrs={'placeholder': 'Год и месяц выпуска', 'class': 'input_in'}))
+
+    car_owner = forms.CharField(required=False,
+                                widget=forms.TextInput(attrs={'placeholder': 'Владелец', 'class': 'input_in'}))
+    owner_address = forms.CharField(required=False,
+                                    widget=forms.Textarea(
+                                        attrs={'placeholder': 'Адрес владельца', 'class': 'input_in',
+                                               'onkeyup': 'textAreaAdjust(this)'}))
+
+    class Meta:
+        model = Car
+        fields = ['brand_text', 'car_number', 'release_date', 'car_owner', 'owner_address']
+
+
+class ReportClosingForm(CustomForm):
+    """docstring for ReportForm."""
+
+    report_date = forms.CharField(required=False,
+                                  widget=forms.TextInput(attrs={'placeholder': 'Дата отчёта', 'class': 'input_in'}))
+    report_number = forms.CharField(required=False,
+                                    widget=forms.TextInput(attrs={'placeholder': 'Номер отчёта', 'class': 'input_in'}))
+    total_report_cost = forms.CharField(required=False,
+                                        widget=forms.NumberInput(
+                                            attrs={'placeholder': 'Ущерб автотранспортного средства',
+                                                   'class': 'input_in'}))
+
+    class Meta:
+        model = Report
+        fields = ['report_date', 'report_number', 'total_report_cost']
+
+
+class CustomerClosingForm(forms.ModelForm):
+    name = forms.CharField(required=False,
+                           widget=forms.TextInput(attrs={'placeholder': 'Заказчик', 'class': 'input_in'}))
+    address = forms.CharField(required=False,
+                              widget=forms.TextInput(attrs={'placeholder': 'Адрес заказчика', 'class': 'input_in'}))
+    passport_number = forms.CharField(
+        required=False,
+        widget=forms.TextInput(attrs={'placeholder': 'Паспорт', 'class': 'input_in'}))
+    when_passport_issued = forms.CharField(
+        required=False,
+        widget=forms.TextInput(attrs={'placeholder': 'Когда выдан', 'class': 'input_in'}))
+    whom_passport_issued = forms.CharField(
+        required=False,
+        widget=forms.TextInput(attrs={'placeholder': 'Кем выдан', 'class': 'input_in'}))
+
+    class Meta:
+        model = Customer
+        fields = ['name', 'address', 'passport_number', 'when_passport_issued',
+                  'whom_passport_issued']
+
+
+class ContractForm(forms.ModelForm):
+    """docstring for ContractForm."""
+
+    contract_date = forms.CharField(required=False,
+                                    widget=forms.TextInput(attrs={'placeholder': 'Дата договора', 'class': 'input_in'}))
+    contract_number = forms.CharField(
+        required=False,
+        widget=forms.TextInput(attrs={'placeholder': 'Номер договора', 'class': 'input_in'}))
+
+    class Meta:
+        model = Contract
+        fields = ['contract_date', 'contract_number']

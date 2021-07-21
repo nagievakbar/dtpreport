@@ -119,6 +119,12 @@ def check_qr_code(qrcode: str):
 
 
 def finish_view(request, id):
+    pdf = generate_finish_pdf(id)
+    reponse = FileResponse(ContentFile(pdf), content_type='application/pdf')
+    return reponse
+
+
+def generate_finish_pdf(id: int):
     report = Report.objects.get(report_id=id)
     car = report.car
     contract = report.contract
@@ -131,13 +137,22 @@ def finish_view(request, id):
         'report': report,
         'qrcode': check_qr_code(qrcode),
         'contract': contract,
-        'qrcode_some': QRcode.qrcode("http://e-otsenka.uz/pdf/{id}".format(id=report.report_id))
+        'qrcode_some': QRcode.qrcode("http://e-otsenka.uz/pdf/{link}".format(link=createQRcodeForReport(report)))
     }
     file_path = get_name(TemplateMixing.objects.last())
-    pdf = generate_pdf(default_template="finishing_report.html", main_template_path=file_path,
-                       css_name="finish_report.css", context=context)
-    reponse = FileResponse(ContentFile(pdf), content_type='application/pdf')
-    return reponse
+    return generate_pdf(default_template="finishing_report.html", main_template_path=file_path,
+                        css_name="finish_report.css", context=context)
+
+
+def createQRcodeForReport(report: Report) -> str:
+    if report.type_report == 0:
+        return str(report.id)
+    if report.type_report == 1:
+        return 'additional/{}'.format(report.id)
+    if report.type_report == 2:
+        return 'enumeration/{}'.format(report.id)
+    if report.type_report == 3:
+        return 'disposable/{}'.format(report.id)
 
 
 def agreement_view(request, id):
@@ -288,8 +303,8 @@ class ShowEnumerationPDF(View):
 
 class ShowDisposablePDF(View):
     def get(self, request, id=None):
-        disposable = Disposable.objects.get(id=id)
-        response = FileResponse(open(os.path.abspath(os.path.join(disposable.pdf_created.path)), 'rb'),
+        report = Report.objects.get(report_id=id)
+        response = FileResponse(open(os.path.abspath(os.path.join(report.pdf_report_additional.path)), 'rb'),
                                 content_type='application/pdf')
         return response
 
@@ -370,24 +385,16 @@ def create_base64(new_report_pdf: Report):
 
 
 # test it I think there is high chance of appearing error
-def create_base64_closing(closing: Closing):
-    context = {
-        's': s.BASE_URL,
-        'closing': closing,
-        # 'qrcode': check_qr_code(qrcode),
-        # 'contract': contract,
-        # 'qrcode_some': QRcode.qrcode("http://e-otsenka.uz/pdf/{id}".format(id=report.report_id))
-    }
-    pdf = generate_pdf(default_template="closing.html",
-                       css_name="finish_report.css", context=context)
+def create_base64_closing(report: Report):
+    pdf = generate_finish_pdf(report.report_id)
     file = ContentFile(pdf)
     encode_string = base64.b64encode(file.read())
-    closing.pdf_closing_base64 = encode_string.decode('ascii')
-    closing.save()
+    report.pdf_report_base64 = encode_string.decode('ascii')
+    report.save()
 
 
 # How to return closing pdf !!!
-def closing_pdf(request, id=0 ):
+def closing_pdf(request, id=0):
     closing = Closing.objects.get(id=id)
     # car = report.car
     # contract = report.contract
@@ -405,4 +412,3 @@ def closing_pdf(request, id=0 ):
                        css_name="finish_report.css", context=context)
     reponse = FileResponse(ContentFile(pdf), content_type='application/pdf')
     return reponse
-

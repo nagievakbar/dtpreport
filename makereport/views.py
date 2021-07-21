@@ -46,7 +46,7 @@ class ImageView(View):
 
 class PDFDisposableDelete(View):
     def post(self, request):
-        disposable = Disposable.objects.get(id=request.POST['key'])
+        disposable = Report.objects.get(report_id=request.POST['key'])
         disposable.clear_pdf()
         return JsonResponse({'errors': True})
 
@@ -54,15 +54,15 @@ class PDFDisposableDelete(View):
 # create method
 class PDFDisposableView(View):
     def post(self, request):
-        disposable = Disposable.objects.get(id=request.POST['id'])
-        pdf = request.FILES['pdf_disposable']
+        disposable = Report.objects.get(report_id=request.POST['id'])
+        pdf = request.FILES['pdf_report']
         disposable.save_disposable_pdf(pdf)
-        link_img = "{}{}".format(s.URL_FILES, disposable.pdf_disposable.url)
+        link_img = "{}{}".format(s.URL_FILES, disposable.pdf_report.url)
         print(link_img)
         link_delete = "{}/report/pdf/delete/".format(s.URL_FILES)
         return JsonResponse(
-            response_file(link_file=link_img, link_delete=link_delete, file=disposable.pdf_disposable,
-                          id=disposable.id))
+            response_file(link_file=link_img, link_delete=link_delete, file=disposable.pdf_report,
+                          id=disposable.report_id))
 
 
 class PPhotoDelete(View):
@@ -594,9 +594,9 @@ class ReportView(View):
         calculation = Calculation.objects.get(report_id=id)
         report = Report.objects.get(report_id=id)
         car = Car.objects.get(car_id=report.car_id)
-        contract = Contract.objects.get(contract_id=report.contract_id)
-        customer = Customer.objects.get(customer_id=contract.customer_id)
-        contract_form = ContractFormEdit(request.POST, instance=contract)
+        contract = report.contract
+        customer = contract.customer
+        contract_form = ContractForm(request.POST, instance=contract)
         car_form = CarForm(request.POST, instance=car)
         calculation_form = CalculationForm(request.POST, instance=calculation)
         report_form = ReportForm(request.POST, instance=report)
@@ -703,8 +703,10 @@ class ReportView(View):
                 pass
 
             finally:
-                make_pdf.delay(new_report.report_id)
-                # make_pdf_additional.delay(new_report.report_id)
+                if new_report.type_report == 0:
+                    make_pdf.delay(new_report.report_id)
+                elif new_report.type_report == 1:
+                    make_pdf_additional.delay(new_report.report_id)
                 context = {
                     'base': True,
                     'id_image': holds_images.id,
@@ -917,15 +919,14 @@ def delete(request):
 def reports_list(request):
     return admin_list(request)
 
-
+# do not forget to make extra validation in search
 @login_required
 def reports_edit_list(request):
-    enumeration = Q(report_id__in=Subquery(Enumeration.objects.all().values('report_id')))
-    context = list(request, enumeration=enumeration)
+    context = list(request, additional_filter=Q(type_report=0))
     return render(request, 'makereport/additional.html', context=context)
 
 
-def list(request, enumeration=Q()):
+def list(request, additional_filter=Q()):
     page = pagination_update(request)
     params = ""
     if 'search' in request.GET:
@@ -942,8 +943,8 @@ def list(request, enumeration=Q()):
         reports = Report.objects
 
     paginator = CustomPaginator(
-        reports.exclude(
-            (Q(key__isnull=True) | Q(key__exact='') | enumeration)).order_by(
+        reports.filter(additional_filter).exclude(
+            (Q(key__isnull=True) | Q(key__exact=''))).order_by(
             '-report_id'), page)
     page_number = request.GET.get('page')
     reports = paginator.get_page(page_number)
@@ -1067,10 +1068,18 @@ def reduce_documents_size(request):
 def search(request):
     errors = "Введите ключ"
     if 'key' in request.GET:
-        report = Report.objects.filter(key=request.GET['key'])
-        if report.exists():
-            return HttpResponseRedirect('pdf/{}/'.format(report.first().report_id))
-        else:
+        try:
+            key = request.GET['key'].replace(' ', '')
+            report = Report.objects.get(key=key)
+            if report.type_report == 0:
+                return HttpResponseRedirect('pdf/{}/'.format(report.report_id))
+            elif report.type_report == 1:
+                return HttpResponseRedirect('pdf/additional/{}/'.format(report.report_id))
+            elif report.type_report == 2:
+                return HttpResponseRedirect('pdf/enumeration/{}/'.format(report.report_id))
+            elif report.type_report == 3:
+                return HttpResponseRedirect('pdf/disposable/{}/'.format(report.report_id))
+        except Report.DoesNotExist:
             errors = 'Такого ключа не существует'
     context = {
         'errors': errors
@@ -1088,25 +1097,53 @@ class DisposableView(View):
             return self.show_existing_disposable(request, id)
 
     def post(self, request, id=0):
-        id_disposable = int(request.POST.get('id_disposable', id))
-        return self.store_disposable(request, id_disposable)
+        id_report = int(request.POST.get('id_report', id))
+        return self.store_disposable(request, id_report)
 
     def store_disposable(self, request, id):
 
-        disposable = Disposable.objects.get(id=id)
+        holds_image = HoldsImages.objects.get(report_id=id)
+        report = Report.objects.get(report_id=id)
+        car = Car.objects.get(car_id=report.car_id)
+        contract = report.contract
+        customer = contract.customer
 
-        holds_image = disposable.holds_images
+        contract_form = ContractForm(request.POST, instance=contract)
+        car_form = CarClosingForm(request.POST, instance=car)
+        report_form = ReportClosingForm(request.POST, instance=report)
+        customer_form = CustomerClosingForm(request.POST, instance=customer)
 
         images = holds_image.image.all()
         pphotos = holds_image.pp_photo.all()
         ophotos = holds_image.o_images.all()
         checks = holds_image.checks.all()
-
-        concatenate_pdf_disposable.delay(disposable.id)
+        if contract_form.is_valid() \
+                and car_form.is_valid() \
+                and report_form.is_valid() \
+                and customer_form.is_valid():
+            contract_form.save()
+            car_form.save()
+            report_form.save()
+            customer_form.save()
+            report.set_private_key()
+            concatenate_pdf_disposable.delay(report.id)
+            create_base64_closing(report)
+        else:
+            dict = {
+                1: contract_form.errors,
+                2: car_form.errors,
+                3: report_form.errors,
+                4: customer_form.errors,
+            }
+            raise Exception(dict)
         context = {
-            'id_image': disposable.holds_images_id,
-            'id': disposable.id,
-            'disposable': disposable,
+            'id_image': holds_image.id,
+            'id': report.report_id,
+            'contract_form': contract_form,
+            'car_form': car_form,
+            'report_form': report_form,
+            'customer_form': customer_form,
+            'report': report,
             'images': images,
             'pphotos': pphotos,
             'ophotos': ophotos,
@@ -1121,6 +1158,7 @@ class DisposableView(View):
         passphoto_form = PPhotoForm(PassportPhotos())
         otherphoto_form = OPhotoForm(OtherPhotos())
         checks_form = ChecksForm(Checks())
+
         context['image_form'] = image_form
         context['passphoto_form'] = passphoto_form
         context['disposable_from'] = disposable_from
@@ -1128,34 +1166,57 @@ class DisposableView(View):
         context['checks_form'] = checks_form
         return context
 
+    def get_context_forms_closing(self, context: dict) -> dict:
+        context = self.get_context_forms(context)
+        car_form = CarClosingForm(instance=Car())
+        contract_form = ContractForm(instance=Contract())
+        report_form = ReportClosingForm(instance=Report())
+        customer_form = CustomerClosingForm(instance=Customer())
+        context['car_form'] = car_form
+        context['contract_form'] = contract_form
+        context['report_form'] = report_form
+        context['customer_form'] = customer_form
+        return context
+
     def show_new_disposable(self, request):
-        disposable = create_disposable()
-        print("ASDASDASD")
-        print(disposable.pdf_created.name)
+        report = create_report_disposable(request)
+        holds_images = HoldsImages.objects.create(
+            report_id=report.report_id
+        )
         context = {
-            'id_image': disposable.holds_images_id,
-            'id': disposable.id,
-            'disposable': disposable,
+            'id_image': holds_images.id,
+            'id': report.report_id,
+            'report': report,
             'images': None,
             'pphotos': None,
             'ophotos': None,
             'checks': None,
         }
-        context = self.get_context_forms(context)
+        context = self.get_context_forms_closing(context)
         return render(request, self.template_name, context)
 
     def show_existing_disposable(self, request, id):
-        disposable = Disposable.objects.get(id=id)
-        holds_image = disposable.holds_images
+        holds_image = HoldsImages.objects.get(report_id=id)
+        report = Report.objects.get(report_id=id)
+        car = Car.objects.get(car_id=report.car_id)
+        contract = report.contract
+        customer = contract.customer
         images = holds_image.image.all()
         pphotos = holds_image.pp_photo.all()
         ophotos = holds_image.o_images.all()
-
+        contract_form = ContractForm(instance=contract)
+        car_form = CarClosingForm(instance=car)
+        report_form = ReportClosingForm(instance=report)
+        customer_form = CustomerClosingForm(instance=customer)
         checks = holds_image.checks.all()
         context = {
-            'id_image': disposable.holds_images_id,
-            'id': disposable.id,
-            'disposable': disposable,
+            'id_image': holds_image.id,
+            'id': report.report_id,
+            'contract_form': contract_form,
+            'car_form': car_form,
+            'report_form': report_form,
+            'customer_form': customer_form,
+            'report': report,
             'images': images,
             'pphotos': pphotos,
             'ophotos': ophotos,
@@ -1191,7 +1252,7 @@ class ClosingView(View):
             closing = closing_form.save()
             create_base64_closing(closing)
             context['id'] = closing.id
-            context['closing']= closing
+            context['closing'] = closing
         else:
             context['id'] = 0
             raise Exception(closing_form.errors)
@@ -1226,7 +1287,7 @@ class ClosingView(View):
         closing_form = ClosingForm(instance=closing)
         context = {
             'closing_form': closing_form,
-            'closing':closing,
+            'closing': closing,
             'id': closing.id
         }
         return render(request, self.template_name, context)

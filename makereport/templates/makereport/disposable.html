@@ -11,11 +11,72 @@
     <form method="POST" class="material-form-2" enctype="multipart/form-data">{% csrf_token %}
         <input type="number" value="{{ id_image }}" id="id_image" name="id_image" style="display: none"/>
         {#            report id are important for knowing which report to open and where to store#}
-        <input type="number" value="{{ id }}" name="id_disposable" style="display: none"/>
+        <input type="number" value="{{ id }}" name="id_report" style="display: none"/>
+        <div class="accordion-item">
+            <div class="accordion-header">
+                <span class="accordion-title">Данные</span>
+                <img src="{% static '/makereport/img/Polygon.png' %}" alt="polygon" class="polygon">
+            </div>
+            <div class="inside-content accordion-content">
+                <div class="accordion-content-wrapper">
+                    <div class="inputs_big">
+                        <div class="left-inputs">
 
+                            {#                                            <input type="text" placeholder="Отчёт" class="input_in">#}
+                            {{ report_form.report_number }}
+                            {{ report_form.report_date }}
+                            {{ report_form.total_report_cost }}
+                            {{ contract_form.contract_number }}
+                            {{ contract_form.contract_date }}
+                            {% if car_form.errors.car_number %}
+                                <div class="alert alert-danger">
+                                    <strong>
+                                        {{ car_form.errors.car_number }}
+                                    </strong>
+                                </div>
+                            {% endif %}
+                            {{ car_form.car_number }}
+                            {{ car_form.brand_text }}
+                            {% if car_form.errors.release_date %}
+                                <div class="alert alert-danger">
+                                    <strong>
+                                        Введите правильный год
+                                    </strong>
+                                </div>
+                            {% endif %}
+                            {{ car_form.release_date }}
+                        </div>
+                        <div class="divider"></div>
+                        <div class="right-inputs">
+                            {{ car_form.car_owner }}
+                            {{ car_form.owner_address }}
+                            {{ customer_form.name }}
+                            {{ customer_form.address }}
+                            {% if customer_form.errors.passport_number %}
+                                <div class="alert alert-danger">
+                                    <strong>
+                                        {{ customer_form.errors.passport_number }}
+                                    </strong>
+                                </div>
+                            {% endif %}
+                            {{ customer_form.passport_number }}
+                            {% if customer_form.errors.when_passport_issued %}
+                                <div class="alert alert-danger">
+                                    <strong>
+                                        {{ customer_form.errors.when_passport_issued }}
+                                    </strong>
+                                </div>
+                            {% endif %}
+                            {{ customer_form.when_passport_issued }}
+                            {{ customer_form.whom_passport_issued }}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="container my-4">
             <div class="file-loading">
-                {{ disposable_from.pdf_disposable }}
+                {{ disposable_from.pdf_report }}
             </div>
         </div>
         <div class="container my-4">
@@ -51,25 +112,49 @@
         <div class="material-form-2">
             <div class="last_bottom_block col-12">
                 <div class="row">
+                    <div class="col-lg-4 download_button">
+                        <div class="panel_user" id="download_button1">
+                            <a href="{% url 'get_mixing' id %}" target="_blank">
+                                <button type="button" class="btn panel_button">Посмотреть</button>
+                            </a>
+                        </div>
+                    </div>
 
-                    <div class="col-lg-12">
+                    <div class="col-lg-4">
                         <div class="download_button">
-                            {% if id != 0 and disposable.pdf_created.name != ''  and  disposable.pdf_created.name != None %}
+{#                            {% if id != 0 and report.pdf_report_additional.name != ''  and  report.pdf_report_additional.name != None %}#}
                                 <div class="panel_user" id="download_button7">
                                     <a href="{% url 'get_disposable' id %}" target="_blank">
                                         <button type="button" class="btn panel_button">Посмотреть</button>
                                     </a>
                                 </div>
-                            {% endif %}
+{#                            {% endif %}#}
                         </div>
                     </div>
-
+                    {% if report.pdf_qr_code_company == None and id != 0 %}
+                        <div id="company_sign" class="col-lg-4 download_button">
+                            <div class="panel_user" id="download_button5">
+                                <button class="btn panel_button"
+                                        href="#" data-bs-toggle="modal"
+                                        data-bs-target="#exampleModal"
+                                        id="sign"
+                                        sign="{{ report.signed }}"
+                                        sign_from='0'
+                                        type="button"
+                                        data-bs-report="{{ report.report_id }}"
+                                        {#                                    pkcs7="{{ report.pdf_report_pkcs7.0 }}"#}
+                                        data-bs-whatever="{{ report.pdf_report_base64 }}"> Подписать
+                                </button>
+                            </div>
+                        </div>
+                    {% endif %}
                 </div>
             </div>
         </div>
     </form>
 {% endblock %}
 {% block script_file_input %}
+    {% include 'makereport/modal/imzo_sign_modal.html' %}
     <script>
         $(document).ready(function () {
             const server = "https://e-otsenka.uz";
@@ -82,14 +167,14 @@
                 'uploadAsync': true,
                 'initialPreviewAsData': true,
                 'initialPreview': [
-                    {% if disposable.pdf_disposable %}
+                    {% if report.pdf_report %}
                         `${server}{{ disposable.url_pdf_disposable }}`,
                     {% endif %}
                 ],
                 'initialPreviewConfig': [
                     {
                         url: '{% url 'pdf_delete' %}',
-                        key: {{ disposable.id }},
+                        key: {{ report.report_id }},
                     },
                 ],
                 'ajaxSettings': {
@@ -112,6 +197,6 @@
         });
     </script>
     <script src="{% static '/makereport/js/desktop17.js' %}"></script>
-    {% include 'makereport/javascript/js_report.html' %}
+
 
 {% endblock %}
