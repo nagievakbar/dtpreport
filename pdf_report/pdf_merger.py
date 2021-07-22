@@ -1,12 +1,32 @@
 import PyPDF2
 from django.core.files.base import ContentFile
+from fitz import Rect, fitz
+from flask_qrcode import QRcode
 
-from makereport.models import  Documents, Report
+from makereport.models import Documents, Report
+
+from pdf_report.utils import check_qr_code
+
+
+class PDFInputImage:
+    def __init__(self, pdf_file_path: str, qr_code: str):
+        if qr_code is None:
+            raise ValueError('qr_code cannot be null')
+        self._qr_code = QRcode.qrcode(qr_code, mode='raw')
+        self._pdf_file = fitz.open(pdf_file_path)
+        self._origin_path = pdf_file_path
+
+    def insert_images(self):
+        image_rectangle = Rect(530, 770, 590, 830)
+        for i in range(0, self._pdf_file.pageCount):
+            page = self._pdf_file[i]
+            page.insertImage(image_rectangle, stream=self._qr_code)
+            self._pdf_file.save(self._origin_path, encryption=False, incremental=True)
 
 
 class PDFMerger:
     def __init__(self, id: int):
-        self.disposable_model = Report.objects.get(report_id=id)
+        self.report_model = Report.objects.get(report_id=id)
         self.pdf_writer = PyPDF2.PdfFileWriter()
 
     def concatenate_pdf(self):
@@ -20,7 +40,7 @@ class PDFMerger:
 
     # I will use pdf writer for creating merged pdf
     def write_first_pdf(self) -> int:
-        pdf_file = self.disposable_model.pdf_report
+        pdf_file = self.report_model.pdf_report
         pdf_first_reader = PyPDF2.PdfFileReader(pdf_file)
         number_of_pages = pdf_first_reader.numPages
         self._write(pdf_first_reader)
@@ -32,7 +52,7 @@ class PDFMerger:
             self.pdf_writer.addPage(page_obj)
 
     def create_second_pdf(self, number_pages: int) -> ContentFile:
-        holds_images = self.disposable_model.holds_images
+        holds_images = self.report_model.holds_images
         images = holds_images.image.all()
         passport = holds_images.pp_photo.all()
         checks = holds_images.checks.first()
@@ -61,4 +81,4 @@ class PDFMerger:
     def store_pdf(self):
         pdf_output = ContentFile(bytes())
         self.pdf_writer.write(pdf_output)
-        self.disposable_model.save_created_pdf(pdf_output)
+        self.report_model.save_created_pdf(pdf_output)

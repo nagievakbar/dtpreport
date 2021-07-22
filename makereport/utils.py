@@ -483,6 +483,9 @@ def create_report_disposable(request) -> Report:
     report = create_report(request)
     report.type_report = 3
     report.save()
+    Enumeration.objects.create(
+        report=report
+    )
     return report
 
 

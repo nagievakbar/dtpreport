@@ -445,6 +445,13 @@ class CarClosingForm(forms.ModelForm):
         fields = ['brand_text', 'car_number', 'release_date', 'car_owner', 'owner_address']
 
 
+REPORT_TYPE = (
+    (0, 'Физ. лицо'),
+    (1, 'Юр. лицо')
+
+)
+
+
 class ReportClosingForm(CustomForm):
     """docstring for ReportForm."""
 
@@ -476,11 +483,15 @@ class CustomerClosingForm(forms.ModelForm):
     whom_passport_issued = forms.CharField(
         required=False,
         widget=forms.TextInput(attrs={'placeholder': 'Кем выдан', 'class': 'input_in'}))
+    type_customer = forms.ChoiceField(
+        required=False,
+        choices=REPORT_TYPE,
+        widget=forms.Select(attrs={'class': 'form-control type_customer', 'id': 'id_type_of_car'}))
 
     class Meta:
         model = Customer
         fields = ['name', 'address', 'passport_number', 'when_passport_issued',
-                  'whom_passport_issued']
+                  'whom_passport_issued', 'type_customer']
 
 
 class ContractForm(forms.ModelForm):

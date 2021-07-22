@@ -919,6 +919,7 @@ def delete(request):
 def reports_list(request):
     return admin_list(request)
 
+
 # do not forget to make extra validation in search
 @login_required
 def reports_edit_list(request):
@@ -1104,6 +1105,7 @@ class DisposableView(View):
 
         holds_image = HoldsImages.objects.get(report_id=id)
         report = Report.objects.get(report_id=id)
+        enumeration = Enumeration.objects.get(report_id=id)
         car = Car.objects.get(car_id=report.car_id)
         contract = report.contract
         customer = contract.customer
@@ -1112,6 +1114,7 @@ class DisposableView(View):
         car_form = CarClosingForm(request.POST, instance=car)
         report_form = ReportClosingForm(request.POST, instance=report)
         customer_form = CustomerClosingForm(request.POST, instance=customer)
+        enumeration_form = EnumerationForms(request.POST, instance=enumeration)
 
         images = holds_image.image.all()
         pphotos = holds_image.pp_photo.all()
@@ -1120,11 +1123,13 @@ class DisposableView(View):
         if contract_form.is_valid() \
                 and car_form.is_valid() \
                 and report_form.is_valid() \
-                and customer_form.is_valid():
+                and customer_form.is_valid() \
+                and enumeration_form.is_valid():
             contract_form.save()
             car_form.save()
             report_form.save()
             customer_form.save()
+            enumeration_form.save()
             report.set_private_key()
             concatenate_pdf_disposable.delay(report.id)
             create_base64_closing(report)
@@ -1134,8 +1139,10 @@ class DisposableView(View):
                 2: car_form.errors,
                 3: report_form.errors,
                 4: customer_form.errors,
+                5: enumeration_form.errors
             }
             raise Exception(dict)
+
         context = {
             'id_image': holds_image.id,
             'id': report.report_id,
@@ -1143,6 +1150,7 @@ class DisposableView(View):
             'car_form': car_form,
             'report_form': report_form,
             'customer_form': customer_form,
+            'enumeration_form': enumeration_form,
             'report': report,
             'images': images,
             'pphotos': pphotos,
@@ -1171,10 +1179,12 @@ class DisposableView(View):
         contract_form = ContractForm(instance=Contract())
         report_form = ReportClosingForm(instance=Report())
         customer_form = CustomerClosingForm(instance=Customer())
+        enumeration_form = EnumerationForms(instance=Enumeration())
         context['car_form'] = car_form
         context['contract_form'] = contract_form
         context['report_form'] = report_form
         context['customer_form'] = customer_form
+        context['enumeration_form'] = enumeration_form
         return context
 
     def show_new_disposable(self, request):
@@ -1197,6 +1207,7 @@ class DisposableView(View):
     def show_existing_disposable(self, request, id):
         holds_image = HoldsImages.objects.get(report_id=id)
         report = Report.objects.get(report_id=id)
+        enumeration = Enumeration.objects.get(report_id=id)
         car = Car.objects.get(car_id=report.car_id)
         contract = report.contract
         customer = contract.customer
@@ -1207,6 +1218,7 @@ class DisposableView(View):
         car_form = CarClosingForm(instance=car)
         report_form = ReportClosingForm(instance=report)
         customer_form = CustomerClosingForm(instance=customer)
+        enumeration_form = EnumerationForms(instance=enumeration)
         checks = holds_image.checks.all()
         context = {
             'id_image': holds_image.id,
@@ -1215,6 +1227,7 @@ class DisposableView(View):
             'car_form': car_form,
             'report_form': report_form,
             'customer_form': customer_form,
+            'enumeration_form': enumeration_form,
             'report': report,
             'images': images,
             'pphotos': pphotos,

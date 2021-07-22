@@ -15,7 +15,7 @@ class Contract(models.Model):
     contract_id = models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')
     customer = models.ForeignKey('Customer', null=True, blank=True, on_delete=models.CASCADE, related_name='Customer',
                                  verbose_name='Клиент')
-    pdf_contract = models.FileField(blank=True, null=True, verbose_name='Контракт в пдф')
+
     contract_date = models.CharField(max_length=20, null=True, blank=True, default="")
     contract_number = models.CharField(max_length=20, null=True, blank=True, default="")
 
@@ -100,6 +100,7 @@ class Customer(models.Model):
     gnu_or_gje = models.CharField(max_length=40, blank=True, null=True, )
     uvajaemaya = models.CharField(max_length=40, blank=True, null=True, )
     mesto_osmotra = models.CharField(max_length=200, blank=True, null=True, )
+    type_customer = models.IntegerField(default=0)
 
     def __str__(self):
         return str(self.name)
@@ -520,6 +521,7 @@ def delete_pdf_path(obj):
 # 1 is additional report
 # 2 is enumeration report
 # 3 is disposable report
+
 class Report(models.Model):
     type_report = models.IntegerField(default=0, choices=TYPE_OF_REPORT)
     report_id = models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')

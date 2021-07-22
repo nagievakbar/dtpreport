@@ -104,9 +104,9 @@
     <section class="padding_phone" style="z-index: 9999 !important;">
 
         <form method="POST" class="material-form-2" enctype="multipart/form-data">{% csrf_token %}
-{#        id of image holder #}
+            {#        id of image holder #}
             <input type="number" value="{{ id_image }}" id="id_image" name="id_image" style="display: none"/>
-{#            report id are important for knowing which report to open and#}
+            {#            report id are important for knowing which report to open and#}
             <input type="number" value="{{ id }}" name="id_report" style="display: none"/>
             <div class="accordion one">
                 <!-- 1 -->
@@ -165,21 +165,6 @@
                                     {{ car_form.owner_address }}
                                     {{ customer_form.name }}
                                     {{ customer_form.address }}
-                                    {% if customer_form.errors.passport_number %}
-                                        <div class="alert alert-danger">
-                                            <strong>
-                                                {{ customer_form.errors.passport_number }}
-                                            </strong>
-                                        </div>
-                                    {% endif %}
-                                    {{ customer_form.passport_number }}
-                                    {% if customer_form.errors.when_passport_issued %}
-                                        <div class="alert alert-danger">
-                                            <strong>
-                                                {{ customer_form.errors.when_passport_issued }}
-                                            </strong>
-                                        </div>
-                                    {% endif %}
                                     {% if report.type_report == 2 %}
                                         {{ enumeration_form.p_c }}
                                         {{ enumeration_form.bank }}
@@ -187,12 +172,26 @@
                                         {{ enumeration_form.INN }}
                                         {{ enumeration_form.OKED }}
                                     {% else %}
+                                        {% if customer_form.errors.passport_number %}
+                                            <div class="alert alert-danger">
+                                                <strong>
+                                                    {{ customer_form.errors.passport_number }}
+                                                </strong>
+                                            </div>
+                                        {% endif %}
+                                        {{ customer_form.passport_number }}
+                                        {% if customer_form.errors.when_passport_issued %}
+                                            <div class="alert alert-danger">
+                                                <strong>
+                                                    {{ customer_form.errors.when_passport_issued }}
+                                                </strong>
+                                            </div>
+                                        {% endif %}
                                         {{ customer_form.when_passport_issued }}
                                         {{ customer_form.whom_passport_issued }}
                                         {{ customer_form.phone_number }}
                                     {% endif %}
                                     {{ customer_form.gnu_or_gje }}
-
                                     {{ customer_form.uvajaemaya }}
                                     {{ customer_form.mesto_osmotra }}
                                 </div>

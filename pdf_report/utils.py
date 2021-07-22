@@ -1,3 +1,4 @@
+from flask_qrcode import QRcode
 from reportlab.pdfgen import canvas
 from reportlab.lib import pagesizes
 from reportlab.lib import units
@@ -18,6 +19,10 @@ try:
 except ImportError:
     pass
 from weasyprint import HTML, CSS
+
+
+def check_qr_code(qrcode: str):
+    return QRcode.qrcode(qrcode) if qrcode is not None else None
 
 
 def generate_pdf(context: dict, default_template: str, css_name: str, main_template_path: str = ""):

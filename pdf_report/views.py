@@ -1,11 +1,14 @@
 from django.http import FileResponse, JsonResponse
 from django.views.generic import View
 import os
+
+from flask_qrcode import QRcode
+
 from DTPreport import settings as s
 from makereport.models import Report, Documents, Contract, Calculation, \
     HoldsImages, TemplateBase, TemplateMixing, TemplateAgreement, TemplateAdditional, Enumeration, Closing
-from pdf_report.pdf_merger import PDFMerger
-from pdf_report.utils import PyPDFML, generate_pdf, get_name
+
+from pdf_report.utils import PyPDFML, generate_pdf, get_name, check_qr_code
 
 from django.core.files.base import ContentFile
 
@@ -111,11 +114,8 @@ class GenerateMixing(View):
         return response
 
 
-from flask_qrcode import QRcode
 
 
-def check_qr_code(qrcode: str):
-    return QRcode.qrcode(qrcode) if qrcode is not None else None
 
 
 def finish_view(request, id):

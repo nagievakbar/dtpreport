@@ -5,7 +5,7 @@ from django.core.files.base import ContentFile
 from django.http import JsonResponse
 from PIL import Image
 
-from pdf_report.pdf_merger import PDFMerger
+from pdf_report.pdf_merger import PDFMerger, PDFInputImage
 from pdf_report.views import generate_pdf_report, generate_pdf_enumeration
 from django.db.models import Q
 from makereport.models import TemplateBase, Report, TemplateAdditional, Enumeration
@@ -74,11 +74,15 @@ def make_pdf_enumeration(id):
 @shared_task(name='concatenate_pdf_disposable')
 def concatenate_pdf_disposable(id: int):
     manger = PDFMerger(id)
+    try:
+        sign_put = PDFInputImage(pdf_file_path=manger.report_model.pdf_report.path,
+                                 qr_code=manger.report_model.pdf_qr_code_user)
+        sign_put.insert_images()
+    except ValueError:
+        pass
     manger.concatenate_pdf()
 
 
 import PyPDF2
 
 from io import BytesIO
-
-
