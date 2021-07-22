@@ -465,6 +465,8 @@ def create_report(request):
 def create_report_enumeration(request):
     report = create_report(request)
     report.type_report = 2
+    report.contract.customer.type_customer = 1
+    report.contract.customer.save()
     report.save()
     Enumeration.objects.create(
         report=report

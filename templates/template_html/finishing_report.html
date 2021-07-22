@@ -39,15 +39,36 @@
             <td>{{ customer.name }}</td>
 
         </tr>
+        {% if customer.type_customer == 1 and enumeration %}
         <tr>
-            <td><span>Адрес Заказчика :</span></td>
-            <td>{{ customer.address }}</td>
+            <td><span>Реквизиты заказчика :</span></td>
+            <td><p>
+               {{ customer.address }}
+                    р\с  {{ enumeration.p_c }},
+                    {{ enumeration.bank }},
+                    МФО {{ enumeration.MFO }},
+                    ИНН {{ enumeration.INN }},
+                    ОКЭД {{ enumeration.OKED }},
+{#                    паспорт серия: {{ report.contract.customer.passport_number }}#}
+{#                    <br>#}
+{#                    дата выдачи: {{ report.contract.customer.when_passport_issued }} года#}
+{#                    <br>#}
+{#                    от: {{ report.contract.customer.whom_passport_issued }}#}
 
+            </p>
+            </td>
         </tr>
-        <tr>
-            <td><span>Паспортные данные :</span></td>
-            <td>{{ customer.passport_number }}    {{ customer.when_passport_issued }}  {{ customer.whom_passport_issued }}</td>
-        </tr>
+              {% else %}
+                <tr>
+                    <td><span>Адрес Заказчика :</span></td>
+                    <td>{{ customer.address }}</td>
+
+                </tr>
+                <tr>
+                    <td><span>Паспортные данные :</span></td>
+                    <td>{{ customer.passport_number }}    {{ customer.when_passport_issued }}  {{ customer.whom_passport_issued }}</td>
+                </tr>
+          {% endif %}
         <tr>
             <th colspan="2" class="center header-table-finish">2.1 Сведения об исполнителе</th>
         </tr>
@@ -126,7 +147,7 @@
             <td><span>QR код для
             просмотра отчета : </span>
             </td>
-                <td><img class="qr-code-small" alt="" src="{{ qrcode_some }}"/></td>
+            <td><img class="qr-code-small" alt="" src="{{ qrcode_some }}"/></td>
         </tr>
     </table>
     <p class="text-intent"> Данный электронный отчёт составлен по ЕНСО Зарегистрированный Министерством юстиции

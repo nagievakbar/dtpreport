@@ -1131,6 +1131,7 @@ class DisposableView(View):
             customer_form.save()
             enumeration_form.save()
             report.set_private_key()
+            report.save()
             concatenate_pdf_disposable.delay(report.id)
             create_base64_closing(report)
         else:

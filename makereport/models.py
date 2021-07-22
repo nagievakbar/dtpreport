@@ -666,6 +666,7 @@ class Report(models.Model):
                 break
         self.key = figure
 
+
     def clear_pdf(self):
         delete_pdf_path(self.pdf_report)
         self.pdf_report.delete()

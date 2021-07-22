@@ -114,10 +114,6 @@ class GenerateMixing(View):
         return response
 
 
-
-
-
-
 def finish_view(request, id):
     pdf = generate_finish_pdf(id)
     reponse = FileResponse(ContentFile(pdf), content_type='application/pdf')
@@ -127,6 +123,10 @@ def finish_view(request, id):
 def generate_finish_pdf(id: int):
     report = Report.objects.get(report_id=id)
     car = report.car
+    try:
+        enumeration = Enumeration.objects.get(report_id=id)
+    except Enumeration.DoesNotExist:
+        enumeration = None
     contract = report.contract
     customer = contract.customer
     qrcode = get_qrc_code(qr_company=report.pdf_qr_code_company)
@@ -134,6 +134,7 @@ def generate_finish_pdf(id: int):
         'car': car,
         's': s.BASE_URL,
         'customer': customer,
+        'enumeration': enumeration,
         'report': report,
         'qrcode': check_qr_code(qrcode),
         'contract': contract,
