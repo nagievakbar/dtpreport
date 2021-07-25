@@ -15,8 +15,8 @@ class PDFInputImage:
         self._pdf_file = fitz.open(pdf_file_path)
         self._origin_path = pdf_file_path
         self.padding = 10
-        self.width = 50
-        self.height = 50
+        self.width = 100
+        self.height = 100
 
     def add_signs(self) -> bytes:
         # adds user sign
