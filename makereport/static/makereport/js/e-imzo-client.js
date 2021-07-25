@@ -188,25 +188,93 @@ var EIMZOClient = {
             });
         }
     },
+    // loadKey: function (itemObject, success, fail, verifyPassword) {
+    //     if (itemObject) {
+    //         var vo = itemObject;
+    //         if (vo.type === "certkey") {
+    //             CAPIWS.callFunction({
+    //                 plugin: "certkey",
+    //                 name: "load_key",
+    //                 arguments: [vo.disk, vo.path, vo.name, vo.serialNumber]
+    //             }, function (event, data) {
+    //                 if (data.success) {
+    //                     var id = data.keyId;
+    //                     success(id);
+    //                 } else {
+    //                     fail(null, data.reason);
+    //                 }
+    //             }, function (e) {
+    //                 fail(e, null);
+    //             });
+    //         } else if (vo.type === "pfx") {
+    //             CAPIWS.callFunction({
+    //                 plugin: "pfx",
+    //                 name: "load_key",
+    //                 arguments: [vo.disk, vo.path, vo.name, vo.alias]
+    //             }, function (event, data) {
+    //                 if (data.success) {
+    //                     var id = data.keyId;
+    //                     if (verifyPassword) {
+    //                         CAPIWS.callFunction({
+    //                             name: "verify_password",
+    //                             plugin: "pfx",
+    //                             arguments: [id]
+    //                         }, function (event, data) {
+    //                             if (data.success) {
+    //                                 success(id);
+    //                             } else {
+    //                                 fail(null, data.reason);
+    //                             }
+    //                         }, function (e) {
+    //                             fail(e, null);
+    //                         });
+    //                     } else {
+    //                         success(id);
+    //                     }
+    //                 } else {
+    //                     fail(null, data.reason);
+    //                 }
+    //             }, function (e) {
+    //                 fail(e, null);
+    //             });
+    //         } else if (vo.type === "ftjc") {
+    //             CAPIWS.callFunction({
+    //                 plugin: "ftjc",
+    //                 name: "load_key",
+    //                 arguments: [vo.cardUID]
+    //             }, function (event, data) {
+    //                 if (data.success) {
+    //                     var id = data.keyId;
+    //                     if (verifyPassword) {
+    //                         CAPIWS.callFunction({
+    //                             plugin: "ftjc",
+    //                             name: "verify_pin",
+    //                             arguments: [id, '1']
+    //                         }, function (event, data) {
+    //                             if (data.success) {
+    //                                 success(id);
+    //                             } else {
+    //                                 fail(null, data.reason);
+    //                             }
+    //                         }, function (e) {
+    //                             fail(e, null);
+    //                         });
+    //                     } else {
+    //                         success(id);
+    //                     }
+    //                 } else {
+    //                     fail(null, data.reason);
+    //                 }
+    //             }, function (e) {
+    //                 fail(e, null);
+    //             });
+    //         }
+    //     }
+    // },
     loadKey: function (itemObject, success, fail, verifyPassword) {
         if (itemObject) {
             var vo = itemObject;
-            if (vo.type === "certkey") {
-                CAPIWS.callFunction({
-                    plugin: "certkey",
-                    name: "load_key",
-                    arguments: [vo.disk, vo.path, vo.name, vo.serialNumber]
-                }, function (event, data) {
-                    if (data.success) {
-                        var id = data.keyId;
-                        success(id);
-                    } else {
-                        fail(null, data.reason);
-                    }
-                }, function (e) {
-                    fail(e, null);
-                });
-            } else if (vo.type === "pfx") {
+            if (vo.type === "pfx") {
                 CAPIWS.callFunction({
                     plugin: "pfx",
                     name: "load_key",
@@ -375,11 +443,11 @@ var EIMZOClient = {
                 arguments: [pkcs7, id]
             },
             function (event, data) {
-                 console.log(data)
+                console.log(data)
                 console.log("e-imzo uz")
                 if (data.success) {
                     var pkcs7 = data.pkcs7_64;
-                        success(pkcs7);
+                    success(pkcs7);
                 } else {
                     console.log("failed")
                     console.log(data.reason);

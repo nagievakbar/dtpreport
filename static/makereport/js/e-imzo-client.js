@@ -188,15 +188,15 @@ var EIMZOClient = {
     //         });
     //     }
     // },
-     listAllUserKeys: function(itemIdGen, itemUiGen, success, fail){
+    listAllUserKeys: function (itemIdGen, itemUiGen, success, fail) {
         var items = [];
         var errors = [];
-        if(!EIMZOClient.NEW_API){
+        if (!EIMZOClient.NEW_API) {
             fail(null, 'Please install new version of E-IMZO');
         } else {
             EIMZOClient._findPfxs2(itemIdGen, itemUiGen, items, errors, function (firstItmId2) {
                 EIMZOClient._findTokens2(itemIdGen, itemUiGen, items, errors, function (firstItmId3) {
-                    if(items.length === 0 && errors.length > 0){
+                    if (items.length === 0 && errors.length > 0) {
                         fail(errors[0].e, errors[0].r);
                     } else {
                         var firstId = null;
@@ -216,22 +216,7 @@ var EIMZOClient = {
     loadKey: function (itemObject, success, fail, verifyPassword) {
         if (itemObject) {
             var vo = itemObject;
-            if (vo.type === "certkey") {
-                CAPIWS.callFunction({
-                    plugin: "certkey",
-                    name: "load_key",
-                    arguments: [vo.disk, vo.path, vo.name, vo.serialNumber]
-                }, function (event, data) {
-                    if (data.success) {
-                        var id = data.keyId;
-                        success(id);
-                    } else {
-                        fail(null, data.reason);
-                    }
-                }, function (e) {
-                    fail(e, null);
-                });
-            } else if (vo.type === "pfx") {
+            if (vo.type === "pfx") {
                 CAPIWS.callFunction({
                     plugin: "pfx",
                     name: "load_key",
@@ -400,11 +385,11 @@ var EIMZOClient = {
                 arguments: [pkcs7, id]
             },
             function (event, data) {
-                 console.log(data)
+                console.log(data)
                 console.log("e-imzo uz")
                 if (data.success) {
                     var pkcs7 = data.pkcs7_64;
-                        success(pkcs7);
+                    success(pkcs7);
                 } else {
                     console.log("failed")
                     console.log(data.reason);

@@ -315,6 +315,9 @@
         console.log(itm)
         if (itm) {
             console.log("HERE WE GOES,")
+            var id = $("#" + itm).text();
+            var vo = JSON.parse(id);
+
             var data = document.testform.data.value;
             var keyId = document.getElementById('keyId').innerHTML;
             var report_input = document.getElementById('report_id');
