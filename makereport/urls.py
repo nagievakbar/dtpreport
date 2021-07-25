@@ -45,7 +45,6 @@ urlpatterns = [
     # implement this methods
     path(r'disposable/', DisposableView.as_view(), name="disposable_view"),
     path(r'disposable/edit/<int:id>', DisposableView.as_view(), name="disposable_view_edit"),
-    path(r'closing/', ClosingView.as_view(), name="closing_view"),
-    path(r'closing/edit/<int:id>', ClosingView.as_view(), name="closing_view_edit"),
+
 
 ]

@@ -1,388 +1,346 @@
 <script>
+    var image = '<img alt="" src="data:image/x-icon;base64,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6v/s7Oz/7e3t/+zs7P+0wMz/Rn6o/1y76f9koMH/faG//1CBrP9z6P//atXw/0WEr/88eKtuAAAAAAAAAAzFxcX//Pz8//f39//y8vL/8/Pz//Dw8P/v7+//8PDw//Dw8P/29vb//Pz8//X19f+8vLz/ubm5//X19f/8/Pz/9vb2//Dw8P/w8PD/7+/v/+/v8P+luMr/SImz/1my2f9q1vT/bdv1/1+/4f9GibT/OX2yhgD//wEAAAAAAAAADMbGxf/z8/P/8vLy//X19f/29vb/8/Pz//Pz8//29vb//Pz8//v7+//Nzc3/np6e/5mZmf+Ympz/nJ+g/87Ozv/7+/v//Pz8//b29v/z8/P/8/Pz//X19v+9zdv/gabE/0+HtP9KhbX/NHKhwi5pmHIAExMNAAAAAAAAAAAAAAAMxsbG//X19f/z8/P/9vb2//f39//29vb//Pz8///////t7e3/vLy8/56en//U09j/zc7W//z///9wze7/ZIyl/7y8vP/t7e3///////z8/P/29vb/9/f3//b29v/z8/P/9fX1/8bGxv8AAABGAAAAIwAAAAwAAAAAAAAAAAAAAAvIyMn/9fX1//X19f/6+vr/////////////////0dHR/6Kiov/Ozs//5ujr/+Xo6v/i5Oj//P///z6x1f8Ah8X/YbLR/5unq//Q0ND/////////////////+vr6//X19f/19fX/yMjJ/wAAAEYAAAAjAAAADAAAAAAAAAAAAAAACsnJyf/5+fn/////////////////7e3t/7S0tP+3t7f/7uno/+7o5v/s5uT/6+Hg/+nk4v/8////Zcfj/wCGvf8aqdn/Xsfl/3Klvf+0tLT/7Ozs//////////////////n5+f/Jycn/AAAARQAAACIAAAALAAAAAAAAAAAAAAAHy8nL/////////////////9ra2v+3t7f/5+bm/+Ph4f/Ox8r/3dbY/+jj4//Z09X/z8nJ//z////K8/z/JJ3G/wCDvf8Aicj/AJTS/0Kez/+zvb//2dnZ/////////////////8vJy/8AAAA/AAAAHgAAAAkAAAAAAAAAAAAAAAXLzMz//f39/+Xl5f/CwsL/zs/P//H08//9////8fX1/+bo6f/s8PH/8vb2/+/y8v/x8/P//P////z////K8fv/a8jk/zi13v9Jweb/pef6//f8/f/f4eD/wsLC/+Xl5f/9/f3/y8zM/wAAADQAAAAYAAAABwAAAAAAAAAAAAAAAre3u//Hx8f/vLy8/9Xd5P/6/v3///////r+/v/3+fj/+Pr5//f49//3+fj/9fb2//39+//8/////P////z////8/////P////z////8/////P////r+/f/C0dv/vsDC/8nJyf/CwsX/AAAAJAAAAA4AAAADAAAAAAAAAAAAAAAAjo6O17O0tfrJ1Nv/kqi4//r+/f/8////+/////r//v/6////+v////r//v/6////+v////r//v/6////+v/+//r////7////+v/+//v////8////+v79/7nK1v/I2OD/qLG38oyMjPEAAAATAAAABwAAAAEAAAAAAAAAAAAAAAA/Pz8sssTP/8jY4f+Uqbn/+v79//Tx8P/v7Or/8Ozr//Du7f/w7Ov/8e/u//Hv7f/x7u3/8/Ty//Hu7f/z8vH/8/Px//Hu7P/09PL/8e/u//f19P/6/v3/u8zX/8jY4f+Vqrr/R0dHSwAAAAcAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAC5ytXMyNjh/5Wquv/6/v3/8u/u//Dt6//x8O//8O7s//Dt7P/y8fH/8O3t//Hw7//z9PP/8Ozr//Ly8f/x8O7/8e3s//Lx8P/x7Oz/9vX0//r+/f+8zdj/yNjh/5WouNwzMzMKAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALDDz//I2OH/l6y7//r+/f/+////+v////v////4+/r/9/n4//j6+f/4+/r/9/r6//f6+f/4+vr/+fv7//n7+v/5/fz/+/////v////8////+v79/77O2f/I2OH/k6m5/wAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAucrVzMjY4f+Yrb3/+v79//z////6/v3/+//+/+fa2P/fysf/59bT/9/MyP/i0c7/5NbS/+DNy//k1dL/4M3L/+ja2P/7////+v/+//v////6/v3/v9Da/8jY4f+TqLfMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACuwc7/yNjh/5quvf/6/v3/+/79//r9/P/6/fv/+vz7//r7+v/6+vr/+Pr5//n6+v/5+/r/+vz7//n6+v/4+vr/+vv7//r9/P/7/v3//P/+//r+/f/B0dz/yNjh/5Knt/8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALnK1czc5ur/nLC//52xwP+essH/oLTC/6G1xP+it8T/pLjG/6a5xv+nusj/qLzJ/7bI1P+3ydT/ucrV/7vM1v+8zdf/vc/Y/77P2f/A0dr/wNHc/8LT3P/c5ur/k6i3zAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAxNHa/7zL1f/j7O//yNjh/8jY4f/I2OH/yNjh/8jY4f/I2OH/yNjh/8jY4f/I2OH/yNjh/8jY4f/I2OH/yNjh/8jY4f/I2OH/yNjh/8jY4f/I2OH/3Obq/7zL1f+Sp7f/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADH09tXu8rU/7nK1cywws7/ucrVzLDCzv+5ytXMsMLO/7fK1Myuwc3/ucjR57bH0/+9zNT/scTQ/7bG0tqww8//ucrVzK7Bzv+5ytXMrsHO/7nK1cydssLnoLTB/7vN1VcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADDw8MR1NTUKtLS0jTDw8MRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" />'
     // a can just change url and everything will work as expected. But I will give some time to make up better ideas
-$('#sign').on('click', function () {
-    loadModels($(this))
-})
-$('#sign_boss').on('click', function () {
-    loadModels($(this))
-})
-var sign_user;
-//
-var url = "{{ url }}";
-function success_sign() {
-    console.log(typeof (sign_user));
-    if (sign_user === '0') {
-        $("#company_sign").css('display','none');
+    $('#sign').on('click', function () {
+        loadModels($(this))
+    })
+    $('#sign_boss').on('click', function () {
+        loadModels($(this))
+    })
+    var sign_user;
+    //
+    var url = "{{ url }}";
+
+    function success_sign() {
+        console.log(typeof (sign_user));
+        if (sign_user === '0') {
+            $("#company_sign").css('display', 'none');
+        } else {
+            $("#user_sign").css('display', 'none');
+        }
     }
-    else {
-         $("#user_sign").css('display','none');
-    }
-}
-function loadModels(object) {
-    console.log(object)
-    let sign = object.attr('sign');
-    let sign_form = object.attr('sign_from')
+
+    function loadModels(object) {
+        console.log(object)
+        let sign = object.attr('sign');
+        let sign_form = object.attr('sign_from')
         var model = $("#exampleModal");
-    model.modal('show');
-    sign_user = sign_form;
-    model.find('.sign').val(sign)
-    model.find('.sign_form').val(sign_form)
-    let recipient = object.attr('data-bs-whatever');
-    let report_id = object.attr('data-bs-report');
-    var modalFileInput = model.find('.file');
-    var modalReportIdField = model.find('.report_id');
-    modalFileInput.text(recipient)
-    modalReportIdField.val(report_id)
+        model.modal('show');
+        sign_user = sign_form;
+        model.find('.sign').val(sign)
+        model.find('.sign_form').val(sign_form)
+        let recipient = object.attr('data-bs-whatever');
+        let report_id = object.attr('data-bs-report');
+        var modalFileInput = model.find('.file');
+        var modalReportIdField = model.find('.report_id');
+        modalFileInput.text(recipient)
+        modalReportIdField.val(report_id)
 
-}
+    }
 
-$('#close_model').on('click', function () {
-    $("#exampleModal").modal('hide');
-})
-$('#close_m').on('click', function () {
-    $("#exampleModal").modal('hide');
-})
-// var exampleModal = document.getElementById('exampleModal')
-// exampleModal.addEventListener('show.bs.modal', function (event) {
-//     var button = event.relatedTarget;
-//     var recipient = "";
-//     var sign = button.getAttribute('sign');
-//     var sign_from = button.getAttribute('sign_from');
-//     exampleModal.querySelector('.sign').value = sign;
-//     exampleModal.querySelector('#sign_from').value = sign_from;
-//
-//     recipient = button.getAttribute('data-bs-whatever');
-//     var report_id = button.getAttribute('data-bs-report');
-//
-//     var modalFileInput = exampleModal.querySelector('.file');
-//     var modalReportIdField = exampleModal.querySelector('.report_id');
-//
-//     modalFileInput.textContent = recipient
-//     modalReportIdField.value = report_id
-// })
+    $('#close_model').on('click', function () {
+        $("#exampleModal").modal('hide');
+    })
+    $('#close_m').on('click', function () {
+        $("#exampleModal").modal('hide');
+    })
+    // var exampleModal = document.getElementById('exampleModal')
+    // exampleModal.addEventListener('show.bs.modal', function (event) {
+    //     var button = event.relatedTarget;
+    //     var recipient = "";
+    //     var sign = button.getAttribute('sign');
+    //     var sign_from = button.getAttribute('sign_from');
+    //     exampleModal.querySelector('.sign').value = sign;
+    //     exampleModal.querySelector('#sign_from').value = sign_from;
+    //
+    //     recipient = button.getAttribute('data-bs-whatever');
+    //     var report_id = button.getAttribute('data-bs-report');
+    //
+    //     var modalFileInput = exampleModal.querySelector('.file');
+    //     var modalReportIdField = exampleModal.querySelector('.report_id');
+    //
+    //     modalFileInput.textContent = recipient
+    //     modalReportIdField.value = report_id
+    // })
 
-// $('#exampleModal').on('hidden.bs.modal', function (e) {
-//     location.reload();
-// })
+    // $('#exampleModal').on('hidden.bs.modal', function (e) {
+    //     location.reload();
+    // })
 
-$(document).on('click', ".btn btn-primary sign", function (e) {
-    console.log('CLICK sign')
-    var pkcs7 = $(this).parents('.modal-body').find('.pkcs7').textContent;
-    console.log(pkcs7)
-});
-
-var EIMZO_MAJOR = 3;
-var EIMZO_MINOR = 37;
-
-
-var errorCAPIWS = 'Ошибка соединения с E-IMZO. Возможно у вас не установлен модуль E-IMZO или Браузер E-IMZO.';
-var errorBrowserWS = 'Браузер не поддерживает технологию WebSocket. Установите последнюю версию браузера.';
-var errorUpdateApp = 'ВНИМАНИЕ !!! Установите новую версию приложения E-IMZO или Браузера E-IMZO.<br /><a href="https://e-imzo.uz/main/downloads/" role="button">Скачать ПО E-IMZO</a>';
-var errorWrongPassword = 'Пароль неверный.';
-
-
-var AppLoad = function () {
-    EIMZOClient.API_KEYS = [
-        'localhost', '96D0C1491615C82B9A54D9989779DF825B690748224C2B04F500F370D51827CE2644D8D4A82C18184D73AB8530BB8ED537269603F61DB0D03D2104ABF789970B',
-        '127.0.0.1', 'A7BCFA5D490B351BE0754130DF03A068F855DB4333D43921125B9CF2670EF6A40370C646B90401955E1F7BC9CDBF59CE0B2C5467D820BE189C845D0B79CFC96F',
-        'null', 'E0A205EC4E7B78BBB56AFF83A733A1BB9FD39D562E67978CC5E7D73B0951DB1954595A20672A63332535E13CC6EC1E1FC8857BB09E0855D7E76E411B6FA16E9D',
-        'dls.yt.uz', 'EDC1D4AB5B02066FB3FEB9382DE6A7F8CBD095E46474B07568BC44C8DAE27B3893E75B79280EA82A38AD42D10EA0D600E6CE7E89D1629221E4363E2D78650516',
-        'e-otsenka.uz' , '53B925F2B659F7BAB4306ED57731E7FCF620A484D8D7D5E7317968EA7655965B1EF1A536726D24280FB0A6283239C2C1C15D920F67BF397F8BC75DA58859E29E'
-    ];
-    uiLoading();
-    EIMZOClient.checkVersion(function (major, minor) {
-        var newVersion = EIMZO_MAJOR * 100 + EIMZO_MINOR;
-        var installedVersion = parseInt(major) * 100 + parseInt(minor);
-        if (installedVersion < newVersion) {
-            uiUpdateApp();
-        } else {
-            EIMZOClient.installApiKeys(function () {
-                uiLoadKeys();
-            }, function (e, r) {
-                if (r) {
-                    uiShowMessage(r);
-                } else {
-                    wsError(e);
-                }
-            });
-        }
-    }, function (e, r) {
-        if (r) {
-            uiShowMessage(r);
-        } else {
-            uiNotLoaded(e);
-        }
+    $(document).on('click', ".btn btn-primary sign", function (e) {
+        console.log('CLICK sign')
+        var pkcs7 = $(this).parents('.modal-body').find('.pkcs7').textContent;
+        console.log(pkcs7)
     });
-}
+
+    var EIMZO_MAJOR = 3;
+    var EIMZO_MINOR = 37;
 
 
-var uiShowMessage = function (message) {
-    alert(message);
-}
+    var errorCAPIWS = 'Ошибка соединения с E-IMZO. Возможно у вас не установлен модуль E-IMZO или Браузер E-IMZO.';
+    var errorBrowserWS = 'Браузер не поддерживает технологию WebSocket. Установите последнюю версию браузера.';
+    var errorUpdateApp = 'ВНИМАНИЕ !!! Установите новую версию приложения E-IMZO или Браузера E-IMZO.<br /><a href="https://e-imzo.uz/main/downloads/" role="button">Скачать ПО E-IMZO</a>';
+    var errorWrongPassword = 'Пароль неверный.';
 
-var uiLoading = function () {
-    var l = document.getElementById('message');
-    l.innerHTML = 'Загрузка ...';
-    l.style.color = 'red';
-}
 
-var uiNotLoaded = function (e) {
-    var l = document.getElementById('message');
-    l.innerHTML = '';
-    if (e) {
-        wsError(e);
-    } else {
-        uiShowMessage(errorBrowserWS);
+    var AppLoad = function () {
+        EIMZOClient.API_KEYS = [
+            'localhost', '96D0C1491615C82B9A54D9989779DF825B690748224C2B04F500F370D51827CE2644D8D4A82C18184D73AB8530BB8ED537269603F61DB0D03D2104ABF789970B',
+            '127.0.0.1', 'A7BCFA5D490B351BE0754130DF03A068F855DB4333D43921125B9CF2670EF6A40370C646B90401955E1F7BC9CDBF59CE0B2C5467D820BE189C845D0B79CFC96F',
+            'null', 'E0A205EC4E7B78BBB56AFF83A733A1BB9FD39D562E67978CC5E7D73B0951DB1954595A20672A63332535E13CC6EC1E1FC8857BB09E0855D7E76E411B6FA16E9D',
+            'dls.yt.uz', 'EDC1D4AB5B02066FB3FEB9382DE6A7F8CBD095E46474B07568BC44C8DAE27B3893E75B79280EA82A38AD42D10EA0D600E6CE7E89D1629221E4363E2D78650516',
+            'e-otsenka.uz', '53B925F2B659F7BAB4306ED57731E7FCF620A484D8D7D5E7317968EA7655965B1EF1A536726D24280FB0A6283239C2C1C15D920F67BF397F8BC75DA58859E29E'
+        ];
+        uiLoading();
+        EIMZOClient.checkVersion(function (major, minor) {
+            var newVersion = EIMZO_MAJOR * 100 + EIMZO_MINOR;
+            var installedVersion = parseInt(major) * 100 + parseInt(minor);
+            if (installedVersion < newVersion) {
+                uiUpdateApp();
+            } else {
+                EIMZOClient.installApiKeys(function () {
+                    uiLoadKeys();
+                }, function (e, r) {
+                    if (r) {
+                        uiShowMessage(r);
+                    } else {
+                        wsError(e);
+                    }
+                });
+            }
+        }, function (e, r) {
+            if (r) {
+                uiShowMessage(r);
+            } else {
+                uiNotLoaded(e);
+            }
+        });
     }
-}
 
-var uiUpdateApp = function () {
-    var l = document.getElementById('message');
-    l.innerHTML = errorUpdateApp;
-}
 
-var uiLoadKeys = function () {
-    uiClearCombo();
-    EIMZOClient.listAllUserKeys(function (o, i) {
-        var itemId = "itm-" + o.serialNumber + "-" + i;
-        return itemId;
-    }, function (itemId, v) {
-        return uiCreateItem(itemId, v);
-    }, function (items, firstId) {
-        uiFillCombo(items);
-        uiLoaded();
-        uiComboSelect(firstId);
-    }, function (e, r) {
-        uiShowMessage(errorCAPIWS);
-    });
-}
-
-var uiComboSelect = function (itm) {
-    if (itm) {
-        var id = document.getElementById(itm);
-        id.setAttribute('selected', 'true');
+    var uiShowMessage = function (message) {
+        alert(message);
     }
-}
 
-var cbChanged = function (c) {
-    document.getElementById('keyId').innerHTML = '';
-}
-
-var uiClearCombo = function () {
-    var combo = document.testform.key;
-    combo.length = 0;
-}
-
-var uiFillCombo = function (items) {
-    var combo = document.testform.key;
-    for (var itm in items) {
-        combo.append(items[itm]);
+    var uiLoading = function () {
+        var l = document.getElementById('message');
+        l.innerHTML = 'Загрузка ...';
+        l.style.color = 'red';
     }
-}
 
-var uiLoaded = function () {
-    var l = document.getElementById('message');
-    l.innerHTML = '';
-}
-
-var uiCreateItem = function (itmkey, vo) {
-    var now = new Date();
-    vo.expired = dates.compare(now, vo.validTo) > 0;
-    var itm = document.createElement("option");
-    itm.value = itmkey;
-    itm.text = vo.CN;
-    if (!vo.expired) {
-
-    } else {
-        itm.style.color = 'gray';
-        itm.text = itm.text + ' (срок истек)';
+    var uiNotLoaded = function (e) {
+        var l = document.getElementById('message');
+        l.innerHTML = '';
+        if (e) {
+            wsError(e);
+        } else {
+            uiShowMessage(errorBrowserWS);
+        }
     }
-    itm.setAttribute('vo', JSON.stringify(vo));
-    itm.setAttribute('id', itmkey);
-    return itm;
-}
 
-var wsError = function (e) {
-    if (e) {
-        uiShowMessage(errorCAPIWS + " : " + e);
-    } else {
-        uiShowMessage(errorBrowserWS);
+    var uiUpdateApp = function () {
+        var l = document.getElementById('message');
+        l.innerHTML = errorUpdateApp;
     }
-};
 
-verify = function () {
-    var pkcs7 = document.testform.pkcs7.value;
-    EIMZOClient.verifyPkcs7(pkcs7,)
-}
+    var uiLoadKeys = function () {
+        uiClearCombo();
+        EIMZOClient.listAllUserKeys(function (o, i) {
+            var itemId = "itm-" + o.serialNumber + "-" + i;
+            return itemId;
+        }, function (itemId, v) {
+            return uiCreateItem(itemId, v);
+        }, function (items, firstId) {
+            uiFillCombo(items);
+            uiLoaded();
+            uiComboSelect(firstId);
+        }, function (e, r) {
+            uiShowMessage(errorCAPIWS);
+        });
+    }
 
-function getCookie(name) {
-    var cookieValue = null;
-    if (document.cookie && document.cookie !== '') {
-        var cookies = document.cookie.split(';');
-        for (var i = 0; i < cookies.length; i++) {
-            var cookie = jQuery.trim(cookies[i]);
-            // Does this cookie string begin with the name we want?
-            if (cookie.substring(0, name.length + 1) === (name + '=')) {
-                cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
-                break;
+    var uiComboSelect = function (id) {
+        if (!id) {
+            selectedUserKey = null;
+            return;
+        }
+        var s = $("#" + id).text();
+        var vo = JSON.parse(s);
+
+        var idn = vo.TIN;
+        if (idn === "") {
+            idn = vo.PINFL;
+        }
+        if (idn === "") {
+            idn = "";
+        } else {
+            idn = idn + " - ";
+        }
+        $(".btn.btn-default.dropdown-toggle").attr('itm', id);
+        $(".btn.btn-default.dropdown-toggle").html(vo.CN + "<i class=\"fa fa-chevron-down\"></i>");
+    };
+
+
+    var cbChanged = function (c) {
+        document.getElementById('keyId').innerHTML = '';
+    }
+
+    var uiClearCombo = function () {
+        $(".dropdown-menu").empty();
+    }
+
+    var uiFillCombo = function (items) {
+        for (var itm in items) {
+            $(".dropdown-menu").append(items[itm]);
+        }
+    }
+
+    var uiLoaded = function () {
+        var l = document.getElementById('message');
+        l.innerHTML = '';
+    }
+    var isLegalEntity = function (tin) {
+        if (tin === "") {
+            return false;
+        }
+        return (tin.charAt(0) === '2' || tin.charAt(0) === '3');
+    };
+
+    var uiCreateItem = function (itmkey, vo, lang) {
+        var now = new Date();
+        vo.expired = dates.compare(now, vo.validTo) > 0;
+        var itm = "<li><a  ";
+        if (!vo.expired) {
+            itm += "onclick=\"uiComboSelect('" + itmkey + "')\"";
+        } else {
+            itm += "style='color: gray'";
+        }
+        itm += "\>";
+        if (lang === 'uz') {
+            itm += " <b>SERTIFIKAT №:</b> " + vo.serialNumber.toLowerCase() + "<br />";
+            if (vo.TIN !== "") {
+                itm += "<b>INN:</b> " + vo.TIN;
+            } else if (vo.PINFL !== "") {
+                itm += "<b>PINFL:</b> " + vo.PINFL;
+            }
+            if (isLegalEntity(vo.TIN)) {
+                itm += " <b>YURIDIK SHAXS</b>";
+            } else {
+                itm += " <b>JISMONIY SHAXS</b>";
+            }
+            itm += "<br />"
+            itm += "<b>F.I.Sh.:</b>" + vo.CN + "<br />";
+            if (vo.O !== "") {
+                itm += "<b>Tashkilot.:</b>" + vo.O + "<br />";
+            }
+//        if (vo.T !== "") {
+//            itm += "<b>Lavozim.:</b>" + vo.T + "<br />";
+//        }
+            if (vo.expired) {
+                itm += "<font size=-2 color=red><b>Sertifikatni amal qilish muddati (" + vo.validFrom.ddmmyyyy() + " - " + vo.validTo.ddmmyyyy() + ") tugagan</b></font>";
+            } else {
+                itm += "<font size=-2><b>Sertifikatni amal qilish muddati:</b> " + vo.validFrom.ddmmyyyy() + " - " + vo.validTo.ddmmyyyy() + "</font>";
+            }
+        } else {
+            itm += image + "<b>№ СЕРТИФИКАТА:</b> " + vo.serialNumber.toLowerCase() + "<br />";
+            if (vo.TIN !== "") {
+                itm += "<b>ИНН:</b> " + vo.TIN;
+            } else if (vo.PINFL !== "") {
+                itm += "<b>ПИНФЛ:</b> " + vo.PINFL;
+            }
+            if (isLegalEntity(vo.TIN)) {
+                itm += " <b>ЮРИДИЧЕСКОЕ ЛИЦО</b>";
+            } else {
+                itm += " <b>ФИЗИЧЕСКОЕ ЛИЦО</b>";
+            }
+            itm += "<br />"
+            itm += "<b>Ф.И.О.:</b>" + vo.CN + "<br />";
+            if (vo.O !== "") {
+                itm += "<b>Организация.:</b>" + vo.O + "<br />";
+            }
+//        if (vo.T !== "") {
+//            itm += "<b>Должность.:</b>" + vo.T + "<br />";
+//        }
+            if (vo.expired) {
+                itm += "<font size=-2 color=red><b>Срок действия сертификата (" + vo.validFrom.ddmmyyyy() + " - " + vo.validTo.ddmmyyyy() + ") истек</b></font>";
+            } else {
+                itm += "<font size=-2><b>Срок действия сертификата:</b> " + vo.validFrom.ddmmyyyy() + " - " + vo.validTo.ddmmyyyy() + "</font>";
             }
         }
+        itm += "<div id='" + itmkey + "' class='hidden-value' style='display: none'>" + JSON.stringify(vo) + "</div>";
+        itm += "</a></li>";
+        return itm;
+    };
+
+    var wsError = function (e) {
+        if (e) {
+            uiShowMessage(errorCAPIWS + " : " + e);
+        } else {
+            uiShowMessage(errorBrowserWS);
+        }
+    };
+
+    verify = function () {
+        var pkcs7 = document.testform.pkcs7.value;
+        EIMZOClient.verifyPkcs7(pkcs7,)
     }
-    return cookieValue;
-}
 
-var csrftoken = getCookie('csrftoken');
-sign_decide = function (obj) {
-    var model = $("#sign_boss");
+    function getCookie(name) {
+        var cookieValue = null;
+        if (document.cookie && document.cookie !== '') {
+            var cookies = document.cookie.split(';');
+            for (var i = 0; i < cookies.length; i++) {
+                var cookie = jQuery.trim(cookies[i]);
+                // Does this cookie string begin with the name we want?
+                if (cookie.substring(0, name.length + 1) === (name + '=')) {
+                    cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+                    break;
+                }
+            }
+        }
+        return cookieValue;
+    }
 
-    var choice = document.getElementById("sign").value;
-    console.log('sign decide')
-     console.log(sign_user);
-    sign();
+    var csrftoken = getCookie('csrftoken');
+    sign_decide = function (obj) {
+        sign();
+    }
 
-}
-adding_sign = function () {
-    var sign_from = document.getElementById('sign_from');
-
-    var itm = document.testform.key.value;
-    if (itm) {
-        var id = document.getElementById(itm);
-        var vo = JSON.parse(id.getAttribute('vo'));
-        var data = document.testform.data.value;
-        var keyId = document.getElementById('keyId').innerHTML;
-        var report_input = document.getElementById('report_id');
+    sign = function () {
         var sign_from = document.getElementById('sign_from');
-        var pkcs7 = document.getElementsByClassName('file');
-        console.log("in");
-        console.log(keyId);
-        if (keyId) {
-            EIMZOClient.append_pkcs7_attached(keyId, pkcs7, null, function (pkcs7) {
-
-                $.ajax({
-                    type: "POST",
-                    headers: {
-                        "X-CSRFToken": csrftoken
-                    },
-                    url: url,
-                    data: {
-                        'pkcs7': pkcs7,
-                        'sign_from': sign_from.value,
-                        'report_id': report_input.value,
-
-                    },
-                    cache: true,
-                    success: function (data) {
-                        alert("Ваша подпись была успешна добавлена!")
-                    },
-                    error: function (xhr, ajaxOptions, thrownError) {
-                        alert(xhr.status);
-                        alert(thrownError);
-                    }
-                })
-            }, function (e, r) {
-                if (r) {
-                    if (r.indexOf("BadPaddingException") != -1) {
-                        uiShowMessage(errorWrongPassword);
-                    } else {
-                        uiShowMessage(r);
-                    }
-                } else {
-                    document.getElementById('keyId').innerHTML = '';
-                    console.log(e)
-                    uiShowMessage(errorBrowserWS);
-                }
-                if (e) wsError(e);
-            });
-        } else {
-            EIMZOClient.loadKey(vo, function (id) {
-                document.getElementById('keyId').innerHTML = id;
-                EIMZOClient.createPkcs7(id, data, null, function (pkcs7) {
-                    document.testform.pkcs7.value = pkcs7;
-                }, function (e, r) {
-                    if (r) {
-                        if (r.indexOf("BadPaddingException") != -1) {
-                            uiShowMessage(errorWrongPassword);
-                        } else {
-                            uiShowMessage(r);
-                        }
-                    } else {
-                        document.getElementById('keyId').innerHTML = '';
-                        uiShowMessage(errorBrowserWS);
-                    }
-                    if (e) wsError(e);
-                    console.log(e)
-                });
-            }, function (e, r) {
-                if (r) {
-                    if (r.indexOf("BadPaddingException") != -1) {
-                        uiShowMessage(errorWrongPassword);
-                    } else {
-                        uiShowMessage(r);
-                    }
-                } else {
-                    uiShowMessage(errorBrowserWS);
-                }
-                if (e) wsError(e);
-
-            });
-        }
-    }
-}
-sign = function () {
-    var sign_from = document.getElementById('sign_from');
-     var report_input = document.getElementById('report_id');
-    console.log(sign_from.value);
-    console.log("sadsdsdasd");
-    var itm = document.testform.key.value;
-    console.log(itm)
-    if (itm) {
-        console.log("HERE WE GOES,")
-        var id = document.getElementById(itm);
-        var vo = JSON.parse(id.getAttribute('vo'));
-        var data = document.testform.data.value;
-        var keyId = document.getElementById('keyId').innerHTML;
         var report_input = document.getElementById('report_id');
-        console.log(keyId)
-        if (keyId) {
-            console.log("GOES THERE ?")
-            EIMZOClient.createPkcs7(keyId, data, null, function (pkcs7) {
+        console.log(sign_from.value);
+        console.log("sadsdsdasd");
+        var itm = $(".btn.btn-default.dropdown-toggle").attr('itm')
+        console.log(itm)
+        if (itm) {
+            console.log("HERE WE GOES,")
+            var data = document.testform.data.value;
+            var keyId = document.getElementById('keyId').innerHTML;
+            var report_input = document.getElementById('report_id');
+            console.log(keyId)
+            if (keyId) {
+                console.log("GOES THERE ?")
+                EIMZOClient.createPkcs7(keyId, data, null, function (pkcs7) {
 
-                $.ajax({
-                    type: "POST",
-                    headers: {
-                        "X-CSRFToken": csrftoken
-                    },
-                    url: url,
-                    data: {
-                        'pkcs7': pkcs7,
-                        'sign_from': sign_user,
-                        'report_id': report_input.value,
+                    $.ajax({
+                        type: "POST",
+                        headers: {
+                            "X-CSRFToken": csrftoken
+                        },
+                        url: url,
+                        data: {
+                            'pkcs7': pkcs7,
+                            'sign_from': sign_user,
+                            'report_id': report_input.value,
 
-                    },
-                    cache: true,
-                    success: function (data) {
-                        success_sign();
-                        alert("Вы успешно подписали документ!");
-                    },
-                })
-            }, function (e, r) {
-                if (r) {
-                    if (r.indexOf("BadPaddingException") != -1) {
-                        uiShowMessage(errorWrongPassword);
-                    } else {
-                        uiShowMessage(r);
-                    }
-                } else {
-                    document.getElementById('keyId').innerHTML = '';
-                    uiShowMessage(errorBrowserWS);
-                }
-                if (e) wsError(e);
-            });
-        } else {
-            EIMZOClient.loadKey(vo, function (id) {
-                document.getElementById('keyId').innerHTML = id;
-                EIMZOClient.createPkcs7(id, data, null, function (pkcs7) {
-                    document.testform.pkcs7.value = pkcs7;
+                        },
+                        cache: true,
+                        success: function (data) {
+                            success_sign();
+                            alert("Вы успешно подписали документ!");
+                        },
+                    })
                 }, function (e, r) {
                     if (r) {
                         if (r.indexOf("BadPaddingException") != -1) {
@@ -396,22 +354,127 @@ sign = function () {
                     }
                     if (e) wsError(e);
                 });
-            }, function (e, r) {
-                if (r) {
-                    if (r.indexOf("BadPaddingException") != -1) {
-                        uiShowMessage(errorWrongPassword);
+            } else {
+                EIMZOClient.loadKey(vo, function (id) {
+                    document.getElementById('keyId').innerHTML = id;
+                    EIMZOClient.createPkcs7(id, data, null, function (pkcs7) {
+                        document.testform.pkcs7.value = pkcs7;
+                    }, function (e, r) {
+                        if (r) {
+                            if (r.indexOf("BadPaddingException") != -1) {
+                                uiShowMessage(errorWrongPassword);
+                            } else {
+                                uiShowMessage(r);
+                            }
+                        } else {
+                            document.getElementById('keyId').innerHTML = '';
+                            uiShowMessage(errorBrowserWS);
+                        }
+                        if (e) wsError(e);
+                    });
+                }, function (e, r) {
+                    if (r) {
+                        if (r.indexOf("BadPaddingException") != -1) {
+                            uiShowMessage(errorWrongPassword);
+                        } else {
+                            uiShowMessage(r);
+                        }
                     } else {
-                        uiShowMessage(r);
+                        uiShowMessage(errorBrowserWS);
                     }
-                } else {
-                    uiShowMessage(errorBrowserWS);
-                }
-                if (e) wsError(e);
-            });
+                    if (e) wsError(e);
+                });
+            }
         }
-    }
-};
+    };
 
-window.onload = AppLoad;
+    window.onload = AppLoad;
 
 </script>
+
+
+{# adding_sign = function () {#}
+{#        var sign_from = document.getElementById('sign_from');#}
+{##}
+{#        var itm = $(".btn.btn-default.dropdown-toggle").attr('itm')#}
+{#        if (itm) {#}
+{#            var data = document.testform.data.value;#}
+{#            var keyId = document.getElementById('keyId').innerHTML;#}
+{#            var report_input = document.getElementById('report_id');#}
+{#            var sign_from = document.getElementById('sign_from');#}
+{#            var pkcs7 = document.getElementsByClassName('file');#}
+{#            console.log("in");#}
+{#            console.log(keyId);#}
+{#            if (keyId) {#}
+{#                EIMZOClient.append_pkcs7_attached(keyId, pkcs7, null, function (pkcs7) {#}
+{##}
+{#                    $.ajax({#}
+{#                        type: "POST",#}
+{#                        headers: {#}
+{#                            "X-CSRFToken": csrftoken#}
+{#                        },#}
+{#                        url: url,#}
+{#                        data: {#}
+{#                            'pkcs7': pkcs7,#}
+{#                            'sign_from': sign_from.value,#}
+{#                            'report_id': report_input.value,#}
+{##}
+{#                        },#}
+{#                        cache: true,#}
+{#                        success: function (data) {#}
+{#                            alert("Ваша подпись была успешна добавлена!")#}
+{#                        },#}
+{#                        error: function (xhr, ajaxOptions, thrownError) {#}
+{#                            alert(xhr.status);#}
+{#                            alert(thrownError);#}
+{#                        }#}
+{#                    })#}
+{#                }, function (e, r) {#}
+{#                    if (r) {#}
+{#                        if (r.indexOf("BadPaddingException") != -1) {#}
+{#                            uiShowMessage(errorWrongPassword);#}
+{#                        } else {#}
+{#                            uiShowMessage(r);#}
+{#                        }#}
+{#                    } else {#}
+{#                        document.getElementById('keyId').innerHTML = '';#}
+{#                        console.log(e)#}
+{#                        uiShowMessage(errorBrowserWS);#}
+{#                    }#}
+{#                    if (e) wsError(e);#}
+{#                });#}
+{#            } else {#}
+{#                EIMZOClient.loadKey(vo, function (id) {#}
+{#                    document.getElementById('keyId').innerHTML = id;#}
+{#                    EIMZOClient.createPkcs7(id, data, null, function (pkcs7) {#}
+{#                        document.testform.pkcs7.value = pkcs7;#}
+{#                    }, function (e, r) {#}
+{#                        if (r) {#}
+{#                            if (r.indexOf("BadPaddingException") != -1) {#}
+{#                                uiShowMessage(errorWrongPassword);#}
+{#                            } else {#}
+{#                                uiShowMessage(r);#}
+{#                            }#}
+{#                        } else {#}
+{#                            document.getElementById('keyId').innerHTML = '';#}
+{#                            uiShowMessage(errorBrowserWS);#}
+{#                        }#}
+{#                        if (e) wsError(e);#}
+{#                        console.log(e)#}
+{#                    });#}
+{#                }, function (e, r) {#}
+{#                    if (r) {#}
+{#                        if (r.indexOf("BadPaddingException") != -1) {#}
+{#                            uiShowMessage(errorWrongPassword);#}
+{#                        } else {#}
+{#                            uiShowMessage(r);#}
+{#                        }#}
+{#                    } else {#}
+{#                        uiShowMessage(errorBrowserWS);#}
+{#                    }#}
+{#                    if (e) wsError(e);#}
+{##}
+{#                });#}
+{#            }#}
+{#        }#}
+{#    }#}

@@ -1,3 +1,28 @@
+<style>
+    .dropdown-menu > li > a {
+        clear: both;
+        font-weight: 400;
+        color: #333;
+    }
+
+    b, optgroup, strong {
+        font-weight: 700;
+    }
+    .dropdown-menu > li > a:hover{
+        text-decoration: none;
+        cursor: pointer;
+
+    }
+    .dropdown-menu > li:hover{
+        background-color: #b7b7b7;
+    }
+    .dropdown-menu > li > a {
+        display: block;
+        padding: 3px 20px;
+        line-height: 1.42857143;
+        white-space: nowrap;
+    }
+</style>
 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
      aria-hidden="true">
     <div class="modal-dialog" role="document">
@@ -13,10 +38,16 @@
                         <div class="col-md-6">
                             <label id="message"></label>
                             Выберите ключ <br/>
-                            <select class="form-select" id="floatingSelect"
-                                    aria-label="Floating label select example" name="key"
-                                    onchange="cbChanged(this)">
-                            </select>
+                            <div class="dropdown">
+
+                            </div>
+                            <button class="btn btn-default dropdown-toggle" id="key" type="button" key=""
+                                    data-toggle="dropdown" onchange="cbChanged(this)" aria-haspopup="true"
+                                    aria-expanded="false">Выберите ключь
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="key">
+
+                            </ul>
                         </div>
                         <div class="col-md-6">
                             <textarea class="file" name="data" style="display: none"></textarea>

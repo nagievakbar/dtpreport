@@ -143,47 +143,72 @@ var EIMZOClient = {
             fail(e, null);
         });
     },
-    listAllUserKeys: function (itemIdGen, itemUiGen, success, fail) {
+    // listAllUserKeys: function (itemIdGen, itemUiGen, success, fail) {
+    //     var items = [];
+    //     var errors = [];
+    //     if (!EIMZOClient.NEW_API) {
+    //         EIMZOClient._findCertKeys(itemIdGen, itemUiGen, items, errors, function (firstItmId) {
+    //             EIMZOClient._findPfxs(itemIdGen, itemUiGen, items, errors, function (firstItmId2) {
+    //                 if (items.length === 0 && errors.length > 0) {
+    //                     fail(errors[0].e, errors[0].r);
+    //                 } else {
+    //                     var firstId = null;
+    //                     if (items.length === 1) {
+    //                         if (firstItmId) {
+    //                             firstId = firstItmId;
+    //                         } else if (firstItmId2) {
+    //                             firstId = firstItmId2;
+    //                         }
+    //                     }
+    //                     success(items, firstId);
+    //                 }
+    //             });
+    //         });
+    //     } else {
+    //         EIMZOClient._findCertKeys2(itemIdGen, itemUiGen, items, errors, function (firstItmId) {
+    //             EIMZOClient._findPfxs2(itemIdGen, itemUiGen, items, errors, function (firstItmId2) {
+    //                 EIMZOClient._findTokens2(itemIdGen, itemUiGen, items, errors, function (firstItmId3) {
+    //                     if (items.length === 0 && errors.length > 0) {
+    //                         fail(errors[0].e, errors[0].r);
+    //                     } else {
+    //                         var firstId = null;
+    //                         if (items.length === 1) {
+    //                             if (firstItmId) {
+    //                                 firstId = firstItmId;
+    //                             } else if (firstItmId2) {
+    //                                 firstId = firstItmId2;
+    //                             } else if (firstItmId3) {
+    //                                 firstId = firstItmId3;
+    //                             }
+    //                         }
+    //                         success(items, firstId);
+    //                     }
+    //                 });
+    //             });
+    //         });
+    //     }
+    // },
+     listAllUserKeys: function(itemIdGen, itemUiGen, success, fail){
         var items = [];
         var errors = [];
-        if (!EIMZOClient.NEW_API) {
-            EIMZOClient._findCertKeys(itemIdGen, itemUiGen, items, errors, function (firstItmId) {
-                EIMZOClient._findPfxs(itemIdGen, itemUiGen, items, errors, function (firstItmId2) {
-                    if (items.length === 0 && errors.length > 0) {
+        if(!EIMZOClient.NEW_API){
+            fail(null, 'Please install new version of E-IMZO');
+        } else {
+            EIMZOClient._findPfxs2(itemIdGen, itemUiGen, items, errors, function (firstItmId2) {
+                EIMZOClient._findTokens2(itemIdGen, itemUiGen, items, errors, function (firstItmId3) {
+                    if(items.length === 0 && errors.length > 0){
                         fail(errors[0].e, errors[0].r);
                     } else {
                         var firstId = null;
                         if (items.length === 1) {
-                            if (firstItmId) {
-                                firstId = firstItmId;
-                            } else if (firstItmId2) {
+                            if (firstItmId2) {
                                 firstId = firstItmId2;
+                            } else if (firstItmId3) {
+                                firstId = firstItmId3;
                             }
                         }
                         success(items, firstId);
                     }
-                });
-            });
-        } else {
-            EIMZOClient._findCertKeys2(itemIdGen, itemUiGen, items, errors, function (firstItmId) {
-                EIMZOClient._findPfxs2(itemIdGen, itemUiGen, items, errors, function (firstItmId2) {
-                    EIMZOClient._findTokens2(itemIdGen, itemUiGen, items, errors, function (firstItmId3) {
-                        if (items.length === 0 && errors.length > 0) {
-                            fail(errors[0].e, errors[0].r);
-                        } else {
-                            var firstId = null;
-                            if (items.length === 1) {
-                                if (firstItmId) {
-                                    firstId = firstItmId;
-                                } else if (firstItmId2) {
-                                    firstId = firstItmId2;
-                                } else if (firstItmId3) {
-                                    firstId = firstItmId3;
-                                }
-                            }
-                            success(items, firstId);
-                        }
-                    });
                 });
             });
         }

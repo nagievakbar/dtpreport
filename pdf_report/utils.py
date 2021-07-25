@@ -21,6 +21,24 @@ except ImportError:
 from weasyprint import HTML, CSS
 
 
+class ImagesRequired:
+    def __init__(self):
+        self.one_png = ""
+        self.AAB = ""
+        self.bmp = ""
+        self.cit = ""
+        self.Cm = ""
+        self.Cnh = ""
+        self.Crab = ""
+        self.CrabTC = ""
+        self.Czh = ""
+        self.czhizh = ""
+        self.jpeg = ""
+        self.png = ""
+        self.Trab = ""
+        self.K = ""
+
+
 def check_qr_code(qrcode: str):
     return QRcode.qrcode(qrcode) if qrcode is not None else None
 

@@ -74,12 +74,6 @@ def make_pdf_enumeration(id):
 @shared_task(name='concatenate_pdf_disposable')
 def concatenate_pdf_disposable(id: int):
     manger = PDFMerger(id)
-    try:
-        sign_put = PDFInputImage(pdf_file_path=manger.report_model.pdf_report.path,
-                                 qr_code=manger.report_model.pdf_qr_code_user)
-        sign_put.insert_images()
-    except ValueError:
-        pass
     manger.concatenate_pdf()
 
 

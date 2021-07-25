@@ -415,13 +415,14 @@ def checkOnNone(data):
 #         'total_report_cost': total_report_cost
 #     }
 #     return JsonResponse(data)
-def response_file(link_file, link_delete, file, id):
+def response_file(link_file, link_delete, file, id, type="image"):
     return {
         'errors': "",
         'initialPreview': [
             link_file
         ],
         'initialPreviewConfig': [{
+            'type': type,
             'caption': file.name,
             'width': '120px',
             'size': file.size,
@@ -486,6 +487,9 @@ def create_report_disposable(request) -> Report:
     report.type_report = 3
     report.save()
     Enumeration.objects.create(
+        report=report
+    )
+    Closing.objects.create(
         report=report
     )
     return report

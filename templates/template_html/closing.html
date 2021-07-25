@@ -5,49 +5,68 @@
 {% block content %}
 
     <img class="center-image main-image" src="{{ s }}AAB.png" height="50px" width="50px"/>
-    <p class="center">Информационный лист об электронном отчете № {{ closing.report_number }} </p>
+    <p class="center">Информационный лист об электронном отчете № {{ report.report_number }} </p>
     <table class="finish-table">
         <tr>
             <th colspan="2" class="center header-table-finish">1. Обьект оценки</th>
         </tr>
         <tr>
-            <td><span>Движимое имущество : </span></td>
-            <td>
-                {{ closing.movable_property }}
-            </td>
+            <td><span>{{ closing.movable_property_desc }} : </span></td>
+            <td>{{ closing.movable_property }}</td>
         </tr>
         <tr>
-            <td><span>Место регистрации объекта оценки:</span></td>
-            <td>{{ closing.place_registration }}</td>
+            <td><span>{{ closing.place_registration_desc }}</span></td>
+            <td>{{ car.owner_address }}</td>
 
         </tr>
         <tr>
-            <td><span>Ущерб автотранспортного средства по состоянию : {{ closing.report_date }}</span></td>
+            <td><span>{{ closing.damage_auto_desc }} : {{ report.report_date }}</span></td>
             <td>{{ closing.damage_auto }}</td>
 
         </tr>
         <tr>
-            <td><span>Владелец :</span></td>
-            <td>{{ closing.owner }}</td>
+            <td><span>{{ closing.owner_desc }}:</span></td>
+            <td>{{ car.car_owner }}</td>
 
         </tr>
         <tr>
             <th colspan="2" class="center header-table-finish">2. Сведения о заказчике</th>
         </tr>
         <tr>
-            <td><span>Заказчик :</span></td>
-            <td>{{ closing.customer }}</td>
+            <td><span>{{ closing.customer_desc }} :</span></td>
+            <td>{{ customer.name }}</td>
 
         </tr>
-        <tr>
-            <td><span>Адрес Заказчика :</span></td>
-            <td>{{ closing.address_customer }}</td>
+        {% if customer.type_customer == 1 and enumeration %}
+            <tr>
+                <td><span>{{ closing.customer_props_desc }}:</span></td>
+                <td><p>
+                    {{ customer.address }}
+                    р\с {{ enumeration.p_c }},
+                    {{ enumeration.bank }},
+                    МФО {{ enumeration.MFO }},
+                    ИНН {{ enumeration.INN }},
+                    ОКЭД {{ enumeration.OKED }},
+                    {#                    паспорт серия: {{ report.contract.customer.passport_number }}#}
+                    {#                    <br>#}
+                    {#                    дата выдачи: {{ report.contract.customer.when_passport_issued }} года#}
+                    {#                    <br>#}
+                    {#                    от: {{ report.contract.customer.whom_passport_issued }}#}
 
-        </tr>
-        <tr>
-            <td><span>Паспортные данные :</span></td>
-            <td>{{ closing.passport_data }}</td>
-        </tr>
+                </p>
+                </td>
+            </tr>
+        {% else %}
+            <tr>
+                <td><span>{{ closing.customer_address_desc }} :</span></td>
+                <td>{{ customer.address }}</td>
+
+            </tr>
+            <tr>
+                <td><span>Паспортные данные :</span></td>
+                <td>{{ customer.passport_number }} {{ customer.when_passport_issued }} {{ customer.whom_passport_issued }}</td>
+            </tr>
+        {% endif %}
         <tr>
             <th colspan="2" class="center header-table-finish">2.1 Сведения об исполнителе</th>
         </tr>
@@ -103,18 +122,31 @@
         </tr>
         <tr>
             <td><span>Основание для проведения оценки :</span></td>
-            <td>{{ closing.main_mark }}</td>
+            <td>Договор № {{ contract.contract_number }} от {{ contract.contract_date }}</td>
         </tr>
         <tr>
             <td><span>Дата оценки :</span></td>
-            <td>{{ closing.data_mark }}</td>
+            <td>{{ report.report_date }}</td>
 
         </tr>
         <tr>
             <td><span>Дата составления отчета об оценки :</span></td>
-            <td>{{ closing.data_creation_mark }}</td>
+            <td>{{ report.report_date }}</td>
         </tr>
+        <tr>
+            <td><span>Ссылка для просмотра и
+            скачиванию отчета с
+            сайта :</span>
+            </td>
+            <td>http://e-otsenka.uz {{ report.key }}</td>
 
+        </tr>
+        <tr>
+            <td><span>QR код для
+            просмотра отчета : </span>
+            </td>
+            <td><img class="qr-code-small" alt="" src="{{ qrcode_some }}"/></td>
+        </tr>
     </table>
     <p class="text-intent"> Данный электронный отчёт составлен по ЕНСО Зарегистрированный Министерством юстиции
         Республики

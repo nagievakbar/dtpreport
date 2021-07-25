@@ -1,3 +1,4 @@
+import base64
 from datetime import datetime
 
 from django.core.files.base import ContentFile
@@ -426,15 +427,25 @@ TYPE_OF_REPORT = (
 
 
 class Closing(models.Model):
-    report_number = models.CharField(max_length=100, blank=True, null=True)
+    report = models.ForeignKey('Report', null=True, blank=True, on_delete=models.CASCADE)
+    # report_number = models.CharField(max_length=100, blank=True, null=True)
+    movable_property_desc = models.CharField(max_length=100, blank=True, null=True, default="Движимое имущество")
     movable_property = models.CharField(max_length=100, blank=True, null=True)
-    place_registration = models.CharField(max_length=100, blank=True, null=True)
+
+    place_registration_desc = models.CharField(default="Место регистрации объекта оценки", max_length=100, blank=True,
+                                               null=True)
+    damage_auto_desc = models.CharField(default="Ущерб автотранспортного средства по состоянию ", max_length=100,
+                                        blank=True, null=True)
     damage_auto = models.CharField(max_length=100, blank=True, null=True)
-    report_date = models.CharField(max_length=100, blank=True, null=True)
-    owner = models.CharField(max_length=100, blank=True, null=True)
-    customer = models.CharField(max_length=100, blank=True, null=True)
-    address_customer = models.CharField(max_length=100, blank=True, null=True)
-    passport_data = models.CharField(max_length=100, blank=True, null=True)
+    owner_desc = models.CharField(default="Владелец", max_length=100, blank=True, null=True)
+    customer_desc = models.CharField(default="Заказчик", max_length=100, blank=True, null=True)
+    customer_address_desc = models.CharField(default="Адрес Заказчика", max_length=100, blank=True, null=True)
+    customer_props_desc = models.CharField(default="Реквизиты заказчика", max_length=100, blank=True, null=True)
+    # report_date = models.CharField(max_length=100, blank=True, null=True)
+    # owner = models.CharField(max_length=100, blank=True, null=True)
+    # customer = models.CharField(max_length=100, blank=True, null=True)
+    # address_customer = models.CharField(max_length=100, blank=True, null=True)
+    # passport_data = models.CharField(max_length=100, blank=True, null=True)
     # executor = models.CharField(max_length=100, blank=True, null=True)
     # requisite_executor = models.CharField(max_length=100, blank=True, null=True)
     # aim_mark = models.CharField(max_length=100, blank=True, null=True)
@@ -442,12 +453,12 @@ class Closing(models.Model):
     # form_report = models.CharField(max_length=100, blank=True, null=True)
     # license_executor = models.CharField(max_length=100, blank=True, null=True)
     # legislative_contractual_limitations = models.CharField(max_length=100, blank=True, null=True)
-    main_mark = models.CharField(max_length=100, blank=True, null=True)
-    data_mark = models.CharField(max_length=100, blank=True, null=True)
-    data_creation_mark = models.CharField(max_length=100, blank=True, null=True)
-
-    pdf_closing_base64 = models.CharField(max_length=1000000, blank=True, null=True)
-    sign = models.CharField(max_length=400, blank=True, null=True)
+    # main_mark = models.CharField(max_length=100, blank=True, null=True)
+    # data_mark = models.CharField(max_length=100, blank=True, null=True)
+    # data_creation_mark = models.CharField(max_length=100, blank=True, null=True)
+    #
+    # pdf_closing_base64 = models.CharField(max_length=1000000, blank=True, null=True)
+    # sign = models.CharField(max_length=400, blank=True, null=True)
 
 
 def delete_pdf(path):
@@ -660,12 +671,12 @@ class Report(models.Model):
             return num2text(0, main_units=((u'сум', u'сум', u'суммов'), 'f'))
 
     def set_private_key(self):
-        while True:
-            figure = uuid.uuid4().hex[:12].upper()
-            if not Report.objects.filter(key=figure).exists():
-                break
-        self.key = figure
-
+        if self.key is None or self.key == "":
+            while True:
+                figure = uuid.uuid4().hex[:12].upper()
+                if not Report.objects.filter(key=figure).exists():
+                    break
+            self.key = figure
 
     def clear_pdf(self):
         delete_pdf_path(self.pdf_report)

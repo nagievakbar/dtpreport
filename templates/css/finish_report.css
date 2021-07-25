@@ -22,7 +22,7 @@
     background-color: gray;
 }
 
-td:first-child {
+.finish-table td:first-child {
     width: 32%;
 }
 

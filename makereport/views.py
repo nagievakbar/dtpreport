@@ -62,7 +62,7 @@ class PDFDisposableView(View):
         link_delete = "{}/report/pdf/delete/".format(s.URL_FILES)
         return JsonResponse(
             response_file(link_file=link_img, link_delete=link_delete, file=disposable.pdf_report,
-                          id=disposable.report_id))
+                          id=disposable.report_id, type='pdf'))
 
 
 class PPhotoDelete(View):
@@ -1102,10 +1102,10 @@ class DisposableView(View):
         return self.store_disposable(request, id_report)
 
     def store_disposable(self, request, id):
-
         holds_image = HoldsImages.objects.get(report_id=id)
         report = Report.objects.get(report_id=id)
         enumeration = Enumeration.objects.get(report_id=id)
+        closing = Closing.objects.get(report_id=id)
         car = Car.objects.get(car_id=report.car_id)
         contract = report.contract
         customer = contract.customer
@@ -1115,6 +1115,7 @@ class DisposableView(View):
         report_form = ReportClosingForm(request.POST, instance=report)
         customer_form = CustomerClosingForm(request.POST, instance=customer)
         enumeration_form = EnumerationForms(request.POST, instance=enumeration)
+        closing_form = ClosingDescForm(request.POST, instance=closing)
 
         images = holds_image.image.all()
         pphotos = holds_image.pp_photo.all()
@@ -1124,23 +1125,28 @@ class DisposableView(View):
                 and car_form.is_valid() \
                 and report_form.is_valid() \
                 and customer_form.is_valid() \
-                and enumeration_form.is_valid():
+                and enumeration_form.is_valid() \
+                and closing_form.is_valid():
             contract_form.save()
+            closing_form.save()
             car_form.save()
             report_form.save()
             customer_form.save()
             enumeration_form.save()
-            report.set_private_key()
+            if report.key is None:
+                report.set_private_key()
+                create_base64_closing(report)
             report.save()
             concatenate_pdf_disposable.delay(report.id)
-            create_base64_closing(report)
+
         else:
             dict = {
                 1: contract_form.errors,
                 2: car_form.errors,
                 3: report_form.errors,
                 4: customer_form.errors,
-                5: enumeration_form.errors
+                5: enumeration_form.errors,
+                6: closing_form.errors,
             }
             raise Exception(dict)
 
@@ -1152,12 +1158,14 @@ class DisposableView(View):
             'report_form': report_form,
             'customer_form': customer_form,
             'enumeration_form': enumeration_form,
+            'closing_form': closing_form,
             'report': report,
             'images': images,
             'pphotos': pphotos,
             'ophotos': ophotos,
             'checks': checks,
         }
+
         context = self.get_context_forms(context)
         return render(request, self.template_name, context)
 
@@ -1172,6 +1180,7 @@ class DisposableView(View):
         context['disposable_from'] = disposable_from
         context['otherphoto_form'] = otherphoto_form
         context['checks_form'] = checks_form
+
         return context
 
     def get_context_forms_closing(self, context: dict) -> dict:
@@ -1181,11 +1190,13 @@ class DisposableView(View):
         report_form = ReportClosingForm(instance=Report())
         customer_form = CustomerClosingForm(instance=Customer())
         enumeration_form = EnumerationForms(instance=Enumeration())
+        closing_form = ClosingDescForm(instance=Closing())
         context['car_form'] = car_form
         context['contract_form'] = contract_form
         context['report_form'] = report_form
         context['customer_form'] = customer_form
         context['enumeration_form'] = enumeration_form
+        context['closing_form'] = closing_form
         return context
 
     def show_new_disposable(self, request):
@@ -1209,6 +1220,7 @@ class DisposableView(View):
         holds_image = HoldsImages.objects.get(report_id=id)
         report = Report.objects.get(report_id=id)
         enumeration = Enumeration.objects.get(report_id=id)
+        closing = Closing.objects.get(report_id=id)
         car = Car.objects.get(car_id=report.car_id)
         contract = report.contract
         customer = contract.customer
@@ -1220,6 +1232,7 @@ class DisposableView(View):
         report_form = ReportClosingForm(instance=report)
         customer_form = CustomerClosingForm(instance=customer)
         enumeration_form = EnumerationForms(instance=enumeration)
+        closing_form = ClosingDescForm(instance=closing)
         checks = holds_image.checks.all()
         context = {
             'id_image': holds_image.id,
@@ -1229,6 +1242,7 @@ class DisposableView(View):
             'report_form': report_form,
             'customer_form': customer_form,
             'enumeration_form': enumeration_form,
+            'closing_form': closing_form,
             'report': report,
             'images': images,
             'pphotos': pphotos,
@@ -1239,71 +1253,71 @@ class DisposableView(View):
         return render(request, self.template_name, context)
 
 
-class ClosingView(View):
-    template_name = "makereport/closing.html"
-
-    def get(self, request, id=None):
-        if id is None:
-            return self.show_new_closing(request)
-        else:
-            return self.show_existing_closing(request, id)
-
-    def post(self, request, id=0):
-        closing_id = int(request.POST.get('id_closing', id))
-        print("CLOSING {}{}".format(closing_id, type(closing_id)))
-        if closing_id == 0:
-            return self.create_new_closing(request)
-        else:
-            return self.edit_closing(request, closing_id)
-
-    def create_new_closing(self, request):
-        closing_form = ClosingForm(request.POST, instance=Closing())
-        context = {
-            'closing_form': closing_form,
-        }
-        if closing_form.is_valid():
-            closing = closing_form.save()
-            create_base64_closing(closing)
-            context['id'] = closing.id
-            context['closing'] = closing
-        else:
-            context['id'] = 0
-            raise Exception(closing_form.errors)
-
-        return render(request, self.template_name, context)
-
-    def edit_closing(self, request, id):
-        closing = Closing.objects.get(id=id)
-        closing_form = ClosingForm(request.POST, instance=closing)
-        context = {
-            'closing_form': closing_form,
-            'closing': closing,
-            'id': closing.id
-        }
-        if closing_form.is_valid():
-            closing_form.save()
-            create_base64_closing(closing)
-        else:
-            raise Exception(closing_form.errors)
-        return render(request, self.template_name, context)
-
-    def show_new_closing(self, request):
-        closing_form = ClosingForm(instance=Closing())
-        context = {
-            'closing_form': closing_form,
-            'id': 0
-        }
-        return render(request, self.template_name, context)
-
-    def show_existing_closing(self, request, id: int):
-        closing = Closing.objects.get(id=id)
-        closing_form = ClosingForm(instance=closing)
-        context = {
-            'closing_form': closing_form,
-            'closing': closing,
-            'id': closing.id
-        }
-        return render(request, self.template_name, context)
+# class ClosingView(View):
+#     template_name = "makereport/closing.html"
+#
+#     def get(self, request, id=None):
+#         if id is None:
+#             return self.show_new_closing(request)
+#         else:
+#             return self.show_existing_closing(request, id)
+#
+#     def post(self, request, id=0):
+#         closing_id = int(request.POST.get('id_closing', id))
+#         print("CLOSING {}{}".format(closing_id, type(closing_id)))
+#         if closing_id == 0:
+#             return self.create_new_closing(request)
+#         else:
+#             return self.edit_closing(request, closing_id)
+#
+#     def create_new_closing(self, request):
+#         closing_form = ClosingForm(request.POST, instance=Closing())
+#         context = {
+#             'closing_form': closing_form,
+#         }
+#         if closing_form.is_valid():
+#             closing = closing_form.save()
+#             create_base64_closing(closing)
+#             context['id'] = closing.id
+#             context['closing'] = closing
+#         else:
+#             context['id'] = 0
+#             raise Exception(closing_form.errors)
+#
+#         return render(request, self.template_name, context)
+#
+#     def edit_closing(self, request, id):
+#         closing = Closing.objects.get(id=id)
+#         closing_form = ClosingForm(request.POST, instance=closing)
+#         context = {
+#             'closing_form': closing_form,
+#             'closing': closing,
+#             'id': closing.id
+#         }
+#         if closing_form.is_valid():
+#             closing_form.save()
+#             create_base64_closing(closing)
+#         else:
+#             raise Exception(closing_form.errors)
+#         return render(request, self.template_name, context)
+#
+#     def show_new_closing(self, request):
+#         closing_form = ClosingForm(instance=Closing())
+#         context = {
+#             'closing_form': closing_form,
+#             'id': 0
+#         }
+#         return render(request, self.template_name, context)
+#
+#     def show_existing_closing(self, request, id: int):
+#         closing = Closing.objects.get(id=id)
+#         closing_form = ClosingForm(instance=closing)
+#         context = {
+#             'closing_form': closing_form,
+#             'closing': closing,
+#             'id': closing.id
+#         }
+#         return render(request, self.template_name, context)
 
 
 # LIST OF CLOSING WHICH HAS TO BE SHOWN
