@@ -22,9 +22,11 @@ class PDFInputImage:
         # adds user sign
         self.insert_images(sign=self._qr_code_user, number_pages=self._pdf_file.page_count,
                            location_sign=self.calculate_location_sign_user)
+
         # adds company sign
         self.insert_images(sign=self._qr_code_company, number_pages=1,
-                           location_sign=self.calculate_location_sign_company)
+                           location_sign=self.calculate_location_sign_company_first)
+        self.insert_second_sign(location_sign=self.calculate_location_sign_company_second)
         return self._pdf_file.write()
 
     # fix this error!!!
@@ -32,10 +34,19 @@ class PDFInputImage:
         if sign is not None:
             sign = QRcode.qrcode(sign, mode='raw')
             for i in range(0, number_pages):
-                page = self._pdf_file[i]
-                size_page = page.rect
-                image_rectangle = location_sign(size_page)
-                page.insertImage(image_rectangle, stream=sign)
+                print(i)
+                self.insert(location_sign=location_sign, sign=sign, i=i)
+
+    def insert_second_sign(self, location_sign):
+        if self._qr_code_company is not None:
+            sign = QRcode.qrcode(self._qr_code_company, mode='raw')
+            self.insert(i=1, sign=sign, location_sign=location_sign)
+
+    def insert(self, i: int, location_sign, sign):
+        page = self._pdf_file[i]
+        size_page = page.rect
+        image_rectangle = location_sign(size_page)
+        page.insertImage(image_rectangle, stream=sign)
 
     def calculate_location_sign_user(self, react: Rect):
         return Rect(react.width - self.width - self.padding,
@@ -43,11 +54,17 @@ class PDFInputImage:
                     react.width - self.padding,
                     react.height - self.padding)
 
-    def calculate_location_sign_company(self, *args, **kwargs):
-        return Rect(self.padding,
-                    self.padding,
-                    self.width + self.padding,
-                    self.height + self.padding)
+    def calculate_location_sign_company_second(self, rect: Rect):
+        return Rect(self.padding + 140,
+                    rect.height - 40 - self.padding - self.height,
+                    self.width + self.padding + 140,
+                    rect.height - self.padding - 40)
+
+    def calculate_location_sign_company_first(self, rect: Rect):
+        return Rect(rect.width - self.padding - 130 - self.width,
+                    self.padding + 150,
+                    rect.width - self.padding - 130,
+                    self.height + self.padding + 150)
 
 
 class PDFMerger:
