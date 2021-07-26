@@ -1185,11 +1185,25 @@ class DisposableView(View):
 
     def get_context_forms_closing(self, context: dict) -> dict:
         context = self.get_context_forms(context)
-        car_form = CarClosingForm(instance=Car())
+        car_form = CarClosingForm(instance=Car(), initial={
+            'owner_address': 'РУз г. Ташкент Чиланзарский р-н, Чиланзар- 1А, гараж там же',
+            'car_owner': "Abduraxmonov Abdulla Suyunovich"})
         contract_form = ContractForm(instance=Contract())
         report_form = ReportClosingForm(instance=Report())
-        customer_form = CustomerClosingForm(instance=Customer())
-        enumeration_form = EnumerationForms(instance=Enumeration())
+        customer_form = CustomerClosingForm(instance=Customer(), initial={
+            'name': "Mukimov Mansur Jumakulovich",
+            'address': "Qashqadaryo viloyati Shaxrisabz tumani",
+            'passport_number': "AB 1892957",
+            'when_passport_issued': "13.11.2015",
+            "whom_passport_issued": "Qashqadaryo viloyati Shaxrisabz tumani IIB"
+        })
+        enumeration_form = EnumerationForms(instance=Enumeration(), initial={
+            'p_c': "20208000298017089001",
+            'bank': "в Чиланзар.ф-л АИКБ 'Ипак Йули' г. Ташкент",
+            'MFO': "01067",
+            "INN": " 302667624",
+            "OKED": '68310'
+        })
         closing_form = ClosingDescForm(instance=Closing())
         context['car_form'] = car_form
         context['contract_form'] = contract_form

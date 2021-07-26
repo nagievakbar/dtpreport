@@ -504,10 +504,10 @@ class ReportClosingForm(CustomForm):
                                   widget=forms.TextInput(attrs={'placeholder': 'Дата отчёта', 'class': 'input_in'}))
     report_number = forms.CharField(required=False,
                                     widget=forms.TextInput(attrs={'placeholder': 'Номер отчёта', 'class': 'input_in'}))
-    # total_report_cost = forms.CharField(required=False,
-    #                                     widget=forms.NumberInput(
-    #                                         attrs={'placeholder': 'Ущерб автотранспортного средства',
-    #                                                'class': 'input_in'}))
+    total_report_cost = forms.CharField(required=False,
+                                        widget=forms.NumberInput(
+                                            attrs={'placeholder': 'Ущерб автотранспортного средства(цена)',
+                                                   'class': 'input_in'}))
 
     class Meta:
         model = Report

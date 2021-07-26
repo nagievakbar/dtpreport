@@ -430,13 +430,18 @@ class Closing(models.Model):
     report = models.ForeignKey('Report', null=True, blank=True, on_delete=models.CASCADE)
     # report_number = models.CharField(max_length=100, blank=True, null=True)
     movable_property_desc = models.CharField(max_length=100, blank=True, null=True, default="Движимое имущество")
-    movable_property = models.CharField(max_length=100, blank=True, null=True)
+    movable_property = models.CharField(
+        default="Движимое имущество легковой автомобиль НЕКСИЯ гос. номер 01 563 YBA 1997г/выпуска", max_length=100,
+        blank=True, null=True)
 
     place_registration_desc = models.CharField(default="Место регистрации объекта оценки", max_length=100, blank=True,
                                                null=True)
     damage_auto_desc = models.CharField(default="Ущерб автотранспортного средства по состоянию ", max_length=100,
                                         blank=True, null=True)
-    damage_auto = models.CharField(max_length=100, blank=True, null=True)
+    damage_auto = models.CharField(
+        default="Напишите сюда цену",
+        max_length=100,
+        blank=True, null=True)
     owner_desc = models.CharField(default="Владелец", max_length=100, blank=True, null=True)
     customer_desc = models.CharField(default="Заказчик", max_length=100, blank=True, null=True)
     customer_address_desc = models.CharField(default="Адрес Заказчика", max_length=100, blank=True, null=True)
