@@ -1,0 +1,806 @@
+ 
+ -------------- celery@user-desktop v5.1.2 (sun-harmonics)
+--- ***** ----- 
+-- ******* ---- Linux-5.8.0-43-generic-x86_64-with-glibc2.29 2021-06-30 16:57:05
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         DTPreport:0x7f7dcdc8d3a0
+- ** ---------- .> transport:   redis://127.0.0.1:6379//
+- ** ---------- .> results:     redis://127.0.0.1:6379/
+- *** --- * --- .> concurrency: 8 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . delete_empty
+  . make_pdf
+  . make_pdf_additional
+  . reduce_image
+
+ 
+ -------------- celery@user-desktop v5.1.2 (sun-harmonics)
+--- ***** ----- 
+-- ******* ---- Linux-5.8.0-43-generic-x86_64-with-glibc2.29 2021-06-30 16:58:59
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         DTPreport:0x7fda075183a0
+- ** ---------- .> transport:   redis://127.0.0.1:6379//
+- ** ---------- .> results:     redis://127.0.0.1:6379/
+- *** --- * --- .> concurrency: 8 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . delete_empty
+  . make_pdf
+  . make_pdf_additional
+  . reduce_image
+
+ 
+ -------------- celery@user-desktop v5.1.2 (sun-harmonics)
+--- ***** ----- 
+-- ******* ---- Linux-5.8.0-43-generic-x86_64-with-glibc2.29 2021-06-30 17:54:34
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         DTPreport:0x7ffacc97e3a0
+- ** ---------- .> transport:   redis://127.0.0.1:6379//
+- ** ---------- .> results:     redis://127.0.0.1:6379/
+- *** --- * --- .> concurrency: 8 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . delete_empty
+  . make_pdf
+  . make_pdf_additional
+  . reduce_image
+
+ 
+ -------------- celery@user-desktop v5.1.2 (sun-harmonics)
+--- ***** ----- 
+-- ******* ---- Linux-5.8.0-43-generic-x86_64-with-glibc2.29 2021-06-30 18:38:20
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         DTPreport:0x7fbe65ae03a0
+- ** ---------- .> transport:   redis://127.0.0.1:6379//
+- ** ---------- .> results:     redis://127.0.0.1:6379/
+- *** --- * --- .> concurrency: 8 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . delete_empty
+  . make_pdf
+  . make_pdf_additional
+  . reduce_image
+
+ 
+ -------------- celery@user-desktop v5.1.2 (sun-harmonics)
+--- ***** ----- 
+-- ******* ---- Linux-5.8.0-43-generic-x86_64-with-glibc2.29 2021-06-30 19:13:56
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         DTPreport:0x7f0b0ca243a0
+- ** ---------- .> transport:   redis://127.0.0.1:6379//
+- ** ---------- .> results:     redis://127.0.0.1:6379/
+- *** --- * --- .> concurrency: 8 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . delete_empty
+  . make_pdf
+  . make_pdf_additional
+  . reduce_image
+
+ 
+ -------------- celery@user-desktop v5.1.2 (sun-harmonics)
+--- ***** ----- 
+-- ******* ---- Linux-5.8.0-43-generic-x86_64-with-glibc2.29 2021-06-30 19:35:19
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         DTPreport:0x7f691f6133a0
+- ** ---------- .> transport:   redis://127.0.0.1:6379//
+- ** ---------- .> results:     redis://127.0.0.1:6379/
+- *** --- * --- .> concurrency: 8 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . delete_empty
+  . make_pdf
+  . make_pdf_additional
+  . reduce_image
+
+ 
+ -------------- celery@user-desktop v5.1.2 (sun-harmonics)
+--- ***** ----- 
+-- ******* ---- Linux-5.8.0-43-generic-x86_64-with-glibc2.29 2021-06-30 19:41:18
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         DTPreport:0x7ff9694fd3a0
+- ** ---------- .> transport:   redis://127.0.0.1:6379//
+- ** ---------- .> results:     redis://127.0.0.1:6379/
+- *** --- * --- .> concurrency: 8 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . delete_empty
+  . make_pdf
+  . make_pdf_additional
+  . reduce_image
+
+ 
+ -------------- celery@user-desktop v5.1.2 (sun-harmonics)
+--- ***** ----- 
+-- ******* ---- Linux-5.8.0-43-generic-x86_64-with-glibc2.29 2021-06-30 19:43:55
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         DTPreport:0x7f095a3cd3a0
+- ** ---------- .> transport:   redis://127.0.0.1:6379//
+- ** ---------- .> results:     redis://127.0.0.1:6379/
+- *** --- * --- .> concurrency: 8 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . delete_empty
+  . make_pdf
+  . make_pdf_additional
+  . reduce_image
+
+ 
+ -------------- celery@user-desktop v5.1.2 (sun-harmonics)
+--- ***** ----- 
+-- ******* ---- Linux-5.8.0-43-generic-x86_64-with-glibc2.29 2021-06-30 19:45:56
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         DTPreport:0x7f6fec4243a0
+- ** ---------- .> transport:   redis://127.0.0.1:6379//
+- ** ---------- .> results:     redis://127.0.0.1:6379/
+- *** --- * --- .> concurrency: 8 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . delete_empty
+  . make_pdf
+  . make_pdf_additional
+  . reduce_image
+
+ 
+ -------------- celery@user-desktop v5.1.2 (sun-harmonics)
+--- ***** ----- 
+-- ******* ---- Linux-5.8.0-43-generic-x86_64-with-glibc2.29 2021-06-30 19:47:08
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         DTPreport:0x7f84baa5b3a0
+- ** ---------- .> transport:   redis://127.0.0.1:6379//
+- ** ---------- .> results:     redis://127.0.0.1:6379/
+- *** --- * --- .> concurrency: 8 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . delete_empty
+  . make_pdf
+  . make_pdf_additional
+  . reduce_image
+
+ 
+ -------------- celery@user-desktop v5.1.2 (sun-harmonics)
+--- ***** ----- 
+-- ******* ---- Linux-5.8.0-43-generic-x86_64-with-glibc2.29 2021-06-30 19:49:56
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         DTPreport:0x7f6df65853a0
+- ** ---------- .> transport:   redis://127.0.0.1:6379//
+- ** ---------- .> results:     redis://127.0.0.1:6379/
+- *** --- * --- .> concurrency: 8 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . delete_empty
+  . make_pdf
+  . make_pdf_additional
+  . reduce_image
+
+ 
+ -------------- celery@user-desktop v5.1.2 (sun-harmonics)
+--- ***** ----- 
+-- ******* ---- Linux-5.8.0-43-generic-x86_64-with-glibc2.29 2021-06-30 19:54:31
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         DTPreport:0x7f76f84ce3a0
+- ** ---------- .> transport:   redis://127.0.0.1:6379//
+- ** ---------- .> results:     redis://127.0.0.1:6379/
+- *** --- * --- .> concurrency: 8 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . delete_empty
+  . make_pdf
+  . make_pdf_additional
+  . reduce_image
+
+ 
+ -------------- celery@user-desktop v5.1.2 (sun-harmonics)
+--- ***** ----- 
+-- ******* ---- Linux-5.8.0-43-generic-x86_64-with-glibc2.29 2021-07-01 13:47:42
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         DTPreport:0x7f8dedf943a0
+- ** ---------- .> transport:   redis://127.0.0.1:6379//
+- ** ---------- .> results:     redis://127.0.0.1:6379/
+- *** --- * --- .> concurrency: 8 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . delete_empty
+  . make_pdf
+  . make_pdf_additional
+  . reduce_image
+
+ 
+ -------------- celery@user-desktop v5.1.2 (sun-harmonics)
+--- ***** ----- 
+-- ******* ---- Linux-5.8.0-43-generic-x86_64-with-glibc2.29 2021-07-01 15:24:44
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         DTPreport:0x7fe15fff53a0
+- ** ---------- .> transport:   redis://127.0.0.1:6379//
+- ** ---------- .> results:     redis://127.0.0.1:6379/
+- *** --- * --- .> concurrency: 8 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . delete_empty
+  . make_pdf
+  . make_pdf_additional
+  . reduce_image
+
+ 
+ -------------- celery@user-desktop v5.1.2 (sun-harmonics)
+--- ***** ----- 
+-- ******* ---- Linux-5.8.0-43-generic-x86_64-with-glibc2.29 2021-07-01 15:36:34
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         DTPreport:0x7fc9957e13a0
+- ** ---------- .> transport:   redis://127.0.0.1:6379//
+- ** ---------- .> results:     redis://127.0.0.1:6379/
+- *** --- * --- .> concurrency: 8 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . delete_empty
+  . make_pdf
+  . make_pdf_additional
+  . reduce_image
+
+ 
+ -------------- celery@user-desktop v5.1.2 (sun-harmonics)
+--- ***** ----- 
+-- ******* ---- Linux-5.8.0-59-generic-x86_64-with-glibc2.29 2021-07-02 03:13:14
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         DTPreport:0x7fb03c8383a0
+- ** ---------- .> transport:   redis://127.0.0.1:6379//
+- ** ---------- .> results:     redis://127.0.0.1:6379/
+- *** --- * --- .> concurrency: 8 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . delete_empty
+  . make_pdf
+  . make_pdf_additional
+  . reduce_image
+
+ 
+ -------------- celery@user-desktop v5.1.2 (sun-harmonics)
+--- ***** ----- 
+-- ******* ---- Linux-5.8.0-59-generic-x86_64-with-glibc2.29 2021-07-08 12:05:16
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         DTPreport:0x7f78dbf533a0
+- ** ---------- .> transport:   redis://127.0.0.1:6379//
+- ** ---------- .> results:     redis://127.0.0.1:6379/
+- *** --- * --- .> concurrency: 8 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . delete_empty
+  . make_pdf
+  . make_pdf_additional
+  . reduce_image
+
+ 
+ -------------- celery@user-desktop v5.1.2 (sun-harmonics)
+--- ***** ----- 
+-- ******* ---- Linux-5.8.0-59-generic-x86_64-with-glibc2.29 2021-07-08 12:06:43
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         DTPreport:0x7fb4aa6283a0
+- ** ---------- .> transport:   redis://127.0.0.1:6379//
+- ** ---------- .> results:     redis://127.0.0.1:6379/
+- *** --- * --- .> concurrency: 8 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . delete_empty
+  . make_pdf
+  . make_pdf_additional
+  . reduce_image
+
+ 
+ -------------- celery@user-desktop v5.1.2 (sun-harmonics)
+--- ***** ----- 
+-- ******* ---- Linux-5.8.0-59-generic-x86_64-with-glibc2.29 2021-07-08 12:19:57
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         DTPreport:0x7f9cf54983a0
+- ** ---------- .> transport:   redis://127.0.0.1:6379//
+- ** ---------- .> results:     redis://127.0.0.1:6379/
+- *** --- * --- .> concurrency: 8 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . delete_empty
+  . make_pdf
+  . make_pdf_additional
+  . reduce_image
+
+ 
+ -------------- celery@user-desktop v5.1.2 (sun-harmonics)
+--- ***** ----- 
+-- ******* ---- Linux-5.8.0-59-generic-x86_64-with-glibc2.29 2021-07-08 13:39:05
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         DTPreport:0x7f899dc733a0
+- ** ---------- .> transport:   redis://127.0.0.1:6379//
+- ** ---------- .> results:     redis://127.0.0.1:6379/
+- *** --- * --- .> concurrency: 8 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . delete_empty
+  . make_pdf
+  . make_pdf_additional
+  . reduce_image
+
+ 
+ -------------- celery@user-desktop v5.1.2 (sun-harmonics)
+--- ***** ----- 
+-- ******* ---- Linux-5.8.0-59-generic-x86_64-with-glibc2.29 2021-07-08 13:50:45
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         DTPreport:0x7f74cab203a0
+- ** ---------- .> transport:   redis://127.0.0.1:6379//
+- ** ---------- .> results:     redis://127.0.0.1:6379/
+- *** --- * --- .> concurrency: 8 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . delete_empty
+  . make_pdf
+  . make_pdf_additional
+  . reduce_image
+
+ 
+ -------------- celery@user-desktop v5.1.2 (sun-harmonics)
+--- ***** ----- 
+-- ******* ---- Linux-5.8.0-59-generic-x86_64-with-glibc2.29 2021-07-08 13:56:01
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         DTPreport:0x7f1fa4d073a0
+- ** ---------- .> transport:   redis://127.0.0.1:6379//
+- ** ---------- .> results:     redis://127.0.0.1:6379/
+- *** --- * --- .> concurrency: 8 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . delete_empty
+  . make_pdf
+  . make_pdf_additional
+  . reduce_image
+
+ 
+ -------------- celery@user-desktop v5.1.2 (sun-harmonics)
+--- ***** ----- 
+-- ******* ---- Linux-5.8.0-59-generic-x86_64-with-glibc2.29 2021-07-08 14:05:28
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         DTPreport:0x7fa6dfffb370
+- ** ---------- .> transport:   redis://127.0.0.1:6379//
+- ** ---------- .> results:     redis://127.0.0.1:6379/
+- *** --- * --- .> concurrency: 8 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . delete_empty
+  . make_pdf
+  . make_pdf_additional
+  . reduce_image
+
+ 
+ -------------- celery@user-desktop v5.1.2 (sun-harmonics)
+--- ***** ----- 
+-- ******* ---- Linux-5.8.0-59-generic-x86_64-with-glibc2.29 2021-07-08 14:12:50
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         DTPreport:0x7f5ce14e6370
+- ** ---------- .> transport:   redis://127.0.0.1:6379//
+- ** ---------- .> results:     redis://127.0.0.1:6379/
+- *** --- * --- .> concurrency: 8 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . delete_empty
+  . make_pdf
+  . make_pdf_additional
+  . reduce_image
+
+ 
+ -------------- celery@user-desktop v5.1.2 (sun-harmonics)
+--- ***** ----- 
+-- ******* ---- Linux-5.8.0-59-generic-x86_64-with-glibc2.29 2021-07-08 14:23:39
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         DTPreport:0x7f46f6a343a0
+- ** ---------- .> transport:   redis://127.0.0.1:6379//
+- ** ---------- .> results:     redis://127.0.0.1:6379/
+- *** --- * --- .> concurrency: 8 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . delete_empty
+  . make_pdf
+  . make_pdf_additional
+  . reduce_image
+
+ 
+ -------------- celery@user-desktop v5.1.2 (sun-harmonics)
+--- ***** ----- 
+-- ******* ---- Linux-5.8.0-59-generic-x86_64-with-glibc2.29 2021-07-08 14:30:30
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         DTPreport:0x7fac9a0643a0
+- ** ---------- .> transport:   redis://127.0.0.1:6379//
+- ** ---------- .> results:     redis://127.0.0.1:6379/
+- *** --- * --- .> concurrency: 8 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . delete_empty
+  . make_pdf
+  . make_pdf_additional
+  . reduce_image
+
+ 
+ -------------- celery@user-desktop v5.1.2 (sun-harmonics)
+--- ***** ----- 
+-- ******* ---- Linux-5.8.0-59-generic-x86_64-with-glibc2.29 2021-07-09 12:43:22
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         DTPreport:0x7ff5919533a0
+- ** ---------- .> transport:   redis://127.0.0.1:6379//
+- ** ---------- .> results:     redis://127.0.0.1:6379/
+- *** --- * --- .> concurrency: 8 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . delete_empty
+  . make_pdf
+  . make_pdf_additional
+  . reduce_image
+
+ 
+ -------------- celery@user-desktop v5.1.2 (sun-harmonics)
+--- ***** ----- 
+-- ******* ---- Linux-5.8.0-59-generic-x86_64-with-glibc2.29 2021-07-26 11:57:01
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         DTPreport:0x7f3daa6a83a0
+- ** ---------- .> transport:   redis://127.0.0.1:6379//
+- ** ---------- .> results:     redis://127.0.0.1:6379/
+- *** --- * --- .> concurrency: 8 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . delete_empty
+  . make_pdf
+  . make_pdf_additional
+  . reduce_image
+
+ 
+ -------------- celery@user-desktop v5.1.2 (sun-harmonics)
+--- ***** ----- 
+-- ******* ---- Linux-5.8.0-59-generic-x86_64-with-glibc2.29 2021-07-26 14:02:19
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         DTPreport:0x7fdd1cc423a0
+- ** ---------- .> transport:   redis://127.0.0.1:6379//
+- ** ---------- .> results:     redis://127.0.0.1:6379/
+- *** --- * --- .> concurrency: 8 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . delete_empty
+  . make_pdf
+  . make_pdf_additional
+  . reduce_image
+
+ 
+ -------------- celery@user-desktop v5.1.2 (sun-harmonics)
+--- ***** ----- 
+-- ******* ---- Linux-5.8.0-59-generic-x86_64-with-glibc2.29 2021-07-27 10:59:46
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         DTPreport:0x7f125bab3340
+- ** ---------- .> transport:   redis://127.0.0.1:6379//
+- ** ---------- .> results:     redis://127.0.0.1:6379/
+- *** --- * --- .> concurrency: 8 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . concatenate_pdf_disposable
+  . delete_empty
+  . make_pdf
+  . make_pdf_additional
+  . make_pdf_enumeration
+  . reduce_image
+
+ 
+ -------------- celery@user-desktop v5.1.2 (sun-harmonics)
+--- ***** ----- 
+-- ******* ---- Linux-5.8.0-59-generic-x86_64-with-glibc2.29 2021-07-27 11:06:14
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         DTPreport:0x7f074040f370
+- ** ---------- .> transport:   redis://127.0.0.1:6379//
+- ** ---------- .> results:     redis://127.0.0.1:6379/
+- *** --- * --- .> concurrency: 8 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . concatenate_pdf_disposable
+  . delete_empty
+  . make_pdf
+  . make_pdf_additional
+  . make_pdf_enumeration
+  . reduce_image
+
+ 
+ -------------- celery@user-desktop v5.1.2 (sun-harmonics)
+--- ***** ----- 
+-- ******* ---- Linux-5.8.0-59-generic-x86_64-with-glibc2.29 2021-07-27 11:10:45
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         DTPreport:0x7f60c8744370
+- ** ---------- .> transport:   redis://127.0.0.1:6379//
+- ** ---------- .> results:     redis://127.0.0.1:6379/
+- *** --- * --- .> concurrency: 8 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . concatenate_pdf_disposable
+  . delete_empty
+  . make_pdf
+  . make_pdf_additional
+  . make_pdf_enumeration
+  . reduce_image
+
+ 
+ -------------- celery@user-desktop v5.1.2 (sun-harmonics)
+--- ***** ----- 
+-- ******* ---- Linux-5.8.0-59-generic-x86_64-with-glibc2.29 2021-07-27 11:57:12
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         DTPreport:0x7fbac2bbd370
+- ** ---------- .> transport:   redis://127.0.0.1:6379//
+- ** ---------- .> results:     redis://127.0.0.1:6379/
+- *** --- * --- .> concurrency: 8 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . concatenate_pdf_disposable
+  . delete_empty
+  . make_pdf
+  . make_pdf_additional
+  . make_pdf_enumeration
+  . reduce_image
+
+ 
+ -------------- celery@user-desktop v5.1.2 (sun-harmonics)
+--- ***** ----- 
+-- ******* ---- Linux-5.8.0-59-generic-x86_64-with-glibc2.29 2021-07-27 11:59:03
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         DTPreport:0x7fdd8ecb9370
+- ** ---------- .> transport:   redis://127.0.0.1:6379//
+- ** ---------- .> results:     redis://127.0.0.1:6379/
+- *** --- * --- .> concurrency: 8 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . concatenate_pdf_disposable
+  . delete_empty
+  . make_pdf
+  . make_pdf_additional
+  . make_pdf_enumeration
+  . reduce_image
+
+ 
+ -------------- celery@user-desktop v5.1.2 (sun-harmonics)
+--- ***** ----- 
+-- ******* ---- Linux-5.8.0-59-generic-x86_64-with-glibc2.29 2021-07-27 12:40:54
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         DTPreport:0x7f1c00790370
+- ** ---------- .> transport:   redis://127.0.0.1:6379//
+- ** ---------- .> results:     redis://127.0.0.1:6379/
+- *** --- * --- .> concurrency: 8 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . concatenate_pdf_disposable
+  . delete_empty
+  . make_pdf
+  . make_pdf_additional
+  . make_pdf_enumeration
+  . reduce_image
+
+ 
+ -------------- celery@user-desktop v5.1.2 (sun-harmonics)
+--- ***** ----- 
+-- ******* ---- Linux-5.8.0-59-generic-x86_64-with-glibc2.29 2021-07-27 12:52:53
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         DTPreport:0x7f8e26bd4370
+- ** ---------- .> transport:   redis://127.0.0.1:6379//
+- ** ---------- .> results:     redis://127.0.0.1:6379/
+- *** --- * --- .> concurrency: 8 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . concatenate_pdf_disposable
+  . delete_empty
+  . make_pdf
+  . make_pdf_additional
+  . make_pdf_enumeration
+  . reduce_image
+

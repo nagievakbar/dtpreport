@@ -1,0 +1,658 @@
+log4j: reset attribute= "false".
+log4j: Threshold ="null".
+log4j: Class name: [org.apache.log4j.ConsoleAppender]
+log4j: Parsing layout of class: "org.apache.log4j.PatternLayout"
+log4j: Setting property [conversionPattern] to [%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n].
+log4j: Adding appender named [console] to category [root].
+2021-07-01 19:47:41 WARN  Application:184 - javax/xml/ws/Service
+********************************************************************************
+
+УСЛОВИЯ ИСПОЛЬЗОВАНИЯ ПРОГРАММНОГО ОБЕСПЕЧЕНИЯ E-IMZO-SERVER 
+НАУЧНО-ИНФОРМАЦИОННОГО ЦЕНТРА НОВЫХ ТЕХНОЛОГИЙ (НИЦ)
+
+Эти условия являются соглашением между НИЦ и Вами. Пожалуйста, прочтите их. 
+Они применяются к вышеуказанному программному обеспечению. 
+
+Используя это программное обеспечение, Вы тем самым подтверждаете свое согласие 
+соблюдать данные условия. Если Вы не согласны, не используйте это программное 
+обеспечение. 
+
+Программное обеспечение можно использовать только в пределах прав, 
+предоставляемых заключенным договором (для проверки электронной цифровой 
+подписи формата PKCS#7).
+
+Данное программное обеспечение содержит другие модули. Использование модулей, 
+без заключенного письменного договора является нарушением авторского права НИЦ.
+
+НИЦ не несет ответственности за последствия использования  модулей 
+E-IMZO-SERVER без заключенного письменного договора.
+
+********************************************************************************
+2021-07-01 19:47:41 ERROR Application:358 - 
+java.lang.NoClassDefFoundError: javax/xml/ws/Endpoint
+	at uz.yt.eimzo.dsv.server.Application.run(Application.java:346)
+	at uz.yt.eimzo.dsv.server.Application.main(Application.java:470)
+Caused by: java.lang.ClassNotFoundException: javax.xml.ws.Endpoint
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	... 2 more
+log4j: reset attribute= "false".
+log4j: Threshold ="null".
+log4j: Class name: [org.apache.log4j.ConsoleAppender]
+log4j: Parsing layout of class: "org.apache.log4j.PatternLayout"
+log4j: Setting property [conversionPattern] to [%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n].
+log4j: Adding appender named [console] to category [root].
+2021-07-02 09:13:12 WARN  Application:184 - javax/xml/ws/Service
+********************************************************************************
+
+УСЛОВИЯ ИСПОЛЬЗОВАНИЯ ПРОГРАММНОГО ОБЕСПЕЧЕНИЯ E-IMZO-SERVER 
+НАУЧНО-ИНФОРМАЦИОННОГО ЦЕНТРА НОВЫХ ТЕХНОЛОГИЙ (НИЦ)
+
+Эти условия являются соглашением между НИЦ и Вами. Пожалуйста, прочтите их. 
+Они применяются к вышеуказанному программному обеспечению. 
+
+Используя это программное обеспечение, Вы тем самым подтверждаете свое согласие 
+соблюдать данные условия. Если Вы не согласны, не используйте это программное 
+обеспечение. 
+
+Программное обеспечение можно использовать только в пределах прав, 
+предоставляемых заключенным договором (для проверки электронной цифровой 
+подписи формата PKCS#7).
+
+Данное программное обеспечение содержит другие модули. Использование модулей, 
+без заключенного письменного договора является нарушением авторского права НИЦ.
+
+НИЦ не несет ответственности за последствия использования  модулей 
+E-IMZO-SERVER без заключенного письменного договора.
+
+********************************************************************************
+2021-07-02 09:13:13 ERROR Application:358 - 
+java.lang.NoClassDefFoundError: javax/xml/ws/Endpoint
+	at uz.yt.eimzo.dsv.server.Application.run(Application.java:346)
+	at uz.yt.eimzo.dsv.server.Application.main(Application.java:470)
+Caused by: java.lang.ClassNotFoundException: javax.xml.ws.Endpoint
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	... 2 more
+log4j: reset attribute= "false".
+log4j: Threshold ="null".
+log4j: Class name: [org.apache.log4j.ConsoleAppender]
+log4j: Parsing layout of class: "org.apache.log4j.PatternLayout"
+log4j: Setting property [conversionPattern] to [%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n].
+log4j: Adding appender named [console] to category [root].
+2021-07-08 18:05:07 WARN  Application:184 - javax/xml/ws/Service
+********************************************************************************
+
+УСЛОВИЯ ИСПОЛЬЗОВАНИЯ ПРОГРАММНОГО ОБЕСПЕЧЕНИЯ E-IMZO-SERVER 
+НАУЧНО-ИНФОРМАЦИОННОГО ЦЕНТРА НОВЫХ ТЕХНОЛОГИЙ (НИЦ)
+
+Эти условия являются соглашением между НИЦ и Вами. Пожалуйста, прочтите их. 
+Они применяются к вышеуказанному программному обеспечению. 
+
+Используя это программное обеспечение, Вы тем самым подтверждаете свое согласие 
+соблюдать данные условия. Если Вы не согласны, не используйте это программное 
+обеспечение. 
+
+Программное обеспечение можно использовать только в пределах прав, 
+предоставляемых заключенным договором (для проверки электронной цифровой 
+подписи формата PKCS#7).
+
+Данное программное обеспечение содержит другие модули. Использование модулей, 
+без заключенного письменного договора является нарушением авторского права НИЦ.
+
+НИЦ не несет ответственности за последствия использования  модулей 
+E-IMZO-SERVER без заключенного письменного договора.
+
+********************************************************************************
+2021-07-08 18:05:09 ERROR Application:358 - 
+java.lang.NoClassDefFoundError: javax/xml/ws/Endpoint
+	at uz.yt.eimzo.dsv.server.Application.run(Application.java:346)
+	at uz.yt.eimzo.dsv.server.Application.main(Application.java:470)
+Caused by: java.lang.ClassNotFoundException: javax.xml.ws.Endpoint
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	... 2 more
+log4j: reset attribute= "false".
+log4j: Threshold ="null".
+log4j: Class name: [org.apache.log4j.ConsoleAppender]
+log4j: Parsing layout of class: "org.apache.log4j.PatternLayout"
+log4j: Setting property [conversionPattern] to [%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n].
+log4j: Adding appender named [console] to category [root].
+2021-07-08 18:06:42 WARN  Application:184 - javax/xml/ws/Service
+********************************************************************************
+
+УСЛОВИЯ ИСПОЛЬЗОВАНИЯ ПРОГРАММНОГО ОБЕСПЕЧЕНИЯ E-IMZO-SERVER 
+НАУЧНО-ИНФОРМАЦИОННОГО ЦЕНТРА НОВЫХ ТЕХНОЛОГИЙ (НИЦ)
+
+Эти условия являются соглашением между НИЦ и Вами. Пожалуйста, прочтите их. 
+Они применяются к вышеуказанному программному обеспечению. 
+
+Используя это программное обеспечение, Вы тем самым подтверждаете свое согласие 
+соблюдать данные условия. Если Вы не согласны, не используйте это программное 
+обеспечение. 
+
+Программное обеспечение можно использовать только в пределах прав, 
+предоставляемых заключенным договором (для проверки электронной цифровой 
+подписи формата PKCS#7).
+
+Данное программное обеспечение содержит другие модули. Использование модулей, 
+без заключенного письменного договора является нарушением авторского права НИЦ.
+
+НИЦ не несет ответственности за последствия использования  модулей 
+E-IMZO-SERVER без заключенного письменного договора.
+
+********************************************************************************
+2021-07-08 18:06:42 ERROR Application:358 - 
+java.lang.NoClassDefFoundError: javax/xml/ws/Endpoint
+	at uz.yt.eimzo.dsv.server.Application.run(Application.java:346)
+	at uz.yt.eimzo.dsv.server.Application.main(Application.java:470)
+Caused by: java.lang.ClassNotFoundException: javax.xml.ws.Endpoint
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	... 2 more
+log4j: reset attribute= "false".
+log4j: Threshold ="null".
+log4j: Class name: [org.apache.log4j.ConsoleAppender]
+log4j: Parsing layout of class: "org.apache.log4j.PatternLayout"
+log4j: Setting property [conversionPattern] to [%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n].
+log4j: Adding appender named [console] to category [root].
+2021-07-08 18:19:56 WARN  Application:184 - javax/xml/ws/Service
+********************************************************************************
+
+УСЛОВИЯ ИСПОЛЬЗОВАНИЯ ПРОГРАММНОГО ОБЕСПЕЧЕНИЯ E-IMZO-SERVER 
+НАУЧНО-ИНФОРМАЦИОННОГО ЦЕНТРА НОВЫХ ТЕХНОЛОГИЙ (НИЦ)
+
+Эти условия являются соглашением между НИЦ и Вами. Пожалуйста, прочтите их. 
+Они применяются к вышеуказанному программному обеспечению. 
+
+Используя это программное обеспечение, Вы тем самым подтверждаете свое согласие 
+соблюдать данные условия. Если Вы не согласны, не используйте это программное 
+обеспечение. 
+
+Программное обеспечение можно использовать только в пределах прав, 
+предоставляемых заключенным договором (для проверки электронной цифровой 
+подписи формата PKCS#7).
+
+Данное программное обеспечение содержит другие модули. Использование модулей, 
+без заключенного письменного договора является нарушением авторского права НИЦ.
+
+НИЦ не несет ответственности за последствия использования  модулей 
+E-IMZO-SERVER без заключенного письменного договора.
+
+********************************************************************************
+2021-07-08 18:19:56 ERROR Application:358 - 
+java.lang.NoClassDefFoundError: javax/xml/ws/Endpoint
+	at uz.yt.eimzo.dsv.server.Application.run(Application.java:346)
+	at uz.yt.eimzo.dsv.server.Application.main(Application.java:470)
+Caused by: java.lang.ClassNotFoundException: javax.xml.ws.Endpoint
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	... 2 more
+log4j: reset attribute= "false".
+log4j: Threshold ="null".
+log4j: Class name: [org.apache.log4j.ConsoleAppender]
+log4j: Parsing layout of class: "org.apache.log4j.PatternLayout"
+log4j: Setting property [conversionPattern] to [%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n].
+log4j: Adding appender named [console] to category [root].
+2021-07-08 19:50:44 WARN  Application:184 - javax/xml/ws/Service
+********************************************************************************
+
+УСЛОВИЯ ИСПОЛЬЗОВАНИЯ ПРОГРАММНОГО ОБЕСПЕЧЕНИЯ E-IMZO-SERVER 
+НАУЧНО-ИНФОРМАЦИОННОГО ЦЕНТРА НОВЫХ ТЕХНОЛОГИЙ (НИЦ)
+
+Эти условия являются соглашением между НИЦ и Вами. Пожалуйста, прочтите их. 
+Они применяются к вышеуказанному программному обеспечению. 
+
+Используя это программное обеспечение, Вы тем самым подтверждаете свое согласие 
+соблюдать данные условия. Если Вы не согласны, не используйте это программное 
+обеспечение. 
+
+Программное обеспечение можно использовать только в пределах прав, 
+предоставляемых заключенным договором (для проверки электронной цифровой 
+подписи формата PKCS#7).
+
+Данное программное обеспечение содержит другие модули. Использование модулей, 
+без заключенного письменного договора является нарушением авторского права НИЦ.
+
+НИЦ не несет ответственности за последствия использования  модулей 
+E-IMZO-SERVER без заключенного письменного договора.
+
+********************************************************************************
+2021-07-08 19:50:44 ERROR Application:358 - 
+java.lang.NoClassDefFoundError: javax/xml/ws/Endpoint
+	at uz.yt.eimzo.dsv.server.Application.run(Application.java:346)
+	at uz.yt.eimzo.dsv.server.Application.main(Application.java:470)
+Caused by: java.lang.ClassNotFoundException: javax.xml.ws.Endpoint
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	... 2 more
+log4j: reset attribute= "false".
+log4j: Threshold ="null".
+log4j: Class name: [org.apache.log4j.ConsoleAppender]
+log4j: Parsing layout of class: "org.apache.log4j.PatternLayout"
+log4j: Setting property [conversionPattern] to [%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n].
+log4j: Adding appender named [console] to category [root].
+2021-07-08 19:55:59 WARN  Application:184 - javax/xml/ws/Service
+********************************************************************************
+
+УСЛОВИЯ ИСПОЛЬЗОВАНИЯ ПРОГРАММНОГО ОБЕСПЕЧЕНИЯ E-IMZO-SERVER 
+НАУЧНО-ИНФОРМАЦИОННОГО ЦЕНТРА НОВЫХ ТЕХНОЛОГИЙ (НИЦ)
+
+Эти условия являются соглашением между НИЦ и Вами. Пожалуйста, прочтите их. 
+Они применяются к вышеуказанному программному обеспечению. 
+
+Используя это программное обеспечение, Вы тем самым подтверждаете свое согласие 
+соблюдать данные условия. Если Вы не согласны, не используйте это программное 
+обеспечение. 
+
+Программное обеспечение можно использовать только в пределах прав, 
+предоставляемых заключенным договором (для проверки электронной цифровой 
+подписи формата PKCS#7).
+
+Данное программное обеспечение содержит другие модули. Использование модулей, 
+без заключенного письменного договора является нарушением авторского права НИЦ.
+
+НИЦ не несет ответственности за последствия использования  модулей 
+E-IMZO-SERVER без заключенного письменного договора.
+
+********************************************************************************
+2021-07-08 19:56:00 ERROR Application:358 - 
+java.lang.NoClassDefFoundError: javax/xml/ws/Endpoint
+	at uz.yt.eimzo.dsv.server.Application.run(Application.java:346)
+	at uz.yt.eimzo.dsv.server.Application.main(Application.java:470)
+Caused by: java.lang.ClassNotFoundException: javax.xml.ws.Endpoint
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	... 2 more
+log4j: reset attribute= "false".
+log4j: Threshold ="null".
+log4j: Class name: [org.apache.log4j.ConsoleAppender]
+log4j: Parsing layout of class: "org.apache.log4j.PatternLayout"
+log4j: Setting property [conversionPattern] to [%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n].
+log4j: Adding appender named [console] to category [root].
+2021-07-08 20:05:27 WARN  Application:184 - javax/xml/ws/Service
+********************************************************************************
+
+УСЛОВИЯ ИСПОЛЬЗОВАНИЯ ПРОГРАММНОГО ОБЕСПЕЧЕНИЯ E-IMZO-SERVER 
+НАУЧНО-ИНФОРМАЦИОННОГО ЦЕНТРА НОВЫХ ТЕХНОЛОГИЙ (НИЦ)
+
+Эти условия являются соглашением между НИЦ и Вами. Пожалуйста, прочтите их. 
+Они применяются к вышеуказанному программному обеспечению. 
+
+Используя это программное обеспечение, Вы тем самым подтверждаете свое согласие 
+соблюдать данные условия. Если Вы не согласны, не используйте это программное 
+обеспечение. 
+
+Программное обеспечение можно использовать только в пределах прав, 
+предоставляемых заключенным договором (для проверки электронной цифровой 
+подписи формата PKCS#7).
+
+Данное программное обеспечение содержит другие модули. Использование модулей, 
+без заключенного письменного договора является нарушением авторского права НИЦ.
+
+НИЦ не несет ответственности за последствия использования  модулей 
+E-IMZO-SERVER без заключенного письменного договора.
+
+********************************************************************************
+2021-07-08 20:05:27 ERROR Application:358 - 
+java.lang.NoClassDefFoundError: javax/xml/ws/Endpoint
+	at uz.yt.eimzo.dsv.server.Application.run(Application.java:346)
+	at uz.yt.eimzo.dsv.server.Application.main(Application.java:470)
+Caused by: java.lang.ClassNotFoundException: javax.xml.ws.Endpoint
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	... 2 more
+log4j: reset attribute= "false".
+log4j: Threshold ="null".
+log4j: Class name: [org.apache.log4j.ConsoleAppender]
+log4j: Parsing layout of class: "org.apache.log4j.PatternLayout"
+log4j: Setting property [conversionPattern] to [%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n].
+log4j: Adding appender named [console] to category [root].
+2021-07-08 20:12:48 WARN  Application:184 - javax/xml/ws/Service
+********************************************************************************
+
+УСЛОВИЯ ИСПОЛЬЗОВАНИЯ ПРОГРАММНОГО ОБЕСПЕЧЕНИЯ E-IMZO-SERVER 
+НАУЧНО-ИНФОРМАЦИОННОГО ЦЕНТРА НОВЫХ ТЕХНОЛОГИЙ (НИЦ)
+
+Эти условия являются соглашением между НИЦ и Вами. Пожалуйста, прочтите их. 
+Они применяются к вышеуказанному программному обеспечению. 
+
+Используя это программное обеспечение, Вы тем самым подтверждаете свое согласие 
+соблюдать данные условия. Если Вы не согласны, не используйте это программное 
+обеспечение. 
+
+Программное обеспечение можно использовать только в пределах прав, 
+предоставляемых заключенным договором (для проверки электронной цифровой 
+подписи формата PKCS#7).
+
+Данное программное обеспечение содержит другие модули. Использование модулей, 
+без заключенного письменного договора является нарушением авторского права НИЦ.
+
+НИЦ не несет ответственности за последствия использования  модулей 
+E-IMZO-SERVER без заключенного письменного договора.
+
+********************************************************************************
+2021-07-08 20:12:49 ERROR Application:358 - 
+java.lang.NoClassDefFoundError: javax/xml/ws/Endpoint
+	at uz.yt.eimzo.dsv.server.Application.run(Application.java:346)
+	at uz.yt.eimzo.dsv.server.Application.main(Application.java:470)
+Caused by: java.lang.ClassNotFoundException: javax.xml.ws.Endpoint
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	... 2 more
+log4j: reset attribute= "false".
+log4j: Threshold ="null".
+log4j: Class name: [org.apache.log4j.ConsoleAppender]
+log4j: Parsing layout of class: "org.apache.log4j.PatternLayout"
+log4j: Setting property [conversionPattern] to [%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n].
+log4j: Adding appender named [console] to category [root].
+2021-07-08 20:23:37 WARN  Application:184 - javax/xml/ws/Service
+********************************************************************************
+
+УСЛОВИЯ ИСПОЛЬЗОВАНИЯ ПРОГРАММНОГО ОБЕСПЕЧЕНИЯ E-IMZO-SERVER 
+НАУЧНО-ИНФОРМАЦИОННОГО ЦЕНТРА НОВЫХ ТЕХНОЛОГИЙ (НИЦ)
+
+Эти условия являются соглашением между НИЦ и Вами. Пожалуйста, прочтите их. 
+Они применяются к вышеуказанному программному обеспечению. 
+
+Используя это программное обеспечение, Вы тем самым подтверждаете свое согласие 
+соблюдать данные условия. Если Вы не согласны, не используйте это программное 
+обеспечение. 
+
+Программное обеспечение можно использовать только в пределах прав, 
+предоставляемых заключенным договором (для проверки электронной цифровой 
+подписи формата PKCS#7).
+
+Данное программное обеспечение содержит другие модули. Использование модулей, 
+без заключенного письменного договора является нарушением авторского права НИЦ.
+
+НИЦ не несет ответственности за последствия использования  модулей 
+E-IMZO-SERVER без заключенного письменного договора.
+
+********************************************************************************
+2021-07-08 20:23:38 ERROR Application:358 - 
+java.lang.NoClassDefFoundError: javax/xml/ws/Endpoint
+	at uz.yt.eimzo.dsv.server.Application.run(Application.java:346)
+	at uz.yt.eimzo.dsv.server.Application.main(Application.java:470)
+Caused by: java.lang.ClassNotFoundException: javax.xml.ws.Endpoint
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	... 2 more
+log4j: reset attribute= "false".
+log4j: Threshold ="null".
+log4j: Class name: [org.apache.log4j.ConsoleAppender]
+log4j: Parsing layout of class: "org.apache.log4j.PatternLayout"
+log4j: Setting property [conversionPattern] to [%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n].
+log4j: Adding appender named [console] to category [root].
+2021-07-08 20:30:28 WARN  Application:184 - javax/xml/ws/Service
+********************************************************************************
+
+УСЛОВИЯ ИСПОЛЬЗОВАНИЯ ПРОГРАММНОГО ОБЕСПЕЧЕНИЯ E-IMZO-SERVER 
+НАУЧНО-ИНФОРМАЦИОННОГО ЦЕНТРА НОВЫХ ТЕХНОЛОГИЙ (НИЦ)
+
+Эти условия являются соглашением между НИЦ и Вами. Пожалуйста, прочтите их. 
+Они применяются к вышеуказанному программному обеспечению. 
+
+Используя это программное обеспечение, Вы тем самым подтверждаете свое согласие 
+соблюдать данные условия. Если Вы не согласны, не используйте это программное 
+обеспечение. 
+
+Программное обеспечение можно использовать только в пределах прав, 
+предоставляемых заключенным договором (для проверки электронной цифровой 
+подписи формата PKCS#7).
+
+Данное программное обеспечение содержит другие модули. Использование модулей, 
+без заключенного письменного договора является нарушением авторского права НИЦ.
+
+НИЦ не несет ответственности за последствия использования  модулей 
+E-IMZO-SERVER без заключенного письменного договора.
+
+********************************************************************************
+2021-07-08 20:30:29 ERROR Application:358 - 
+java.lang.NoClassDefFoundError: javax/xml/ws/Endpoint
+	at uz.yt.eimzo.dsv.server.Application.run(Application.java:346)
+	at uz.yt.eimzo.dsv.server.Application.main(Application.java:470)
+Caused by: java.lang.ClassNotFoundException: javax.xml.ws.Endpoint
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	... 2 more
+log4j: reset attribute= "false".
+log4j: Threshold ="null".
+log4j: Class name: [org.apache.log4j.ConsoleAppender]
+log4j: Parsing layout of class: "org.apache.log4j.PatternLayout"
+log4j: Setting property [conversionPattern] to [%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n].
+log4j: Adding appender named [console] to category [root].
+2021-07-09 18:43:20 WARN  Application:184 - javax/xml/ws/Service
+********************************************************************************
+
+УСЛОВИЯ ИСПОЛЬЗОВАНИЯ ПРОГРАММНОГО ОБЕСПЕЧЕНИЯ E-IMZO-SERVER 
+НАУЧНО-ИНФОРМАЦИОННОГО ЦЕНТРА НОВЫХ ТЕХНОЛОГИЙ (НИЦ)
+
+Эти условия являются соглашением между НИЦ и Вами. Пожалуйста, прочтите их. 
+Они применяются к вышеуказанному программному обеспечению. 
+
+Используя это программное обеспечение, Вы тем самым подтверждаете свое согласие 
+соблюдать данные условия. Если Вы не согласны, не используйте это программное 
+обеспечение. 
+
+Программное обеспечение можно использовать только в пределах прав, 
+предоставляемых заключенным договором (для проверки электронной цифровой 
+подписи формата PKCS#7).
+
+Данное программное обеспечение содержит другие модули. Использование модулей, 
+без заключенного письменного договора является нарушением авторского права НИЦ.
+
+НИЦ не несет ответственности за последствия использования  модулей 
+E-IMZO-SERVER без заключенного письменного договора.
+
+********************************************************************************
+2021-07-09 18:43:21 ERROR Application:358 - 
+java.lang.NoClassDefFoundError: javax/xml/ws/Endpoint
+	at uz.yt.eimzo.dsv.server.Application.run(Application.java:346)
+	at uz.yt.eimzo.dsv.server.Application.main(Application.java:470)
+Caused by: java.lang.ClassNotFoundException: javax.xml.ws.Endpoint
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	... 2 more
+log4j: reset attribute= "false".
+log4j: Threshold ="null".
+log4j: Class name: [org.apache.log4j.ConsoleAppender]
+log4j: Parsing layout of class: "org.apache.log4j.PatternLayout"
+log4j: Setting property [conversionPattern] to [%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n].
+log4j: Adding appender named [console] to category [root].
+2021-07-26 17:56:53 WARN  Application:184 - javax/xml/ws/Service
+********************************************************************************
+
+УСЛОВИЯ ИСПОЛЬЗОВАНИЯ ПРОГРАММНОГО ОБЕСПЕЧЕНИЯ E-IMZO-SERVER 
+НАУЧНО-ИНФОРМАЦИОННОГО ЦЕНТРА НОВЫХ ТЕХНОЛОГИЙ (НИЦ)
+
+Эти условия являются соглашением между НИЦ и Вами. Пожалуйста, прочтите их. 
+Они применяются к вышеуказанному программному обеспечению. 
+
+Используя это программное обеспечение, Вы тем самым подтверждаете свое согласие 
+соблюдать данные условия. Если Вы не согласны, не используйте это программное 
+обеспечение. 
+
+Программное обеспечение можно использовать только в пределах прав, 
+предоставляемых заключенным договором (для проверки электронной цифровой 
+подписи формата PKCS#7).
+
+Данное программное обеспечение содержит другие модули. Использование модулей, 
+без заключенного письменного договора является нарушением авторского права НИЦ.
+
+НИЦ не несет ответственности за последствия использования  модулей 
+E-IMZO-SERVER без заключенного письменного договора.
+
+********************************************************************************
+2021-07-26 17:56:54 ERROR Application:358 - 
+java.lang.NoClassDefFoundError: javax/xml/ws/Endpoint
+	at uz.yt.eimzo.dsv.server.Application.run(Application.java:346)
+	at uz.yt.eimzo.dsv.server.Application.main(Application.java:470)
+Caused by: java.lang.ClassNotFoundException: javax.xml.ws.Endpoint
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	... 2 more
+log4j: reset attribute= "false".
+log4j: Threshold ="null".
+log4j: Class name: [org.apache.log4j.ConsoleAppender]
+log4j: Parsing layout of class: "org.apache.log4j.PatternLayout"
+log4j: Setting property [conversionPattern] to [%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n].
+log4j: Adding appender named [console] to category [root].
+2021-07-26 17:59:46 WARN  Application:184 - javax/xml/ws/Service
+********************************************************************************
+
+УСЛОВИЯ ИСПОЛЬЗОВАНИЯ ПРОГРАММНОГО ОБЕСПЕЧЕНИЯ E-IMZO-SERVER 
+НАУЧНО-ИНФОРМАЦИОННОГО ЦЕНТРА НОВЫХ ТЕХНОЛОГИЙ (НИЦ)
+
+Эти условия являются соглашением между НИЦ и Вами. Пожалуйста, прочтите их. 
+Они применяются к вышеуказанному программному обеспечению. 
+
+Используя это программное обеспечение, Вы тем самым подтверждаете свое согласие 
+соблюдать данные условия. Если Вы не согласны, не используйте это программное 
+обеспечение. 
+
+Программное обеспечение можно использовать только в пределах прав, 
+предоставляемых заключенным договором (для проверки электронной цифровой 
+подписи формата PKCS#7).
+
+Данное программное обеспечение содержит другие модули. Использование модулей, 
+без заключенного письменного договора является нарушением авторского права НИЦ.
+
+НИЦ не несет ответственности за последствия использования  модулей 
+E-IMZO-SERVER без заключенного письменного договора.
+
+********************************************************************************
+2021-07-26 17:59:47 ERROR Application:358 - 
+java.lang.NoClassDefFoundError: javax/xml/ws/Endpoint
+	at uz.yt.eimzo.dsv.server.Application.run(Application.java:346)
+	at uz.yt.eimzo.dsv.server.Application.main(Application.java:470)
+Caused by: java.lang.ClassNotFoundException: javax.xml.ws.Endpoint
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	... 2 more
+log4j: reset attribute= "false".
+log4j: Threshold ="null".
+log4j: Class name: [org.apache.log4j.ConsoleAppender]
+log4j: Parsing layout of class: "org.apache.log4j.PatternLayout"
+log4j: Setting property [conversionPattern] to [%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n].
+log4j: Adding appender named [console] to category [root].
+2021-07-26 20:02:17 WARN  Application:184 - javax/xml/ws/Service
+********************************************************************************
+
+УСЛОВИЯ ИСПОЛЬЗОВАНИЯ ПРОГРАММНОГО ОБЕСПЕЧЕНИЯ E-IMZO-SERVER 
+НАУЧНО-ИНФОРМАЦИОННОГО ЦЕНТРА НОВЫХ ТЕХНОЛОГИЙ (НИЦ)
+
+Эти условия являются соглашением между НИЦ и Вами. Пожалуйста, прочтите их. 
+Они применяются к вышеуказанному программному обеспечению. 
+
+Используя это программное обеспечение, Вы тем самым подтверждаете свое согласие 
+соблюдать данные условия. Если Вы не согласны, не используйте это программное 
+обеспечение. 
+
+Программное обеспечение можно использовать только в пределах прав, 
+предоставляемых заключенным договором (для проверки электронной цифровой 
+подписи формата PKCS#7).
+
+Данное программное обеспечение содержит другие модули. Использование модулей, 
+без заключенного письменного договора является нарушением авторского права НИЦ.
+
+НИЦ не несет ответственности за последствия использования  модулей 
+E-IMZO-SERVER без заключенного письменного договора.
+
+********************************************************************************
+2021-07-26 20:02:18 ERROR Application:358 - 
+java.lang.NoClassDefFoundError: javax/xml/ws/Endpoint
+	at uz.yt.eimzo.dsv.server.Application.run(Application.java:346)
+	at uz.yt.eimzo.dsv.server.Application.main(Application.java:470)
+Caused by: java.lang.ClassNotFoundException: javax.xml.ws.Endpoint
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	... 2 more
+log4j: reset attribute= "false".
+log4j: Threshold ="null".
+log4j: Class name: [org.apache.log4j.ConsoleAppender]
+log4j: Parsing layout of class: "org.apache.log4j.PatternLayout"
+log4j: Setting property [conversionPattern] to [%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n].
+log4j: Adding appender named [console] to category [root].
+2021-07-27 13:10:28 WARN  Application:184 - javax/xml/ws/Service
+********************************************************************************
+
+УСЛОВИЯ ИСПОЛЬЗОВАНИЯ ПРОГРАММНОГО ОБЕСПЕЧЕНИЯ E-IMZO-SERVER 
+НАУЧНО-ИНФОРМАЦИОННОГО ЦЕНТРА НОВЫХ ТЕХНОЛОГИЙ (НИЦ)
+
+Эти условия являются соглашением между НИЦ и Вами. Пожалуйста, прочтите их. 
+Они применяются к вышеуказанному программному обеспечению. 
+
+Используя это программное обеспечение, Вы тем самым подтверждаете свое согласие 
+соблюдать данные условия. Если Вы не согласны, не используйте это программное 
+обеспечение. 
+
+Программное обеспечение можно использовать только в пределах прав, 
+предоставляемых заключенным договором (для проверки электронной цифровой 
+подписи формата PKCS#7).
+
+Данное программное обеспечение содержит другие модули. Использование модулей, 
+без заключенного письменного договора является нарушением авторского права НИЦ.
+
+НИЦ не несет ответственности за последствия использования  модулей 
+E-IMZO-SERVER без заключенного письменного договора.
+
+********************************************************************************
+2021-07-27 13:10:28 ERROR Application:358 - 
+java.lang.NoClassDefFoundError: javax/xml/ws/Endpoint
+	at uz.yt.eimzo.dsv.server.Application.run(Application.java:346)
+	at uz.yt.eimzo.dsv.server.Application.main(Application.java:470)
+Caused by: java.lang.ClassNotFoundException: javax.xml.ws.Endpoint
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	... 2 more
+log4j: reset attribute= "false".
+log4j: Threshold ="null".
+log4j: Class name: [org.apache.log4j.ConsoleAppender]
+log4j: Parsing layout of class: "org.apache.log4j.PatternLayout"
+log4j: Setting property [conversionPattern] to [%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n].
+log4j: Adding appender named [console] to category [root].
+2021-07-27 16:27:01 WARN  Application:184 - Failed to access the WSDL at: http://ca.yt.uz/CAServices/OnlineCertificateStatusService?wsdl. It failed with: 
+	Server returned HTTP response code: 502 for URL: http://ca.yt.uz/CAServices/OnlineCertificateStatusService?wsdl.
+********************************************************************************
+
+УСЛОВИЯ ИСПОЛЬЗОВАНИЯ ПРОГРАММНОГО ОБЕСПЕЧЕНИЯ E-IMZO-SERVER 
+НАУЧНО-ИНФОРМАЦИОННОГО ЦЕНТРА НОВЫХ ТЕХНОЛОГИЙ (НИЦ)
+
+Эти условия являются соглашением между НИЦ и Вами. Пожалуйста, прочтите их. 
+Они применяются к вышеуказанному программному обеспечению. 
+
+Используя это программное обеспечение, Вы тем самым подтверждаете свое согласие 
+соблюдать данные условия. Если Вы не согласны, не используйте это программное 
+обеспечение. 
+
+Программное обеспечение можно использовать только в пределах прав, 
+предоставляемых заключенным договором (для проверки электронной цифровой 
+подписи формата PKCS#7).
+
+Данное программное обеспечение содержит другие модули. Использование модулей, 
+без заключенного письменного договора является нарушением авторского права НИЦ.
+
+НИЦ не несет ответственности за последствия использования  модулей 
+E-IMZO-SERVER без заключенного письменного договора.
+
+********************************************************************************
+2021-07-27 16:27:01 INFO  Application:347 - http://127.0.0.1:9090/dsvs/cryptoauth/v1?wsdl
+2021-07-27 16:27:01 INFO  Application:347 - http://127.0.0.1:9090/dsvs/pkcs7/v1?wsdl
+2021-07-27 16:27:01 INFO  Application:347 - http://127.0.0.1:9090/dsvs/tsaproxy/v1?wsdl

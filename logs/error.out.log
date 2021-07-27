@@ -1,0 +1,2672 @@
+usage: gunicorn [OPTIONS] [APP_MODULE]
+gunicorn: error: unrecognized arguments: >
+usage: gunicorn [OPTIONS] [APP_MODULE]
+gunicorn: error: unrecognized arguments: >
+usage: gunicorn [OPTIONS] [APP_MODULE]
+gunicorn: error: unrecognized arguments: >
+usage: gunicorn [OPTIONS] [APP_MODULE]
+gunicorn: error: unrecognized arguments: >
+usage: gunicorn [OPTIONS] [APP_MODULE]
+gunicorn: error: unrecognized arguments: >
+usage: gunicorn [OPTIONS] [APP_MODULE]
+gunicorn: error: unrecognized arguments: >
+usage: gunicorn [OPTIONS] [APP_MODULE]
+gunicorn: error: unrecognized arguments: >
+usage: gunicorn [OPTIONS] [APP_MODULE]
+gunicorn: error: unrecognized arguments: >
+usage: gunicorn [OPTIONS] [APP_MODULE]
+gunicorn: error: unrecognized arguments: >
+usage: gunicorn [OPTIONS] [APP_MODULE]
+gunicorn: error: unrecognized arguments: >
+usage: gunicorn [OPTIONS] [APP_MODULE]
+gunicorn: error: unrecognized arguments: >
+usage: gunicorn [OPTIONS] [APP_MODULE]
+gunicorn: error: unrecognized arguments: >
+[2021-06-30 23:03:42 +0600] [15495] [INFO] Starting gunicorn 20.1.0
+[2021-06-30 23:03:42 +0600] [15495] [ERROR] Invalid address: ('185.196.214.55', 8000)
+[2021-06-30 23:03:42 +0600] [15495] [ERROR] Retrying in 1 second.
+[2021-06-30 23:03:43 +0600] [15495] [ERROR] Invalid address: ('185.196.214.55', 8000)
+[2021-06-30 23:03:43 +0600] [15495] [ERROR] Retrying in 1 second.
+[2021-06-30 23:03:44 +0600] [15495] [ERROR] Invalid address: ('185.196.214.55', 8000)
+[2021-06-30 23:03:44 +0600] [15495] [ERROR] Retrying in 1 second.
+[2021-06-30 23:03:45 +0600] [15495] [ERROR] Invalid address: ('185.196.214.55', 8000)
+[2021-06-30 23:03:45 +0600] [15495] [ERROR] Retrying in 1 second.
+[2021-06-30 23:03:46 +0600] [15495] [ERROR] Invalid address: ('185.196.214.55', 8000)
+[2021-06-30 23:03:46 +0600] [15495] [ERROR] Retrying in 1 second.
+[2021-06-30 23:03:47 +0600] [15495] [ERROR] Can't connect to ('185.196.214.55', 8000)
+[2021-06-30 23:03:48 +0600] [15499] [INFO] Starting gunicorn 20.1.0
+[2021-06-30 23:03:48 +0600] [15499] [ERROR] Invalid address: ('185.196.214.55', 8000)
+[2021-06-30 23:03:48 +0600] [15499] [ERROR] Retrying in 1 second.
+[2021-06-30 23:03:49 +0600] [15499] [ERROR] Invalid address: ('185.196.214.55', 8000)
+[2021-06-30 23:03:49 +0600] [15499] [ERROR] Retrying in 1 second.
+[2021-06-30 23:03:50 +0600] [15499] [ERROR] Invalid address: ('185.196.214.55', 8000)
+[2021-06-30 23:03:50 +0600] [15499] [ERROR] Retrying in 1 second.
+[2021-06-30 23:03:51 +0600] [15499] [ERROR] Invalid address: ('185.196.214.55', 8000)
+[2021-06-30 23:03:51 +0600] [15499] [ERROR] Retrying in 1 second.
+[2021-06-30 23:03:52 +0600] [15499] [ERROR] Invalid address: ('185.196.214.55', 8000)
+[2021-06-30 23:03:52 +0600] [15499] [ERROR] Retrying in 1 second.
+[2021-06-30 23:03:53 +0600] [15499] [ERROR] Can't connect to ('185.196.214.55', 8000)
+[2021-06-30 23:03:55 +0600] [15504] [INFO] Starting gunicorn 20.1.0
+[2021-06-30 23:03:55 +0600] [15504] [ERROR] Invalid address: ('185.196.214.55', 8000)
+[2021-06-30 23:03:55 +0600] [15504] [ERROR] Retrying in 1 second.
+[2021-06-30 23:03:56 +0600] [15504] [ERROR] Invalid address: ('185.196.214.55', 8000)
+[2021-06-30 23:03:56 +0600] [15504] [ERROR] Retrying in 1 second.
+[2021-06-30 23:03:57 +0600] [15504] [ERROR] Invalid address: ('185.196.214.55', 8000)
+[2021-06-30 23:03:57 +0600] [15504] [ERROR] Retrying in 1 second.
+[2021-06-30 23:03:58 +0600] [15504] [ERROR] Invalid address: ('185.196.214.55', 8000)
+[2021-06-30 23:03:58 +0600] [15504] [ERROR] Retrying in 1 second.
+[2021-06-30 23:03:59 +0600] [15504] [ERROR] Invalid address: ('185.196.214.55', 8000)
+[2021-06-30 23:03:59 +0600] [15504] [ERROR] Retrying in 1 second.
+[2021-06-30 23:04:00 +0600] [15504] [ERROR] Can't connect to ('185.196.214.55', 8000)
+[2021-06-30 23:04:03 +0600] [15509] [INFO] Starting gunicorn 20.1.0
+[2021-06-30 23:04:03 +0600] [15509] [ERROR] Invalid address: ('185.196.214.55', 8000)
+[2021-06-30 23:04:03 +0600] [15509] [ERROR] Retrying in 1 second.
+[2021-06-30 23:04:04 +0600] [15509] [ERROR] Invalid address: ('185.196.214.55', 8000)
+[2021-06-30 23:04:04 +0600] [15509] [ERROR] Retrying in 1 second.
+[2021-06-30 23:04:05 +0600] [15509] [ERROR] Invalid address: ('185.196.214.55', 8000)
+[2021-06-30 23:04:05 +0600] [15509] [ERROR] Retrying in 1 second.
+[2021-06-30 23:04:06 +0600] [15509] [ERROR] Invalid address: ('185.196.214.55', 8000)
+[2021-06-30 23:04:06 +0600] [15509] [ERROR] Retrying in 1 second.
+[2021-06-30 23:04:07 +0600] [15509] [ERROR] Invalid address: ('185.196.214.55', 8000)
+[2021-06-30 23:04:07 +0600] [15509] [ERROR] Retrying in 1 second.
+[2021-06-30 23:04:08 +0600] [15509] [ERROR] Can't connect to ('185.196.214.55', 8000)
+[2021-06-30 23:04:15 +0600] [15514] [INFO] Starting gunicorn 20.1.0
+[2021-06-30 23:04:15 +0600] [15514] [ERROR] Invalid address: ('185.196.214.55', 8000)
+[2021-06-30 23:04:15 +0600] [15514] [ERROR] Retrying in 1 second.
+[2021-06-30 23:04:16 +0600] [15514] [ERROR] Invalid address: ('185.196.214.55', 8000)
+[2021-06-30 23:04:16 +0600] [15514] [ERROR] Retrying in 1 second.
+[2021-06-30 23:04:17 +0600] [15514] [ERROR] Invalid address: ('185.196.214.55', 8000)
+[2021-06-30 23:04:17 +0600] [15514] [ERROR] Retrying in 1 second.
+[2021-06-30 23:04:18 +0600] [15514] [ERROR] Invalid address: ('185.196.214.55', 8000)
+[2021-06-30 23:04:18 +0600] [15514] [ERROR] Retrying in 1 second.
+[2021-06-30 23:04:19 +0600] [15514] [ERROR] Invalid address: ('185.196.214.55', 8000)
+[2021-06-30 23:04:19 +0600] [15514] [ERROR] Retrying in 1 second.
+[2021-06-30 23:04:20 +0600] [15514] [ERROR] Can't connect to ('185.196.214.55', 8000)
+[2021-06-30 23:04:21 +0600] [15516] [INFO] Starting gunicorn 20.1.0
+[2021-06-30 23:04:21 +0600] [15516] [ERROR] Invalid address: ('185.196.214.55', 8000)
+[2021-06-30 23:04:21 +0600] [15516] [ERROR] Retrying in 1 second.
+[2021-06-30 23:04:22 +0600] [15516] [ERROR] Invalid address: ('185.196.214.55', 8000)
+[2021-06-30 23:04:22 +0600] [15516] [ERROR] Retrying in 1 second.
+[2021-06-30 23:04:23 +0600] [15516] [ERROR] Invalid address: ('185.196.214.55', 8000)
+[2021-06-30 23:04:23 +0600] [15516] [ERROR] Retrying in 1 second.
+[2021-06-30 23:04:24 +0600] [15516] [ERROR] Invalid address: ('185.196.214.55', 8000)
+[2021-06-30 23:04:24 +0600] [15516] [ERROR] Retrying in 1 second.
+[2021-06-30 23:04:25 +0600] [15516] [ERROR] Invalid address: ('185.196.214.55', 8000)
+[2021-06-30 23:04:25 +0600] [15516] [ERROR] Retrying in 1 second.
+[2021-06-30 23:04:26 +0600] [15516] [ERROR] Can't connect to ('185.196.214.55', 8000)
+[2021-06-30 23:04:29 +0600] [15520] [INFO] Starting gunicorn 20.1.0
+[2021-06-30 23:04:29 +0600] [15520] [ERROR] Invalid address: ('185.196.214.55', 8000)
+[2021-06-30 23:04:29 +0600] [15520] [ERROR] Retrying in 1 second.
+[2021-06-30 23:04:30 +0600] [15520] [ERROR] Invalid address: ('185.196.214.55', 8000)
+[2021-06-30 23:04:30 +0600] [15520] [ERROR] Retrying in 1 second.
+[2021-06-30 23:04:31 +0600] [15520] [ERROR] Invalid address: ('185.196.214.55', 8000)
+[2021-06-30 23:04:31 +0600] [15520] [ERROR] Retrying in 1 second.
+[2021-06-30 23:04:32 +0600] [15520] [ERROR] Invalid address: ('185.196.214.55', 8000)
+[2021-06-30 23:04:32 +0600] [15520] [ERROR] Retrying in 1 second.
+[2021-06-30 23:04:33 +0600] [15520] [ERROR] Invalid address: ('185.196.214.55', 8000)
+[2021-06-30 23:04:33 +0600] [15520] [ERROR] Retrying in 1 second.
+[2021-06-30 23:04:34 +0600] [15520] [ERROR] Can't connect to ('185.196.214.55', 8000)
+[2021-06-30 23:04:37 +0600] [15522] [INFO] Starting gunicorn 20.1.0
+[2021-06-30 23:04:37 +0600] [15522] [ERROR] Invalid address: ('185.196.214.55', 8000)
+[2021-06-30 23:04:37 +0600] [15522] [ERROR] Retrying in 1 second.
+[2021-06-30 23:04:38 +0600] [15522] [ERROR] Invalid address: ('185.196.214.55', 8000)
+[2021-06-30 23:04:38 +0600] [15522] [ERROR] Retrying in 1 second.
+[2021-06-30 23:04:39 +0600] [15522] [ERROR] Invalid address: ('185.196.214.55', 8000)
+[2021-06-30 23:04:39 +0600] [15522] [ERROR] Retrying in 1 second.
+[2021-06-30 23:04:40 +0600] [15522] [ERROR] Invalid address: ('185.196.214.55', 8000)
+[2021-06-30 23:04:40 +0600] [15522] [ERROR] Retrying in 1 second.
+[2021-06-30 23:04:41 +0600] [15522] [ERROR] Invalid address: ('185.196.214.55', 8000)
+[2021-06-30 23:04:41 +0600] [15522] [ERROR] Retrying in 1 second.
+[2021-06-30 23:04:42 +0600] [15522] [ERROR] Can't connect to ('185.196.214.55', 8000)
+[2021-06-30 23:05:35 +0600] [15539] [INFO] Starting gunicorn 20.1.0
+[2021-06-30 23:05:35 +0600] [15539] [INFO] Listening at: http://0.0.0.0:8000 (15539)
+[2021-06-30 23:05:35 +0600] [15539] [INFO] Using worker: sync
+[2021-06-30 23:05:35 +0600] [15541] [INFO] Booting worker with pid: 15541
+[2021-06-30 23:05:35 +0600] [15542] [INFO] Booting worker with pid: 15542
+[2021-06-30 23:05:35 +0600] [15543] [INFO] Booting worker with pid: 15543
+Invalid HTTP_HOST header: '192.168.1.3:8000'. You may need to add '192.168.1.3' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: '192.168.1.3:8000'. You may need to add '192.168.1.3' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+Invalid HTTP_HOST header: '192.168.1.3:8000'. You may need to add '192.168.1.3' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: '192.168.1.3:8000'. You may need to add '192.168.1.3' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+Invalid HTTP_HOST header: '192.168.1.3:8000'. You may need to add '192.168.1.3' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: '192.168.1.3:8000'. You may need to add '192.168.1.3' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+Invalid HTTP_HOST header: '192.168.1.3:8000'. You may need to add '192.168.1.3' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: '192.168.1.3:8000'. You may need to add '192.168.1.3' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+[2021-06-30 17:09:54 +0000] [15542] [INFO] Worker exiting (pid: 15542)
+[2021-06-30 17:09:54 +0000] [15543] [INFO] Worker exiting (pid: 15543)
+[2021-06-30 17:09:54 +0000] [15541] [INFO] Worker exiting (pid: 15541)
+[2021-06-30 23:09:54 +0600] [15539] [INFO] Handling signal: term
+[2021-06-30 23:09:54 +0600] [15539] [INFO] Shutting down: Master
+[2021-06-30 23:09:54 +0600] [15683] [INFO] Starting gunicorn 20.1.0
+[2021-06-30 23:09:54 +0600] [15683] [INFO] Listening at: http://0.0.0.0:8000 (15683)
+[2021-06-30 23:09:54 +0600] [15683] [INFO] Using worker: sync
+[2021-06-30 23:09:54 +0600] [15685] [INFO] Booting worker with pid: 15685
+[2021-06-30 23:09:54 +0600] [15686] [INFO] Booting worker with pid: 15686
+[2021-06-30 23:09:54 +0600] [15687] [INFO] Booting worker with pid: 15687
+Not Found: /static/makereport/js/search.js
+Not Found: /assets/js/bootstrap.min.js
+Not Found: /assets/js/script.js
+Not Found: /static/makereport/css/style.css
+Not Found: /static/makereport/js/jquery-1.12.4.js
+Not Found: /static/makereport/js/search.js
+Not Found: /assets/js/bootstrap.min.js
+Not Found: /assets/js/script.js
+Not Found: /favicon.ico
+Not Found: /assets/js/script.js
+Not Found: /assets/js/bootstrap.min.js
+Not Found: /assets/js/bootstrap.min.js
+Not Found: /assets/js/script.js
+Not Found: /login/assets/js/bootstrap.min.js
+Not Found: /login/assets/js/script.js
+Not Found: /login/assets/js/bootstrap.min.js
+Not Found: /login/assets/js/script.js
+Not Found: /login/assets/js/script.js
+Not Found: /login/assets/js/bootstrap.min.js
+Not Found: /login/assets/js/bootstrap.min.js
+Not Found: /login/assets/js/script.js
+Internal Server Error: /pdf/mixing/1
+Traceback (most recent call last):
+  File "/home/user/DTPreport/pdf_report/utils.py", line 29, in generate_pdf
+    template = env.get_template('media/{path}'.format(path=main_template_path))
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/jinja2/environment.py", line 997, in get_template
+    return self._load_template(name, globals)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/jinja2/environment.py", line 958, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/jinja2/loaders.py", line 125, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/jinja2/loaders.py", line 214, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: media/
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/DTPreport/pdf_report/views.py", line 135, in finish_view
+    pdf = generate_pdf(default_template="finishing_report.html", main_template_path=file_path,
+  File "/home/user/DTPreport/pdf_report/utils.py", line 32, in generate_pdf
+    template = env.get_template("templates/template_html/{name}".format(name=default_template))
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/jinja2/environment.py", line 997, in get_template
+    return self._load_template(name, globals)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/jinja2/environment.py", line 958, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/jinja2/loaders.py", line 125, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/jinja2/loaders.py", line 214, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: templates/template_html/finishing_report.html
+Not Found: /assets/js/script.js
+Not Found: /assets/js/bootstrap.min.js
+Not Found: /assets/js/bootstrap.min.js
+Not Found: /assets/js/script.js
+Internal Server Error: /pdf/download_xml_agreement/
+Traceback (most recent call last):
+  File "/home/user/DTPreport/pdf_report/views.py", line 54, in handle_schema
+    file_data = open(file.path, 'rb')
+AttributeError: 'NoneType' object has no attribute 'path'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/DTPreport/pdf_report/views.py", line 49, in get_base_agreement_template
+    return handle_schema(file=file, default_name=name)
+  File "/home/user/DTPreport/pdf_report/views.py", line 58, in handle_schema
+    file_data = open(os.path.join(s.MEDIA_ROOT, '../templates/template_html/{}'.format(default_name)), 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: '/home/user/DTPreport/media/../templates/template_html/aggreement_report.html'
+[2021-06-30 17:28:13 +0000] [15685] [INFO] Worker exiting (pid: 15685)
+[2021-06-30 23:28:13 +0600] [15683] [INFO] Handling signal: term
+[2021-06-30 17:28:13 +0000] [15687] [INFO] Worker exiting (pid: 15687)
+[2021-06-30 17:28:13 +0000] [15686] [INFO] Worker exiting (pid: 15686)
+[2021-06-30 23:28:14 +0600] [15683] [INFO] Shutting down: Master
+[2021-06-30 23:28:14 +0600] [15996] [INFO] Starting gunicorn 20.1.0
+[2021-06-30 23:28:14 +0600] [15996] [INFO] Listening at: http://0.0.0.0:8000 (15996)
+[2021-06-30 23:28:14 +0600] [15996] [INFO] Using worker: sync
+[2021-06-30 23:28:14 +0600] [15998] [INFO] Booting worker with pid: 15998
+[2021-06-30 23:28:14 +0600] [15999] [INFO] Booting worker with pid: 15999
+[2021-06-30 23:28:14 +0600] [16000] [INFO] Booting worker with pid: 16000
+[2021-06-30 23:36:43 +0600] [15996] [INFO] Handling signal: term
+[2021-06-30 17:36:43 +0000] [16000] [INFO] Worker exiting (pid: 16000)
+[2021-06-30 17:36:43 +0000] [15998] [INFO] Worker exiting (pid: 15998)
+[2021-06-30 17:36:43 +0000] [15999] [INFO] Worker exiting (pid: 15999)
+[2021-06-30 23:36:43 +0600] [15996] [INFO] Shutting down: Master
+[2021-06-30 23:36:43 +0600] [16119] [INFO] Starting gunicorn 20.1.0
+[2021-06-30 23:36:43 +0600] [16119] [INFO] Listening at: http://0.0.0.0:8000 (16119)
+[2021-06-30 23:36:43 +0600] [16119] [INFO] Using worker: sync
+[2021-06-30 23:36:43 +0600] [16121] [INFO] Booting worker with pid: 16121
+[2021-06-30 23:36:43 +0600] [16122] [INFO] Booting worker with pid: 16122
+[2021-06-30 23:36:43 +0600] [16123] [INFO] Booting worker with pid: 16123
+Internal Server Error: /pdf/mixing/1
+Traceback (most recent call last):
+  File "/home/user/DTPreport/pdf_report/utils.py", line 29, in generate_pdf
+    template = env.get_template('media/{path}'.format(path=main_template_path))
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/jinja2/environment.py", line 997, in get_template
+    return self._load_template(name, globals)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/jinja2/environment.py", line 958, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/jinja2/loaders.py", line 125, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/jinja2/loaders.py", line 214, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: media/
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/DTPreport/pdf_report/views.py", line 135, in finish_view
+    pdf = generate_pdf(default_template="finishing_report.html", main_template_path=file_path,
+  File "/home/user/DTPreport/pdf_report/utils.py", line 32, in generate_pdf
+    template = env.get_template("templates/template_html/{name}".format(name=default_template))
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/jinja2/environment.py", line 997, in get_template
+    return self._load_template(name, globals)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/jinja2/environment.py", line 958, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/jinja2/loaders.py", line 125, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/jinja2/loaders.py", line 214, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: templates/template_html/finishing_report.html
+Not Found: /assets/js/bootstrap.min.js
+Not Found: /assets/js/bootstrap.min.js
+Not Found: /assets/js/script.js
+Internal Server Error: /pdf/mixing/1
+Traceback (most recent call last):
+  File "/home/user/DTPreport/pdf_report/utils.py", line 29, in generate_pdf
+    template = env.get_template('media/{path}'.format(path=main_template_path))
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/jinja2/environment.py", line 997, in get_template
+    return self._load_template(name, globals)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/jinja2/environment.py", line 958, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/jinja2/loaders.py", line 125, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/jinja2/loaders.py", line 214, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: media/
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/DTPreport/pdf_report/views.py", line 135, in finish_view
+    pdf = generate_pdf(default_template="finishing_report.html", main_template_path=file_path,
+  File "/home/user/DTPreport/pdf_report/utils.py", line 32, in generate_pdf
+    template = env.get_template("templates/template_html/{name}".format(name=default_template))
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/jinja2/environment.py", line 997, in get_template
+    return self._load_template(name, globals)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/jinja2/environment.py", line 958, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/jinja2/loaders.py", line 125, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/jinja2/loaders.py", line 214, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: templates/template_html/finishing_report.html
+Internal Server Error: /pdf/agreement/1
+Traceback (most recent call last):
+  File "/home/user/DTPreport/pdf_report/utils.py", line 29, in generate_pdf
+    template = env.get_template('media/{path}'.format(path=main_template_path))
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/jinja2/environment.py", line 997, in get_template
+    return self._load_template(name, globals)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/jinja2/environment.py", line 958, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/jinja2/loaders.py", line 125, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/jinja2/loaders.py", line 214, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: media/
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/DTPreport/pdf_report/views.py", line 156, in agreement_view
+    pdf = generate_pdf(context=context, default_template="aggreement_report.html", main_template_path=file_name,
+  File "/home/user/DTPreport/pdf_report/utils.py", line 32, in generate_pdf
+    template = env.get_template("templates/template_html/{name}".format(name=default_template))
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/jinja2/environment.py", line 997, in get_template
+    return self._load_template(name, globals)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/jinja2/environment.py", line 958, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/jinja2/loaders.py", line 125, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/jinja2/loaders.py", line 214, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: templates/template_html/aggreement_report.html
+[2021-06-30 23:44:06 +0600] [16119] [INFO] Handling signal: term
+[2021-06-30 17:44:06 +0000] [16123] [INFO] Worker exiting (pid: 16123)
+[2021-06-30 17:44:06 +0000] [16122] [INFO] Worker exiting (pid: 16122)
+[2021-06-30 17:44:06 +0000] [16121] [INFO] Worker exiting (pid: 16121)
+[2021-06-30 23:44:07 +0600] [16119] [INFO] Shutting down: Master
+[2021-06-30 23:44:07 +0600] [16299] [INFO] Starting gunicorn 20.1.0
+[2021-06-30 23:44:07 +0600] [16299] [INFO] Listening at: http://0.0.0.0:8000 (16299)
+[2021-06-30 23:44:07 +0600] [16299] [INFO] Using worker: sync
+[2021-06-30 23:44:07 +0600] [16301] [INFO] Booting worker with pid: 16301
+[2021-06-30 23:44:07 +0600] [16302] [INFO] Booting worker with pid: 16302
+[2021-06-30 23:44:07 +0600] [16303] [INFO] Booting worker with pid: 16303
+Internal Server Error: /pdf/1/
+Traceback (most recent call last):
+  File "/home/user/DTPreport/pdf_report/views.py", line 259, in get
+    response = FileResponse(open(os.path.join(report_pdf.pdf_report.path), 'rb'),
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/models/fields/files.py", line 56, in path
+    self._require_file()
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/models/fields/files.py", line 38, in _require_file
+    raise ValueError("The '%s' attribute has no file associated with it." % self.field.name)
+ValueError: The 'pdf_report' attribute has no file associated with it.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/user/DTPreport/pdf_report/views.py", line 263, in get
+    return get_file('base.pdf', content_type='application/pdf')
+  File "/home/user/DTPreport/pdf_report/views.py", line 72, in get_file
+    response = FileResponse(open(os.path.join(s.MEDIA_ROOT, '..', 'templates', file), 'rb'),
+FileNotFoundError: [Errno 2] No such file or directory: '/home/user/DTPreport/media/../templates/base.pdf'
+Internal Server Error: /pdf/1/
+Traceback (most recent call last):
+  File "/home/user/DTPreport/pdf_report/views.py", line 259, in get
+    response = FileResponse(open(os.path.join(report_pdf.pdf_report.path), 'rb'),
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/models/fields/files.py", line 56, in path
+    self._require_file()
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/models/fields/files.py", line 38, in _require_file
+    raise ValueError("The '%s' attribute has no file associated with it." % self.field.name)
+ValueError: The 'pdf_report' attribute has no file associated with it.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/user/DTPreport/pdf_report/views.py", line 263, in get
+    return get_file('base.pdf', content_type='application/pdf')
+  File "/home/user/DTPreport/pdf_report/views.py", line 72, in get_file
+    response = FileResponse(open(os.path.join(s.MEDIA_ROOT, '..', 'templates', file), 'rb'),
+FileNotFoundError: [Errno 2] No such file or directory: '/home/user/DTPreport/media/../templates/base.pdf'
+[2021-06-30 17:47:47 +0000] [16301] [INFO] Worker exiting (pid: 16301)
+[2021-06-30 17:47:47 +0000] [16303] [INFO] Worker exiting (pid: 16303)
+[2021-06-30 23:47:47 +0600] [16299] [INFO] Handling signal: term
+[2021-06-30 17:47:47 +0000] [16302] [INFO] Worker exiting (pid: 16302)
+[2021-06-30 23:47:47 +0600] [16299] [INFO] Shutting down: Master
+[2021-06-30 23:47:48 +0600] [16379] [INFO] Starting gunicorn 20.1.0
+[2021-06-30 23:47:48 +0600] [16379] [INFO] Listening at: http://0.0.0.0:8000 (16379)
+[2021-06-30 23:47:48 +0600] [16379] [INFO] Using worker: sync
+[2021-06-30 23:47:48 +0600] [16381] [INFO] Booting worker with pid: 16381
+[2021-06-30 23:47:48 +0600] [16382] [INFO] Booting worker with pid: 16382
+[2021-06-30 23:47:48 +0600] [16383] [INFO] Booting worker with pid: 16383
+[2021-06-30 23:51:01 +0600] [16379] [INFO] Handling signal: term
+[2021-06-30 17:51:01 +0000] [16381] [INFO] Worker exiting (pid: 16381)
+[2021-06-30 17:51:01 +0000] [16383] [INFO] Worker exiting (pid: 16383)
+[2021-06-30 17:51:01 +0000] [16382] [INFO] Worker exiting (pid: 16382)
+[2021-06-30 23:51:01 +0600] [16379] [INFO] Shutting down: Master
+[2021-06-30 23:51:01 +0600] [16911] [INFO] Starting gunicorn 20.1.0
+[2021-06-30 23:51:01 +0600] [16911] [INFO] Listening at: http://0.0.0.0:8000 (16911)
+[2021-06-30 23:51:01 +0600] [16911] [INFO] Using worker: sync
+[2021-06-30 23:51:01 +0600] [16913] [INFO] Booting worker with pid: 16913
+[2021-06-30 23:51:01 +0600] [16914] [INFO] Booting worker with pid: 16914
+[2021-06-30 23:51:01 +0600] [16915] [INFO] Booting worker with pid: 16915
+[2021-06-30 17:52:42 +0000] [16914] [INFO] Worker exiting (pid: 16914)
+[2021-06-30 17:52:42 +0000] [16913] [INFO] Worker exiting (pid: 16913)
+[2021-06-30 23:52:42 +0600] [16911] [INFO] Handling signal: term
+[2021-06-30 17:52:42 +0000] [16915] [INFO] Worker exiting (pid: 16915)
+[2021-06-30 23:52:42 +0600] [16911] [INFO] Shutting down: Master
+[2021-06-30 23:52:42 +0600] [17113] [INFO] Starting gunicorn 20.1.0
+[2021-06-30 23:52:42 +0600] [17113] [INFO] Listening at: http://0.0.0.0:8000 (17113)
+[2021-06-30 23:52:42 +0600] [17113] [INFO] Using worker: sync
+[2021-06-30 23:52:42 +0600] [17115] [INFO] Booting worker with pid: 17115
+[2021-06-30 23:52:42 +0600] [17116] [INFO] Booting worker with pid: 17116
+[2021-06-30 23:52:42 +0600] [17117] [INFO] Booting worker with pid: 17117
+[2021-06-30 17:54:31 +0000] [17116] [INFO] Worker exiting (pid: 17116)
+[2021-06-30 23:54:31 +0600] [17113] [INFO] Handling signal: term
+[2021-06-30 17:54:31 +0000] [17115] [INFO] Worker exiting (pid: 17115)
+[2021-06-30 17:54:31 +0000] [17117] [INFO] Worker exiting (pid: 17117)
+[2021-06-30 23:54:31 +0600] [17113] [INFO] Shutting down: Master
+[2021-06-30 23:54:33 +0600] [17163] [INFO] Starting gunicorn 20.1.0
+[2021-06-30 23:54:33 +0600] [17163] [INFO] Listening at: http://0.0.0.0:8000 (17163)
+[2021-06-30 23:54:33 +0600] [17163] [INFO] Using worker: sync
+[2021-06-30 23:54:33 +0600] [17171] [INFO] Booting worker with pid: 17171
+[2021-06-30 23:54:33 +0600] [17172] [INFO] Booting worker with pid: 17172
+[2021-06-30 23:54:33 +0600] [17173] [INFO] Booting worker with pid: 17173
+[2021-06-30 18:30:27 +0000] [17173] [INFO] Worker exiting (pid: 17173)
+[2021-06-30 18:30:27 +0000] [17172] [INFO] Worker exiting (pid: 17172)
+[2021-07-01 00:30:27 +0600] [17163] [INFO] Handling signal: term
+[2021-07-01 00:30:27 +0600] [17163] [WARNING] Worker with pid 17173 was terminated due to signal 15
+[2021-07-01 00:30:27 +0600] [17163] [WARNING] Worker with pid 17172 was terminated due to signal 15
+[2021-06-30 18:30:27 +0000] [17171] [INFO] Worker exiting (pid: 17171)
+[2021-07-01 00:30:28 +0600] [17163] [INFO] Shutting down: Master
+[2021-07-01 00:30:28 +0600] [20025] [INFO] Starting gunicorn 20.1.0
+[2021-07-01 00:30:28 +0600] [20025] [INFO] Listening at: http://0.0.0.0:8000 (20025)
+[2021-07-01 00:30:28 +0600] [20025] [INFO] Using worker: sync
+[2021-07-01 00:30:28 +0600] [20027] [INFO] Booting worker with pid: 20027
+[2021-07-01 00:30:28 +0600] [20028] [INFO] Booting worker with pid: 20028
+[2021-07-01 00:30:28 +0600] [20029] [INFO] Booting worker with pid: 20029
+[2021-07-01 00:33:49 +0600] [20025] [INFO] Handling signal: term
+[2021-06-30 18:33:49 +0000] [20029] [INFO] Worker exiting (pid: 20029)
+[2021-06-30 18:33:49 +0000] [20027] [INFO] Worker exiting (pid: 20027)
+[2021-06-30 18:33:49 +0000] [20028] [INFO] Worker exiting (pid: 20028)
+[2021-07-01 00:33:49 +0600] [20025] [INFO] Shutting down: Master
+[2021-07-01 00:33:50 +0600] [20174] [INFO] Starting gunicorn 20.1.0
+[2021-07-01 00:33:50 +0600] [20174] [INFO] Listening at: http://0.0.0.0:8000 (20174)
+[2021-07-01 00:33:50 +0600] [20174] [INFO] Using worker: sync
+[2021-07-01 00:33:50 +0600] [20176] [INFO] Booting worker with pid: 20176
+[2021-07-01 00:33:50 +0600] [20177] [INFO] Booting worker with pid: 20177
+[2021-07-01 00:33:50 +0600] [20178] [INFO] Booting worker with pid: 20178
+Not Found: /static/makereport/js/search.js
+Not Found: /assets/js/bootstrap.min.js
+Not Found: /assets/js/script.js
+Not Found: /static/makereport/css/style.css
+Not Found: /static/makereport/js/jquery-1.12.4.js
+Not Found: /static/makereport/js/search.js
+Not Found: /assets/js/bootstrap.min.js
+Not Found: /assets/js/script.js
+Not Found: /favicon.ico
+Not Found: /assets/js/bootstrap.min.js
+Not Found: /assets/js/script.js
+Not Found: /assets/js/bootstrap.min.js
+Not Found: /assets/js/script.js
+Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/contrib/sessions/backends/base.py", line 233, in _get_session
+    return self._session_cache
+AttributeError: 'SessionStore' object has no attribute '_session_cache'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UndefinedTable: relation "django_session" does not exist
+LINE 1: ...ession_data", "django_session"."expire_date" FROM "django_se...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/DTPreport/makereport/views.py", line 1024, in user_login
+    if request.user.is_anonymous:
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/utils/functional.py", line 240, in inner
+    self._setup()
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/utils/functional.py", line 376, in _setup
+    self._wrapped = self._setupfunc()
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/contrib/auth/middleware.py", line 23, in <lambda>
+    request.user = SimpleLazyObject(lambda: get_user(request))
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/contrib/auth/middleware.py", line 11, in get_user
+    request._cached_user = auth.get_user(request)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/contrib/auth/__init__.py", line 174, in get_user
+    user_id = _get_user_session_key(request)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/contrib/auth/__init__.py", line 58, in _get_user_session_key
+    return get_user_model()._meta.pk.to_python(request.session[SESSION_KEY])
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/contrib/sessions/backends/base.py", line 65, in __getitem__
+    return self._session[key]
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/contrib/sessions/backends/base.py", line 238, in _get_session
+    self._session_cache = self.load()
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/contrib/sessions/backends/db.py", line 43, in load
+    s = self._get_session_from_db()
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/contrib/sessions/backends/db.py", line 32, in _get_session_from_db
+    return self.model.objects.get(
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/models/query.py", line 425, in get
+    num = len(clone)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/models/query.py", line 269, in __len__
+    self._fetch_all()
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/models/query.py", line 1308, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/models/query.py", line 53, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1156, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/backends/utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/backends/utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.ProgrammingError: relation "django_session" does not exist
+LINE 1: ...ession_data", "django_session"."expire_date" FROM "django_se...
+                                                             ^
+
+Not Found: /login/assets/js/bootstrap.min.js
+Not Found: /login/assets/js/script.js
+Not Found: /login/assets/js/bootstrap.min.js
+Not Found: /login/assets/js/script.js
+Not Found: /login/assets/js/bootstrap.min.js
+Not Found: /login/assets/js/script.js
+Not Found: /login/assets/js/script.js
+Not Found: /pdf/test_report/1/
+Not Found: /pdf/test_report/1/
+Not Found: /pdf/test_pdf/1
+[2021-06-30 19:13:38 +0000] [20176] [INFO] Worker exiting (pid: 20176)
+[2021-06-30 19:13:38 +0000] [20177] [INFO] Worker exiting (pid: 20177)
+[2021-06-30 19:13:38 +0000] [20178] [INFO] Worker exiting (pid: 20178)
+[2021-07-01 01:13:38 +0600] [20174] [INFO] Handling signal: term
+[2021-07-01 01:13:38 +0600] [20174] [INFO] Shutting down: Master
+[2021-07-01 01:13:38 +0600] [21627] [INFO] Starting gunicorn 20.1.0
+[2021-07-01 01:13:38 +0600] [21627] [INFO] Listening at: http://0.0.0.0:8000 (21627)
+[2021-07-01 01:13:38 +0600] [21627] [INFO] Using worker: sync
+[2021-07-01 01:13:38 +0600] [21629] [INFO] Booting worker with pid: 21629
+[2021-07-01 01:13:38 +0600] [21630] [INFO] Booting worker with pid: 21630
+[2021-07-01 01:13:39 +0600] [21631] [INFO] Booting worker with pid: 21631
+Internal Server Error: /pdf/1/
+Traceback (most recent call last):
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/user/DTPreport/pdf_report/views.py", line 259, in get
+    response = FileResponse(open(os.path.abspath(os.path.join(report_pdf.pdf_report.path)), 'rb'),
+FileNotFoundError: [Errno 2] No such file or directory: '/home/user/DTPreport/media/uploads/2021/06/30/.pdf_WIvyHey'
+Internal Server Error: /pdf/2/
+Traceback (most recent call last):
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/user/DTPreport/pdf_report/views.py", line 259, in get
+    response = FileResponse(open(os.path.abspath(os.path.join(report_pdf.pdf_report.path)), 'rb'),
+FileNotFoundError: [Errno 2] No such file or directory: '/home/user/DTPreport/media/uploads/2021/06/30/.pdf_3IA6RPD'
+Internal Server Error: /pdf/2/
+Traceback (most recent call last):
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/user/DTPreport/pdf_report/views.py", line 259, in get
+    response = FileResponse(open(os.path.abspath(os.path.join(report_pdf.pdf_report.path)), 'rb'),
+FileNotFoundError: [Errno 2] No such file or directory: '/home/user/DTPreport/media/uploads/2021/06/30/.pdf_3IA6RPD'
+Internal Server Error: /pdf/2/
+Traceback (most recent call last):
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/user/DTPreport/pdf_report/views.py", line 259, in get
+    response = FileResponse(open(os.path.abspath(os.path.join(report_pdf.pdf_report.path)), 'rb'),
+FileNotFoundError: [Errno 2] No such file or directory: '/home/user/DTPreport/media/uploads/2021/06/30/.pdf_1uAwNsk'
+Internal Server Error: /pdf/2/
+Traceback (most recent call last):
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/user/DTPreport/pdf_report/views.py", line 259, in get
+    response = FileResponse(open(os.path.abspath(os.path.join(report_pdf.pdf_report.path)), 'rb'),
+FileNotFoundError: [Errno 2] No such file or directory: '/home/user/DTPreport/media/uploads/2021/06/30/.pdf_1uAwNsk'
+Internal Server Error: /pdf/2/
+Traceback (most recent call last):
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/user/DTPreport/pdf_report/views.py", line 259, in get
+    response = FileResponse(open(os.path.abspath(os.path.join(report_pdf.pdf_report.path)), 'rb'),
+FileNotFoundError: [Errno 2] No such file or directory: '/home/user/DTPreport/media/uploads/2021/06/30/.pdf_1uAwNsk'
+Internal Server Error: /pdf/2/
+Traceback (most recent call last):
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/user/DTPreport/pdf_report/views.py", line 259, in get
+    response = FileResponse(open(os.path.abspath(os.path.join(report_pdf.pdf_report.path)), 'rb'),
+FileNotFoundError: [Errno 2] No such file or directory: '/home/user/DTPreport/media/uploads/2021/06/30/.pdf_8cxUPWa'
+Internal Server Error: /pdf/2/
+Traceback (most recent call last):
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/user/DTPreport/pdf_report/views.py", line 259, in get
+    response = FileResponse(open(os.path.abspath(os.path.join(report_pdf.pdf_report.path)), 'rb'),
+FileNotFoundError: [Errno 2] No such file or directory: '/home/user/DTPreport/media/uploads/2021/06/30/.pdf_8cxUPWa'
+Internal Server Error: /pdf/2/
+Traceback (most recent call last):
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/user/DTPreport/pdf_report/views.py", line 259, in get
+    response = FileResponse(open(os.path.abspath(os.path.join(report_pdf.pdf_report.path)), 'rb'),
+FileNotFoundError: [Errno 2] No such file or directory: '/home/user/DTPreport/media/uploads/2021/06/30/.pdf_74j5gNQ'
+Internal Server Error: /pdf/2/
+Traceback (most recent call last):
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/user/DTPreport/pdf_report/views.py", line 259, in get
+    response = FileResponse(open(os.path.abspath(os.path.join(report_pdf.pdf_report.path)), 'rb'),
+FileNotFoundError: [Errno 2] No such file or directory: '/home/user/DTPreport/media/uploads/2021/06/30/.pdf_74j5gNQ'
+[2021-07-01 01:34:57 +0600] [21627] [INFO] Handling signal: term
+[2021-06-30 19:34:57 +0000] [21630] [INFO] Worker exiting (pid: 21630)
+[2021-06-30 19:34:57 +0000] [21631] [INFO] Worker exiting (pid: 21631)
+[2021-06-30 19:34:57 +0000] [21629] [INFO] Worker exiting (pid: 21629)
+[2021-07-01 01:34:58 +0600] [21627] [INFO] Shutting down: Master
+[2021-07-01 01:34:58 +0600] [23181] [INFO] Starting gunicorn 20.1.0
+[2021-07-01 01:34:58 +0600] [23181] [INFO] Listening at: http://0.0.0.0:8000 (23181)
+[2021-07-01 01:34:58 +0600] [23181] [INFO] Using worker: sync
+[2021-07-01 01:34:58 +0600] [23183] [INFO] Booting worker with pid: 23183
+[2021-07-01 01:34:58 +0600] [23185] [INFO] Booting worker with pid: 23185
+[2021-07-01 01:34:58 +0600] [23186] [INFO] Booting worker with pid: 23186
+Internal Server Error: /pdf/3/
+Traceback (most recent call last):
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/user/DTPreport/pdf_report/views.py", line 259, in get
+    response = FileResponse(open(os.path.abspath(os.path.join(report_pdf.pdf_report.path)), 'rb'),
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/models/fields/files.py", line 56, in path
+    self._require_file()
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/models/fields/files.py", line 38, in _require_file
+    raise ValueError("The '%s' attribute has no file associated with it." % self.field.name)
+ValueError: The 'pdf_report' attribute has no file associated with it.
+[2021-06-30 19:40:57 +0000] [23183] [INFO] Worker exiting (pid: 23183)
+[2021-07-01 01:40:57 +0600] [23181] [INFO] Handling signal: term
+[2021-06-30 19:40:57 +0000] [23186] [INFO] Worker exiting (pid: 23186)
+[2021-06-30 19:40:57 +0000] [23185] [INFO] Worker exiting (pid: 23185)
+[2021-07-01 01:40:58 +0600] [23181] [INFO] Shutting down: Master
+[2021-07-01 01:40:58 +0600] [23616] [INFO] Starting gunicorn 20.1.0
+[2021-07-01 01:40:58 +0600] [23616] [INFO] Listening at: http://0.0.0.0:8000 (23616)
+[2021-07-01 01:40:58 +0600] [23616] [INFO] Using worker: sync
+[2021-07-01 01:40:58 +0600] [23618] [INFO] Booting worker with pid: 23618
+[2021-07-01 01:40:58 +0600] [23619] [INFO] Booting worker with pid: 23619
+[2021-07-01 01:40:58 +0600] [23620] [INFO] Booting worker with pid: 23620
+Internal Server Error: /pdf/3/
+Traceback (most recent call last):
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/user/DTPreport/pdf_report/views.py", line 259, in get
+    response = FileResponse(open(os.path.abspath(os.path.join(report_pdf.pdf_report.path)), 'rb'),
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/models/fields/files.py", line 56, in path
+    self._require_file()
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/models/fields/files.py", line 38, in _require_file
+    raise ValueError("The '%s' attribute has no file associated with it." % self.field.name)
+ValueError: The 'pdf_report' attribute has no file associated with it.
+[2021-06-30 19:43:40 +0000] [23618] [INFO] Worker exiting (pid: 23618)
+[2021-07-01 01:43:40 +0600] [23616] [INFO] Handling signal: term
+[2021-06-30 19:43:40 +0000] [23620] [INFO] Worker exiting (pid: 23620)
+[2021-06-30 19:43:40 +0000] [23619] [INFO] Worker exiting (pid: 23619)
+[2021-07-01 01:43:40 +0600] [23616] [INFO] Shutting down: Master
+[2021-07-01 01:43:40 +0600] [23753] [INFO] Starting gunicorn 20.1.0
+[2021-07-01 01:43:40 +0600] [23753] [INFO] Listening at: http://0.0.0.0:8000 (23753)
+[2021-07-01 01:43:40 +0600] [23753] [INFO] Using worker: sync
+[2021-07-01 01:43:40 +0600] [23755] [INFO] Booting worker with pid: 23755
+[2021-07-01 01:43:40 +0600] [23756] [INFO] Booting worker with pid: 23756
+[2021-07-01 01:43:40 +0600] [23757] [INFO] Booting worker with pid: 23757
+[2021-06-30 19:45:41 +0000] [23755] [INFO] Worker exiting (pid: 23755)
+[2021-06-30 19:45:41 +0000] [23756] [INFO] Worker exiting (pid: 23756)
+[2021-07-01 01:45:41 +0600] [23753] [INFO] Handling signal: term
+[2021-06-30 19:45:41 +0000] [23757] [INFO] Worker exiting (pid: 23757)
+[2021-07-01 01:45:41 +0600] [23753] [INFO] Shutting down: Master
+[2021-07-01 01:45:41 +0600] [23902] [INFO] Starting gunicorn 20.1.0
+[2021-07-01 01:45:41 +0600] [23902] [INFO] Listening at: http://0.0.0.0:8000 (23902)
+[2021-07-01 01:45:41 +0600] [23902] [INFO] Using worker: sync
+[2021-07-01 01:45:41 +0600] [23904] [INFO] Booting worker with pid: 23904
+[2021-07-01 01:45:41 +0600] [23905] [INFO] Booting worker with pid: 23905
+[2021-07-01 01:45:41 +0600] [23906] [INFO] Booting worker with pid: 23906
+[2021-07-01 01:47:20 +0600] [23902] [INFO] Handling signal: term
+[2021-06-30 19:47:20 +0000] [23904] [INFO] Worker exiting (pid: 23904)
+[2021-06-30 19:47:20 +0000] [23906] [INFO] Worker exiting (pid: 23906)
+[2021-06-30 19:47:20 +0000] [23905] [INFO] Worker exiting (pid: 23905)
+[2021-07-01 01:47:21 +0600] [23902] [INFO] Shutting down: Master
+[2021-07-01 01:47:21 +0600] [24102] [INFO] Starting gunicorn 20.1.0
+[2021-07-01 01:47:21 +0600] [24102] [INFO] Listening at: http://0.0.0.0:8000 (24102)
+[2021-07-01 01:47:21 +0600] [24102] [INFO] Using worker: sync
+[2021-07-01 01:47:21 +0600] [24104] [INFO] Booting worker with pid: 24104
+[2021-07-01 01:47:21 +0600] [24105] [INFO] Booting worker with pid: 24105
+[2021-07-01 01:47:21 +0600] [24106] [INFO] Booting worker with pid: 24106
+Internal Server Error: /pdf/3/
+Traceback (most recent call last):
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/user/DTPreport/pdf_report/views.py", line 259, in get
+    response = FileResponse(open(os.path.abspath(os.path.join(report_pdf.pdf_report.path)), 'rb'),
+FileNotFoundError: [Errno 2] No such file or directory: '/home/user/DTPreport/media/uploads/2021/06/30/.pdf_IqOZNVc'
+[2021-06-30 19:49:34 +0000] [24104] [INFO] Worker exiting (pid: 24104)
+[2021-07-01 01:49:34 +0600] [24102] [INFO] Handling signal: term
+[2021-06-30 19:49:34 +0000] [24106] [INFO] Worker exiting (pid: 24106)
+[2021-06-30 19:49:34 +0000] [24105] [INFO] Worker exiting (pid: 24105)
+[2021-07-01 01:49:35 +0600] [24102] [INFO] Shutting down: Master
+[2021-07-01 01:49:35 +0600] [24212] [INFO] Starting gunicorn 20.1.0
+[2021-07-01 01:49:35 +0600] [24212] [INFO] Listening at: http://0.0.0.0:8000 (24212)
+[2021-07-01 01:49:35 +0600] [24212] [INFO] Using worker: sync
+[2021-07-01 01:49:35 +0600] [24214] [INFO] Booting worker with pid: 24214
+[2021-07-01 01:49:35 +0600] [24215] [INFO] Booting worker with pid: 24215
+[2021-07-01 01:49:35 +0600] [24216] [INFO] Booting worker with pid: 24216
+Internal Server Error: /pdf/4/
+Traceback (most recent call last):
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/user/DTPreport/pdf_report/views.py", line 259, in get
+    response = FileResponse(open(os.path.abspath(os.path.join(report_pdf.pdf_report.path)), 'rb'),
+FileNotFoundError: [Errno 2] No such file or directory: '/home/user/DTPreport/media/uploads/2021/06/30/.pdf_uKO3nOs'
+Internal Server Error: /pdf/4/
+Traceback (most recent call last):
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/user/DTPreport/pdf_report/views.py", line 259, in get
+    response = FileResponse(open(os.path.abspath(os.path.join(report_pdf.pdf_report.path)), 'rb'),
+FileNotFoundError: [Errno 2] No such file or directory: '/home/user/DTPreport/media/uploads/2021/06/30/.pdf_uKO3nOs'
+[2021-06-30 19:54:14 +0000] [24214] [INFO] Worker exiting (pid: 24214)
+[2021-07-01 01:54:14 +0600] [24212] [INFO] Handling signal: term
+[2021-06-30 19:54:14 +0000] [24215] [INFO] Worker exiting (pid: 24215)
+[2021-06-30 19:54:14 +0000] [24216] [INFO] Worker exiting (pid: 24216)
+[2021-07-01 01:54:14 +0600] [24212] [INFO] Shutting down: Master
+[2021-07-01 01:54:14 +0600] [24397] [INFO] Starting gunicorn 20.1.0
+[2021-07-01 01:54:14 +0600] [24397] [INFO] Listening at: http://0.0.0.0:8000 (24397)
+[2021-07-01 01:54:14 +0600] [24397] [INFO] Using worker: sync
+[2021-07-01 01:54:14 +0600] [24399] [INFO] Booting worker with pid: 24399
+[2021-07-01 01:54:14 +0600] [24400] [INFO] Booting worker with pid: 24400
+[2021-07-01 01:54:14 +0600] [24401] [INFO] Booting worker with pid: 24401
+Internal Server Error: /pdf/4/
+Traceback (most recent call last):
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/user/DTPreport/pdf_report/views.py", line 259, in get
+    response = FileResponse(open(os.path.abspath(os.path.join(report_pdf.pdf_report.path)), 'rb'),
+FileNotFoundError: [Errno 2] No such file or directory: '/home/user/DTPreport/media/uploads/2021/06/30/.pdf_J2xqMz4'
+Internal Server Error: /pdf/4/
+Traceback (most recent call last):
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/user/DTPreport/pdf_report/views.py", line 259, in get
+    response = FileResponse(open(os.path.abspath(os.path.join(report_pdf.pdf_report.path)), 'rb'),
+FileNotFoundError: [Errno 2] No such file or directory: '/home/user/DTPreport/media/uploads/2021/06/30/.pdf_wxMmJpt'
+[2021-07-01 19:47:40 +0600] [1146] [INFO] Starting gunicorn 20.1.0
+[2021-07-01 19:47:40 +0600] [1146] [INFO] Listening at: http://0.0.0.0:8000 (1146)
+[2021-07-01 19:47:40 +0600] [1146] [INFO] Using worker: sync
+[2021-07-01 19:47:40 +0600] [1209] [INFO] Booting worker with pid: 1209
+[2021-07-01 19:47:40 +0600] [1212] [INFO] Booting worker with pid: 1212
+[2021-07-01 19:47:40 +0600] [1227] [INFO] Booting worker with pid: 1227
+Not Found: /assets/js/bootstrap.min.js
+Not Found: /assets/js/script.js
+Not Found: /assets/js/bootstrap.min.js
+Not Found: /assets/js/script.js
+Internal Server Error: /pdf/5/
+Traceback (most recent call last):
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/user/DTPreport/pdf_report/views.py", line 259, in get
+    response = FileResponse(open(os.path.abspath(os.path.join(report_pdf.pdf_report.path)), 'rb'),
+FileNotFoundError: [Errno 2] No such file or directory: '/home/user/DTPreport/media/uploads/2021/07/01/5215215215.pdf'
+Not Found: /assets/js/script.js
+Not Found: /assets/js/bootstrap.min.js
+Not Found: /assets/js/bootstrap.min.js
+Not Found: /assets/js/script.js
+[2021-07-01 14:28:17 +0000] [1212] [INFO] Worker exiting (pid: 1212)
+[2021-07-01 14:28:17 +0000] [1227] [INFO] Worker exiting (pid: 1227)
+[2021-07-01 14:28:17 +0000] [1209] [INFO] Worker exiting (pid: 1209)
+[2021-07-01 20:28:17 +0600] [1146] [INFO] Handling signal: term
+[2021-07-01 20:28:17 +0600] [1146] [WARNING] Worker with pid 1209 was terminated due to signal 15
+[2021-07-01 20:28:17 +0600] [1146] [WARNING] Worker with pid 1212 was terminated due to signal 15
+[2021-07-01 20:28:17 +0600] [1146] [WARNING] Worker with pid 1227 was terminated due to signal 15
+[2021-07-01 20:28:17 +0600] [1146] [INFO] Shutting down: Master
+[2021-07-01 20:28:17 +0600] [36084] [INFO] Starting gunicorn 20.1.0
+[2021-07-01 20:28:17 +0600] [36084] [INFO] Listening at: http://0.0.0.0:8000 (36084)
+[2021-07-01 20:28:17 +0600] [36084] [INFO] Using worker: sync
+[2021-07-01 20:28:17 +0600] [36086] [INFO] Booting worker with pid: 36086
+[2021-07-01 20:28:17 +0600] [36087] [INFO] Booting worker with pid: 36087
+[2021-07-01 20:28:17 +0600] [36088] [INFO] Booting worker with pid: 36088
+Not Found: /assets/js/bootstrap.min.js
+Not Found: /assets/js/script.js
+Not Found: /assets/js/bootstrap.min.js
+Not Found: /assets/js/script.js
+[2021-07-01 15:17:18 +0000] [36088] [INFO] Worker exiting (pid: 36088)
+[2021-07-01 21:17:18 +0600] [36084] [INFO] Handling signal: term
+[2021-07-01 15:17:18 +0000] [36086] [INFO] Worker exiting (pid: 36086)
+[2021-07-01 15:17:18 +0000] [36087] [INFO] Worker exiting (pid: 36087)
+[2021-07-01 21:17:18 +0600] [36084] [INFO] Shutting down: Master
+[2021-07-01 21:17:19 +0600] [48282] [INFO] Starting gunicorn 20.1.0
+[2021-07-01 21:17:19 +0600] [48282] [INFO] Listening at: http://0.0.0.0:8000 (48282)
+[2021-07-01 21:17:19 +0600] [48282] [INFO] Using worker: sync
+[2021-07-01 21:17:19 +0600] [48284] [INFO] Booting worker with pid: 48284
+[2021-07-01 21:17:19 +0600] [48285] [INFO] Booting worker with pid: 48285
+[2021-07-01 21:17:19 +0600] [48286] [INFO] Booting worker with pid: 48286
+Internal Server Error: /pdf/test_report/5
+Traceback (most recent call last):
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/DTPreport/pdf_report/views.py", line 164, in test_report
+    pdf = test_report_base(id, TemplateBase)
+  File "/home/user/DTPreport/pdf_report/views.py", line 177, in test_report_base
+    new_report_pdf = Report.objects.get(report_id=id)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/models/query.py", line 429, in get
+    raise self.model.DoesNotExist(
+makereport.models.Report.DoesNotExist: Report matching query does not exist.
+Not Found: /assets/js/bootstrap.min.js
+Not Found: /assets/js/script.js
+Not Found: /assets/js/bootstrap.min.js
+Not Found: /assets/js/script.js
+Not Found: /login/assets/js/bootstrap.min.js
+Not Found: /login/assets/js/bootstrap.min.js
+Not Found: /login/assets/js/script.js
+[2021-07-01 21:20:27 +0600] [48282] [INFO] Handling signal: term
+[2021-07-01 15:20:27 +0000] [48284] [INFO] Worker exiting (pid: 48284)
+[2021-07-01 15:20:27 +0000] [48285] [INFO] Worker exiting (pid: 48285)
+[2021-07-01 15:20:27 +0000] [48286] [INFO] Worker exiting (pid: 48286)
+[2021-07-01 21:20:28 +0600] [48282] [INFO] Shutting down: Master
+[2021-07-01 21:20:28 +0600] [48421] [INFO] Starting gunicorn 20.1.0
+[2021-07-01 21:20:28 +0600] [48421] [INFO] Listening at: http://0.0.0.0:8000 (48421)
+[2021-07-01 21:20:28 +0600] [48421] [INFO] Using worker: sync
+[2021-07-01 21:20:28 +0600] [48423] [INFO] Booting worker with pid: 48423
+[2021-07-01 21:20:28 +0600] [48424] [INFO] Booting worker with pid: 48424
+[2021-07-01 21:20:28 +0600] [48425] [INFO] Booting worker with pid: 48425
+Not Found: /accounts/login/
+Not Found: /assets/js/bootstrap.min.js
+Not Found: /assets/js/script.js
+Not Found: /assets/js/bootstrap.min.js
+Not Found: /assets/js/script.js
+Not Found: /login/assets/js/bootstrap.min.js
+Not Found: /login/assets/js/script.js
+Not Found: /login/assets/js/bootstrap.min.js
+Not Found: /login/assets/js/script.js
+Not Found: /pdf/test_pdf/5/
+Not Found: /pdf/test_pdf/5
+Internal Server Error: /pdf/5/
+Traceback (most recent call last):
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/user/DTPreport/pdf_report/views.py", line 260, in get
+    response = FileResponse(open(os.path.abspath(os.path.join(report_pdf.pdf_report.path)), 'rb'),
+FileNotFoundError: [Errno 2] No such file or directory: '/home/user/DTPreport/media/uploads/2021/07/01/5215215215.pdf'
+Internal Server Error: /pdf/5/
+Traceback (most recent call last):
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/user/DTPreport/pdf_report/views.py", line 260, in get
+    response = FileResponse(open(os.path.abspath(os.path.join(report_pdf.pdf_report.path)), 'rb'),
+FileNotFoundError: [Errno 2] No such file or directory: '/home/user/DTPreport/media/uploads/2021/07/01/5215215215.pdf'
+[2021-07-01 15:34:48 +0000] [48425] [INFO] Worker exiting (pid: 48425)
+[2021-07-01 21:34:48 +0600] [48421] [INFO] Handling signal: term
+[2021-07-01 15:34:48 +0000] [48424] [INFO] Worker exiting (pid: 48424)
+[2021-07-01 15:34:48 +0000] [48423] [INFO] Worker exiting (pid: 48423)
+[2021-07-01 21:34:48 +0600] [48421] [INFO] Shutting down: Master
+[2021-07-01 21:34:48 +0600] [48688] [INFO] Starting gunicorn 20.1.0
+[2021-07-01 21:34:48 +0600] [48688] [INFO] Listening at: http://0.0.0.0:8000 (48688)
+[2021-07-01 21:34:48 +0600] [48688] [INFO] Using worker: sync
+[2021-07-01 21:34:48 +0600] [48690] [INFO] Booting worker with pid: 48690
+[2021-07-01 21:34:48 +0600] [48691] [INFO] Booting worker with pid: 48691
+[2021-07-01 21:34:48 +0600] [48692] [INFO] Booting worker with pid: 48692
+[2021-07-01 15:36:16 +0000] [48690] [INFO] Worker exiting (pid: 48690)
+[2021-07-01 21:36:16 +0600] [48688] [INFO] Handling signal: term
+[2021-07-01 15:36:16 +0000] [48691] [INFO] Worker exiting (pid: 48691)
+[2021-07-01 15:36:16 +0000] [48692] [INFO] Worker exiting (pid: 48692)
+[2021-07-01 21:36:17 +0600] [48688] [INFO] Shutting down: Master
+[2021-07-01 21:36:17 +0600] [48719] [INFO] Starting gunicorn 20.1.0
+[2021-07-01 21:36:17 +0600] [48719] [INFO] Listening at: http://0.0.0.0:8000 (48719)
+[2021-07-01 21:36:17 +0600] [48719] [INFO] Using worker: sync
+[2021-07-01 21:36:17 +0600] [48721] [INFO] Booting worker with pid: 48721
+[2021-07-01 21:36:17 +0600] [48722] [INFO] Booting worker with pid: 48722
+[2021-07-01 21:36:17 +0600] [48723] [INFO] Booting worker with pid: 48723
+[2021-07-02 09:13:12 +0600] [1163] [INFO] Starting gunicorn 20.1.0
+[2021-07-02 09:13:12 +0600] [1163] [INFO] Listening at: http://0.0.0.0:8000 (1163)
+[2021-07-02 09:13:12 +0600] [1163] [INFO] Using worker: sync
+[2021-07-02 09:13:12 +0600] [1227] [INFO] Booting worker with pid: 1227
+[2021-07-02 09:13:12 +0600] [1235] [INFO] Booting worker with pid: 1235
+[2021-07-02 09:13:12 +0600] [1236] [INFO] Booting worker with pid: 1236
+[2021-07-08 18:05:04 +0600] [1101] [INFO] Starting gunicorn 20.1.0
+[2021-07-08 18:05:04 +0600] [1101] [INFO] Listening at: http://0.0.0.0:8000 (1101)
+[2021-07-08 18:05:04 +0600] [1101] [INFO] Using worker: sync
+[2021-07-08 18:05:04 +0600] [1214] [INFO] Booting worker with pid: 1214
+[2021-07-08 18:05:04 +0600] [1219] [INFO] Booting worker with pid: 1219
+[2021-07-08 18:05:04 +0600] [1221] [INFO] Booting worker with pid: 1221
+[2021-07-08 18:06:41 +0600] [1174] [INFO] Starting gunicorn 20.1.0
+[2021-07-08 18:06:41 +0600] [1174] [INFO] Listening at: http://0.0.0.0:8000 (1174)
+[2021-07-08 18:06:41 +0600] [1174] [INFO] Using worker: sync
+[2021-07-08 18:06:41 +0600] [1219] [INFO] Booting worker with pid: 1219
+[2021-07-08 18:06:41 +0600] [1225] [INFO] Booting worker with pid: 1225
+[2021-07-08 18:06:41 +0600] [1234] [INFO] Booting worker with pid: 1234
+[2021-07-08 12:19:54 +0000] [1234] [INFO] Worker exiting (pid: 1234)
+[2021-07-08 12:19:54 +0000] [1225] [INFO] Worker exiting (pid: 1225)
+[2021-07-08 12:19:54 +0000] [1219] [INFO] Worker exiting (pid: 1219)
+[2021-07-08 18:19:54 +0600] [1174] [INFO] Handling signal: term
+[2021-07-08 18:19:54 +0600] [1174] [INFO] Shutting down: Master
+[2021-07-08 18:19:56 +0600] [3599] [INFO] Starting gunicorn 20.1.0
+[2021-07-08 18:19:56 +0600] [3599] [INFO] Listening at: http://0.0.0.0:8000 (3599)
+[2021-07-08 18:19:56 +0600] [3599] [INFO] Using worker: sync
+[2021-07-08 18:19:56 +0600] [3640] [INFO] Booting worker with pid: 3640
+[2021-07-08 18:19:56 +0600] [3642] [INFO] Booting worker with pid: 3642
+[2021-07-08 18:19:56 +0600] [3643] [INFO] Booting worker with pid: 3643
+[2021-07-08 19:50:43 +0600] [1181] [INFO] Starting gunicorn 20.1.0
+[2021-07-08 19:50:43 +0600] [1181] [INFO] Listening at: http://0.0.0.0:8000 (1181)
+[2021-07-08 19:50:43 +0600] [1181] [INFO] Using worker: sync
+[2021-07-08 19:50:43 +0600] [1236] [INFO] Booting worker with pid: 1236
+[2021-07-08 19:50:43 +0600] [1238] [INFO] Booting worker with pid: 1238
+[2021-07-08 19:50:43 +0600] [1240] [INFO] Booting worker with pid: 1240
+[2021-07-08 13:55:30 +0000] [1240] [INFO] Worker exiting (pid: 1240)
+[2021-07-08 19:55:30 +0600] [1181] [INFO] Handling signal: term
+[2021-07-08 13:55:30 +0000] [1236] [INFO] Worker exiting (pid: 1236)
+[2021-07-08 13:55:30 +0000] [1238] [INFO] Worker exiting (pid: 1238)
+[2021-07-08 19:55:31 +0600] [1181] [INFO] Shutting down: Master
+[2021-07-08 19:55:59 +0600] [1187] [INFO] Starting gunicorn 20.1.0
+[2021-07-08 19:55:59 +0600] [1187] [INFO] Listening at: http://0.0.0.0:8000 (1187)
+[2021-07-08 19:55:59 +0600] [1187] [INFO] Using worker: sync
+[2021-07-08 19:55:59 +0600] [1232] [INFO] Booting worker with pid: 1232
+[2021-07-08 19:55:59 +0600] [1233] [INFO] Booting worker with pid: 1233
+[2021-07-08 19:55:59 +0600] [1234] [INFO] Booting worker with pid: 1234
+[2021-07-08 14:05:07 +0000] [1233] [INFO] Worker exiting (pid: 1233)
+[2021-07-08 14:05:07 +0000] [1232] [INFO] Worker exiting (pid: 1232)
+[2021-07-08 14:05:07 +0000] [1234] [INFO] Worker exiting (pid: 1234)
+[2021-07-08 20:05:07 +0600] [1187] [INFO] Handling signal: term
+[2021-07-08 20:05:07 +0600] [1187] [INFO] Shutting down: Master
+[2021-07-08 20:05:26 +0600] [1188] [INFO] Starting gunicorn 20.1.0
+[2021-07-08 20:05:26 +0600] [1188] [INFO] Listening at: http://0.0.0.0:8000 (1188)
+[2021-07-08 20:05:26 +0600] [1188] [INFO] Using worker: sync
+[2021-07-08 20:05:26 +0600] [1237] [INFO] Booting worker with pid: 1237
+[2021-07-08 20:05:26 +0600] [1243] [INFO] Booting worker with pid: 1243
+[2021-07-08 20:05:26 +0600] [1245] [INFO] Booting worker with pid: 1245
+[2021-07-08 14:12:29 +0000] [1245] [INFO] Worker exiting (pid: 1245)
+[2021-07-08 20:12:29 +0600] [1188] [INFO] Handling signal: term
+[2021-07-08 14:12:29 +0000] [1237] [INFO] Worker exiting (pid: 1237)
+[2021-07-08 14:12:29 +0000] [1243] [INFO] Worker exiting (pid: 1243)
+[2021-07-08 20:12:29 +0600] [1188] [INFO] Shutting down: Master
+[2021-07-08 20:12:47 +0600] [1182] [INFO] Starting gunicorn 20.1.0
+[2021-07-08 20:12:47 +0600] [1182] [INFO] Listening at: http://0.0.0.0:8000 (1182)
+[2021-07-08 20:12:47 +0600] [1182] [INFO] Using worker: sync
+[2021-07-08 20:12:47 +0600] [1227] [INFO] Booting worker with pid: 1227
+[2021-07-08 20:12:47 +0600] [1228] [INFO] Booting worker with pid: 1228
+[2021-07-08 20:12:47 +0600] [1235] [INFO] Booting worker with pid: 1235
+[2021-07-08 20:23:37 +0600] [1164] [INFO] Starting gunicorn 20.1.0
+[2021-07-08 20:23:37 +0600] [1164] [INFO] Listening at: http://0.0.0.0:8000 (1164)
+[2021-07-08 20:23:37 +0600] [1164] [INFO] Using worker: sync
+[2021-07-08 20:23:37 +0600] [1231] [INFO] Booting worker with pid: 1231
+[2021-07-08 20:23:37 +0600] [1240] [INFO] Booting worker with pid: 1240
+[2021-07-08 20:23:37 +0600] [1242] [INFO] Booting worker with pid: 1242
+[2021-07-08 14:30:11 +0000] [1240] [INFO] Worker exiting (pid: 1240)
+[2021-07-08 20:30:11 +0600] [1164] [INFO] Handling signal: term
+[2021-07-08 14:30:11 +0000] [1231] [INFO] Worker exiting (pid: 1231)
+[2021-07-08 14:30:11 +0000] [1242] [INFO] Worker exiting (pid: 1242)
+[2021-07-08 20:30:11 +0600] [1164] [INFO] Shutting down: Master
+[2021-07-08 20:30:28 +0600] [1191] [INFO] Starting gunicorn 20.1.0
+[2021-07-08 20:30:28 +0600] [1191] [INFO] Listening at: http://0.0.0.0:8000 (1191)
+[2021-07-08 20:30:28 +0600] [1191] [INFO] Using worker: sync
+[2021-07-08 20:30:28 +0600] [1236] [INFO] Booting worker with pid: 1236
+[2021-07-08 20:30:28 +0600] [1242] [INFO] Booting worker with pid: 1242
+[2021-07-08 20:30:28 +0600] [1243] [INFO] Booting worker with pid: 1243
+[2021-07-08 17:06:39 +0000] [1242] [INFO] Worker exiting (pid: 1242)
+[2021-07-08 17:06:39 +0000] [1236] [INFO] Worker exiting (pid: 1236)
+[2021-07-08 17:06:39 +0000] [1243] [INFO] Worker exiting (pid: 1243)
+[2021-07-08 23:06:39 +0600] [1191] [INFO] Handling signal: term
+[2021-07-08 23:06:39 +0600] [1191] [WARNING] Worker with pid 1242 was terminated due to signal 15
+[2021-07-08 23:06:39 +0600] [1191] [WARNING] Worker with pid 1236 was terminated due to signal 15
+[2021-07-08 23:06:39 +0600] [1191] [WARNING] Worker with pid 1243 was terminated due to signal 15
+[2021-07-08 23:06:39 +0600] [1191] [INFO] Shutting down: Master
+[2021-07-08 23:06:39 +0600] [5343] [INFO] Starting gunicorn 20.1.0
+[2021-07-08 23:06:39 +0600] [5343] [INFO] Listening at: http://192.168.1.3:8000 (5343)
+[2021-07-08 23:06:39 +0600] [5343] [INFO] Using worker: sync
+[2021-07-08 23:06:39 +0600] [5345] [INFO] Booting worker with pid: 5345
+[2021-07-08 23:06:39 +0600] [5346] [INFO] Booting worker with pid: 5346
+[2021-07-08 23:06:39 +0600] [5347] [INFO] Booting worker with pid: 5347
+[2021-07-08 17:06:47 +0000] [5345] [INFO] Worker exiting (pid: 5345)
+[2021-07-08 17:06:47 +0000] [5347] [INFO] Worker exiting (pid: 5347)
+[2021-07-08 17:06:47 +0000] [5346] [INFO] Worker exiting (pid: 5346)
+[2021-07-08 23:06:47 +0600] [5343] [INFO] Handling signal: term
+[2021-07-08 23:06:48 +0600] [5343] [INFO] Shutting down: Master
+[2021-07-08 23:06:48 +0600] [5352] [INFO] Starting gunicorn 20.1.0
+[2021-07-08 23:06:48 +0600] [5352] [INFO] Listening at: http://192.168.1.3:8000 (5352)
+[2021-07-08 23:06:48 +0600] [5352] [INFO] Using worker: sync
+[2021-07-08 23:06:48 +0600] [5354] [INFO] Booting worker with pid: 5354
+[2021-07-08 23:06:48 +0600] [5355] [INFO] Booting worker with pid: 5355
+[2021-07-08 23:06:48 +0600] [5356] [INFO] Booting worker with pid: 5356
+[2021-07-08 23:13:14 +0600] [5352] [INFO] Handling signal: term
+[2021-07-08 17:13:14 +0000] [5356] [INFO] Worker exiting (pid: 5356)
+[2021-07-08 17:13:14 +0000] [5354] [INFO] Worker exiting (pid: 5354)
+[2021-07-08 17:13:14 +0000] [5355] [INFO] Worker exiting (pid: 5355)
+[2021-07-08 23:13:15 +0600] [5352] [INFO] Shutting down: Master
+[2021-07-08 23:13:15 +0600] [5680] [INFO] Starting gunicorn 20.1.0
+[2021-07-08 23:13:15 +0600] [5680] [INFO] Listening at: http://192.168.1.3:8000 (5680)
+[2021-07-08 23:13:15 +0600] [5680] [INFO] Using worker: sync
+[2021-07-08 23:13:15 +0600] [5682] [INFO] Booting worker with pid: 5682
+[2021-07-08 23:13:15 +0600] [5683] [INFO] Booting worker with pid: 5683
+[2021-07-08 23:13:15 +0600] [5684] [INFO] Booting worker with pid: 5684
+[2021-07-08 17:14:15 +0000] [5684] [INFO] Worker exiting (pid: 5684)
+[2021-07-08 17:14:15 +0000] [5682] [INFO] Worker exiting (pid: 5682)
+[2021-07-08 17:14:15 +0000] [5683] [INFO] Worker exiting (pid: 5683)
+[2021-07-08 23:14:15 +0600] [5680] [INFO] Handling signal: term
+[2021-07-08 23:14:15 +0600] [5680] [INFO] Shutting down: Master
+[2021-07-08 23:14:16 +0600] [5815] [INFO] Starting gunicorn 20.1.0
+[2021-07-08 23:14:16 +0600] [5815] [INFO] Listening at: http://0.0.0.0:8000 (5815)
+[2021-07-08 23:14:16 +0600] [5815] [INFO] Using worker: sync
+[2021-07-08 23:14:16 +0600] [5817] [INFO] Booting worker with pid: 5817
+[2021-07-08 23:14:16 +0600] [5818] [INFO] Booting worker with pid: 5818
+[2021-07-08 23:14:16 +0600] [5819] [INFO] Booting worker with pid: 5819
+[2021-07-08 17:14:19 +0000] [5819] [INFO] Worker exiting (pid: 5819)
+[2021-07-08 17:14:19 +0000] [5818] [INFO] Worker exiting (pid: 5818)
+[2021-07-08 17:14:19 +0000] [5817] [INFO] Worker exiting (pid: 5817)
+[2021-07-08 23:14:19 +0600] [5815] [INFO] Handling signal: term
+[2021-07-08 23:14:19 +0600] [5815] [INFO] Shutting down: Master
+[2021-07-08 23:14:19 +0600] [5824] [INFO] Starting gunicorn 20.1.0
+[2021-07-08 23:14:19 +0600] [5824] [INFO] Listening at: http://0.0.0.0:8000 (5824)
+[2021-07-08 23:14:19 +0600] [5824] [INFO] Using worker: sync
+[2021-07-08 23:14:19 +0600] [5826] [INFO] Booting worker with pid: 5826
+[2021-07-08 23:14:19 +0600] [5827] [INFO] Booting worker with pid: 5827
+[2021-07-08 23:14:19 +0600] [5828] [INFO] Booting worker with pid: 5828
+[2021-07-08 17:18:53 +0000] [5828] [INFO] Worker exiting (pid: 5828)
+[2021-07-08 17:18:53 +0000] [5826] [INFO] Worker exiting (pid: 5826)
+[2021-07-08 17:18:53 +0000] [5827] [INFO] Worker exiting (pid: 5827)
+[2021-07-08 23:18:53 +0600] [5824] [INFO] Handling signal: term
+[2021-07-08 23:18:54 +0600] [5824] [INFO] Shutting down: Master
+[2021-07-08 23:18:55 +0600] [6070] [INFO] Starting gunicorn 20.1.0
+[2021-07-08 23:18:55 +0600] [6070] [INFO] Listening at: http://192.168.1.3:8000 (6070)
+[2021-07-08 23:18:55 +0600] [6070] [INFO] Using worker: sync
+[2021-07-08 23:18:55 +0600] [6072] [INFO] Booting worker with pid: 6072
+[2021-07-08 23:18:55 +0600] [6073] [INFO] Booting worker with pid: 6073
+[2021-07-08 23:18:55 +0600] [6074] [INFO] Booting worker with pid: 6074
+[2021-07-08 17:18:57 +0000] [6073] [INFO] Worker exiting (pid: 6073)
+[2021-07-08 23:18:57 +0600] [6070] [INFO] Handling signal: term
+[2021-07-08 17:18:57 +0000] [6072] [INFO] Worker exiting (pid: 6072)
+[2021-07-08 17:18:57 +0000] [6074] [INFO] Worker exiting (pid: 6074)
+[2021-07-08 23:18:57 +0600] [6070] [INFO] Shutting down: Master
+[2021-07-08 23:18:57 +0600] [6077] [INFO] Starting gunicorn 20.1.0
+[2021-07-08 23:18:57 +0600] [6077] [INFO] Listening at: http://192.168.1.3:8000 (6077)
+[2021-07-08 23:18:57 +0600] [6077] [INFO] Using worker: sync
+[2021-07-08 23:18:57 +0600] [6079] [INFO] Booting worker with pid: 6079
+[2021-07-08 23:18:57 +0600] [6080] [INFO] Booting worker with pid: 6080
+[2021-07-08 23:18:57 +0600] [6081] [INFO] Booting worker with pid: 6081
+[2021-07-08 17:20:52 +0000] [6080] [INFO] Worker exiting (pid: 6080)
+[2021-07-08 17:20:52 +0000] [6079] [INFO] Worker exiting (pid: 6079)
+[2021-07-08 17:20:52 +0000] [6081] [INFO] Worker exiting (pid: 6081)
+[2021-07-08 23:20:52 +0600] [6077] [INFO] Handling signal: term
+[2021-07-08 23:20:53 +0600] [6077] [INFO] Shutting down: Master
+[2021-07-08 23:20:54 +0600] [6205] [INFO] Starting gunicorn 20.1.0
+[2021-07-08 23:20:54 +0600] [6205] [ERROR] Invalid address: ('89.236.227.206', 8000)
+[2021-07-08 23:20:54 +0600] [6205] [ERROR] Retrying in 1 second.
+[2021-07-08 23:20:55 +0600] [6205] [ERROR] Invalid address: ('89.236.227.206', 8000)
+[2021-07-08 23:20:55 +0600] [6205] [ERROR] Retrying in 1 second.
+[2021-07-08 23:20:56 +0600] [6205] [ERROR] Invalid address: ('89.236.227.206', 8000)
+[2021-07-08 23:20:56 +0600] [6205] [ERROR] Retrying in 1 second.
+[2021-07-08 23:20:57 +0600] [6205] [ERROR] Invalid address: ('89.236.227.206', 8000)
+[2021-07-08 23:20:57 +0600] [6205] [ERROR] Retrying in 1 second.
+[2021-07-08 23:20:58 +0600] [6205] [ERROR] Invalid address: ('89.236.227.206', 8000)
+[2021-07-08 23:20:58 +0600] [6205] [ERROR] Retrying in 1 second.
+[2021-07-08 23:20:59 +0600] [6205] [ERROR] Can't connect to ('89.236.227.206', 8000)
+[2021-07-08 23:20:59 +0600] [6212] [INFO] Starting gunicorn 20.1.0
+[2021-07-08 23:20:59 +0600] [6212] [ERROR] Invalid address: ('89.236.227.206', 8000)
+[2021-07-08 23:20:59 +0600] [6212] [ERROR] Retrying in 1 second.
+[2021-07-08 23:21:00 +0600] [6212] [ERROR] Invalid address: ('89.236.227.206', 8000)
+[2021-07-08 23:21:00 +0600] [6212] [ERROR] Retrying in 1 second.
+[2021-07-08 23:21:01 +0600] [6212] [ERROR] Invalid address: ('89.236.227.206', 8000)
+[2021-07-08 23:21:01 +0600] [6212] [ERROR] Retrying in 1 second.
+[2021-07-08 23:21:02 +0600] [6212] [ERROR] Invalid address: ('89.236.227.206', 8000)
+[2021-07-08 23:21:02 +0600] [6212] [ERROR] Retrying in 1 second.
+[2021-07-08 23:21:03 +0600] [6212] [ERROR] Invalid address: ('89.236.227.206', 8000)
+[2021-07-08 23:21:03 +0600] [6212] [ERROR] Retrying in 1 second.
+[2021-07-08 23:21:04 +0600] [6212] [ERROR] Can't connect to ('89.236.227.206', 8000)
+[2021-07-08 23:21:05 +0600] [6217] [INFO] Starting gunicorn 20.1.0
+[2021-07-08 23:21:05 +0600] [6217] [ERROR] Invalid address: ('89.236.227.206', 8000)
+[2021-07-08 23:21:05 +0600] [6217] [ERROR] Retrying in 1 second.
+[2021-07-08 23:21:06 +0600] [6217] [ERROR] Invalid address: ('89.236.227.206', 8000)
+[2021-07-08 23:21:06 +0600] [6217] [ERROR] Retrying in 1 second.
+[2021-07-08 23:21:07 +0600] [6217] [ERROR] Invalid address: ('89.236.227.206', 8000)
+[2021-07-08 23:21:07 +0600] [6217] [ERROR] Retrying in 1 second.
+[2021-07-08 23:21:08 +0600] [6217] [ERROR] Invalid address: ('89.236.227.206', 8000)
+[2021-07-08 23:21:08 +0600] [6217] [ERROR] Retrying in 1 second.
+[2021-07-08 23:21:09 +0600] [6217] [ERROR] Invalid address: ('89.236.227.206', 8000)
+[2021-07-08 23:21:09 +0600] [6217] [ERROR] Retrying in 1 second.
+[2021-07-08 23:21:10 +0600] [6217] [ERROR] Can't connect to ('89.236.227.206', 8000)
+[2021-07-08 23:21:12 +0600] [6221] [INFO] Starting gunicorn 20.1.0
+[2021-07-08 23:21:12 +0600] [6221] [ERROR] Invalid address: ('89.236.227.206', 8000)
+[2021-07-08 23:21:12 +0600] [6221] [ERROR] Retrying in 1 second.
+[2021-07-08 23:21:13 +0600] [6221] [ERROR] Invalid address: ('89.236.227.206', 8000)
+[2021-07-08 23:21:13 +0600] [6221] [ERROR] Retrying in 1 second.
+[2021-07-08 23:21:14 +0600] [6221] [ERROR] Invalid address: ('89.236.227.206', 8000)
+[2021-07-08 23:21:14 +0600] [6221] [ERROR] Retrying in 1 second.
+[2021-07-08 23:21:15 +0600] [6221] [ERROR] Invalid address: ('89.236.227.206', 8000)
+[2021-07-08 23:21:15 +0600] [6221] [ERROR] Retrying in 1 second.
+[2021-07-08 23:21:16 +0600] [6221] [ERROR] Invalid address: ('89.236.227.206', 8000)
+[2021-07-08 23:21:16 +0600] [6221] [ERROR] Retrying in 1 second.
+[2021-07-08 23:21:17 +0600] [6221] [ERROR] Can't connect to ('89.236.227.206', 8000)
+[2021-07-08 23:21:20 +0600] [6227] [INFO] Starting gunicorn 20.1.0
+[2021-07-08 23:21:20 +0600] [6227] [ERROR] Invalid address: ('89.236.227.206', 8000)
+[2021-07-08 23:21:20 +0600] [6227] [ERROR] Retrying in 1 second.
+[2021-07-08 23:21:21 +0600] [6227] [ERROR] Invalid address: ('89.236.227.206', 8000)
+[2021-07-08 23:21:21 +0600] [6227] [ERROR] Retrying in 1 second.
+[2021-07-08 23:21:22 +0600] [6227] [ERROR] Invalid address: ('89.236.227.206', 8000)
+[2021-07-08 23:21:22 +0600] [6227] [ERROR] Retrying in 1 second.
+[2021-07-08 23:21:23 +0600] [6227] [ERROR] Invalid address: ('89.236.227.206', 8000)
+[2021-07-08 23:21:23 +0600] [6227] [ERROR] Retrying in 1 second.
+[2021-07-08 23:21:24 +0600] [6227] [ERROR] Invalid address: ('89.236.227.206', 8000)
+[2021-07-08 23:21:24 +0600] [6227] [ERROR] Retrying in 1 second.
+[2021-07-08 23:21:25 +0600] [6227] [ERROR] Can't connect to ('89.236.227.206', 8000)
+[2021-07-08 23:21:40 +0600] [6235] [INFO] Starting gunicorn 20.1.0
+[2021-07-08 23:21:40 +0600] [6235] [ERROR] Invalid address: ('89.236.227.206', 8000)
+[2021-07-08 23:21:40 +0600] [6235] [ERROR] Retrying in 1 second.
+[2021-07-08 23:21:41 +0600] [6235] [ERROR] Invalid address: ('89.236.227.206', 8000)
+[2021-07-08 23:21:41 +0600] [6235] [ERROR] Retrying in 1 second.
+[2021-07-08 23:21:42 +0600] [6235] [ERROR] Invalid address: ('89.236.227.206', 8000)
+[2021-07-08 23:21:42 +0600] [6235] [ERROR] Retrying in 1 second.
+[2021-07-08 23:21:43 +0600] [6235] [ERROR] Invalid address: ('89.236.227.206', 8000)
+[2021-07-08 23:21:43 +0600] [6235] [ERROR] Retrying in 1 second.
+[2021-07-08 23:21:44 +0600] [6235] [ERROR] Invalid address: ('89.236.227.206', 8000)
+[2021-07-08 23:21:44 +0600] [6235] [ERROR] Retrying in 1 second.
+[2021-07-08 23:21:45 +0600] [6235] [ERROR] Can't connect to ('89.236.227.206', 8000)
+[2021-07-08 23:21:46 +0600] [6239] [INFO] Starting gunicorn 20.1.0
+[2021-07-08 23:21:46 +0600] [6239] [ERROR] Invalid address: ('89.236.227.206', 8000)
+[2021-07-08 23:21:46 +0600] [6239] [ERROR] Retrying in 1 second.
+[2021-07-08 23:21:47 +0600] [6239] [ERROR] Invalid address: ('89.236.227.206', 8000)
+[2021-07-08 23:21:47 +0600] [6239] [ERROR] Retrying in 1 second.
+[2021-07-08 23:21:48 +0600] [6239] [ERROR] Invalid address: ('89.236.227.206', 8000)
+[2021-07-08 23:21:48 +0600] [6239] [ERROR] Retrying in 1 second.
+[2021-07-08 23:21:49 +0600] [6239] [ERROR] Invalid address: ('89.236.227.206', 8000)
+[2021-07-08 23:21:49 +0600] [6239] [ERROR] Retrying in 1 second.
+[2021-07-08 23:21:50 +0600] [6239] [ERROR] Invalid address: ('89.236.227.206', 8000)
+[2021-07-08 23:21:50 +0600] [6239] [ERROR] Retrying in 1 second.
+[2021-07-08 23:21:51 +0600] [6239] [ERROR] Can't connect to ('89.236.227.206', 8000)
+[2021-07-08 23:21:54 +0600] [6243] [INFO] Starting gunicorn 20.1.0
+[2021-07-08 23:21:54 +0600] [6243] [ERROR] Invalid address: ('89.236.227.206', 8000)
+[2021-07-08 23:21:54 +0600] [6243] [ERROR] Retrying in 1 second.
+[2021-07-08 23:21:55 +0600] [6243] [ERROR] Invalid address: ('89.236.227.206', 8000)
+[2021-07-08 23:21:55 +0600] [6243] [ERROR] Retrying in 1 second.
+[2021-07-08 23:21:56 +0600] [6243] [ERROR] Invalid address: ('89.236.227.206', 8000)
+[2021-07-08 23:21:56 +0600] [6243] [ERROR] Retrying in 1 second.
+[2021-07-08 23:21:57 +0600] [6243] [ERROR] Invalid address: ('89.236.227.206', 8000)
+[2021-07-08 23:21:57 +0600] [6243] [ERROR] Retrying in 1 second.
+[2021-07-08 23:21:58 +0600] [6243] [ERROR] Invalid address: ('89.236.227.206', 8000)
+[2021-07-08 23:21:58 +0600] [6243] [ERROR] Retrying in 1 second.
+[2021-07-08 23:21:59 +0600] [6243] [ERROR] Can't connect to ('89.236.227.206', 8000)
+[2021-07-08 23:22:02 +0600] [6246] [INFO] Starting gunicorn 20.1.0
+[2021-07-08 23:22:02 +0600] [6246] [ERROR] Invalid address: ('89.236.227.206', 8000)
+[2021-07-08 23:22:02 +0600] [6246] [ERROR] Retrying in 1 second.
+[2021-07-08 23:22:03 +0600] [6246] [ERROR] Invalid address: ('89.236.227.206', 8000)
+[2021-07-08 23:22:03 +0600] [6246] [ERROR] Retrying in 1 second.
+[2021-07-08 23:22:04 +0600] [6246] [ERROR] Invalid address: ('89.236.227.206', 8000)
+[2021-07-08 23:22:04 +0600] [6246] [ERROR] Retrying in 1 second.
+[2021-07-08 23:22:05 +0600] [6246] [ERROR] Invalid address: ('89.236.227.206', 8000)
+[2021-07-08 23:22:05 +0600] [6246] [ERROR] Retrying in 1 second.
+[2021-07-08 23:22:06 +0600] [6246] [ERROR] Invalid address: ('89.236.227.206', 8000)
+[2021-07-08 23:22:06 +0600] [6246] [ERROR] Retrying in 1 second.
+[2021-07-08 23:22:07 +0600] [6246] [ERROR] Can't connect to ('89.236.227.206', 8000)
+[2021-07-08 23:23:53 +0600] [6349] [INFO] Starting gunicorn 20.1.0
+[2021-07-08 23:23:53 +0600] [6349] [INFO] Listening at: http://0.0.0.0:8000 (6349)
+[2021-07-08 23:23:53 +0600] [6349] [INFO] Using worker: sync
+[2021-07-08 23:23:53 +0600] [6351] [INFO] Booting worker with pid: 6351
+[2021-07-08 23:23:53 +0600] [6352] [INFO] Booting worker with pid: 6352
+[2021-07-08 23:23:53 +0600] [6353] [INFO] Booting worker with pid: 6353
+[2021-07-08 17:23:56 +0000] [6352] [INFO] Worker exiting (pid: 6352)
+[2021-07-08 23:23:56 +0600] [6349] [INFO] Handling signal: term
+[2021-07-08 17:23:56 +0000] [6351] [INFO] Worker exiting (pid: 6351)
+[2021-07-08 17:23:56 +0000] [6353] [INFO] Worker exiting (pid: 6353)
+[2021-07-08 23:23:56 +0600] [6349] [INFO] Shutting down: Master
+[2021-07-08 23:23:56 +0600] [6356] [INFO] Starting gunicorn 20.1.0
+[2021-07-08 23:23:56 +0600] [6356] [INFO] Listening at: http://0.0.0.0:8000 (6356)
+[2021-07-08 23:23:56 +0600] [6356] [INFO] Using worker: sync
+[2021-07-08 23:23:56 +0600] [6358] [INFO] Booting worker with pid: 6358
+[2021-07-08 23:23:57 +0600] [6359] [INFO] Booting worker with pid: 6359
+[2021-07-08 23:23:57 +0600] [6362] [INFO] Booting worker with pid: 6362
+[2021-07-08 17:51:39 +0000] [6359] [INFO] Worker exiting (pid: 6359)
+[2021-07-08 17:51:39 +0000] [6362] [INFO] Worker exiting (pid: 6362)
+[2021-07-08 23:51:39 +0600] [6356] [INFO] Handling signal: term
+[2021-07-08 17:51:39 +0000] [6358] [INFO] Worker exiting (pid: 6358)
+[2021-07-08 23:51:39 +0600] [6356] [INFO] Shutting down: Master
+[2021-07-09 18:43:19 +0600] [1224] [INFO] Starting gunicorn 20.1.0
+[2021-07-09 18:43:19 +0600] [1224] [INFO] Listening at: http://0.0.0.0:8000 (1224)
+[2021-07-09 18:43:19 +0600] [1224] [INFO] Using worker: sync
+[2021-07-09 18:43:19 +0600] [1279] [INFO] Booting worker with pid: 1279
+[2021-07-09 18:43:19 +0600] [1280] [INFO] Booting worker with pid: 1280
+[2021-07-09 18:43:19 +0600] [1282] [INFO] Booting worker with pid: 1282
+[2021-07-09 12:43:52 +0000] [1282] [INFO] Worker exiting (pid: 1282)
+[2021-07-09 12:43:52 +0000] [1279] [INFO] Worker exiting (pid: 1279)
+[2021-07-09 12:43:52 +0000] [1280] [INFO] Worker exiting (pid: 1280)
+[2021-07-09 18:43:52 +0600] [1224] [INFO] Handling signal: term
+[2021-07-09 18:43:53 +0600] [1224] [INFO] Shutting down: Master
+[2021-07-09 18:43:53 +0600] [1726] [INFO] Starting gunicorn 20.1.0
+[2021-07-09 18:43:53 +0600] [1726] [INFO] Listening at: http://0.0.0.0:8000 (1726)
+[2021-07-09 18:43:53 +0600] [1726] [INFO] Using worker: sync
+[2021-07-09 18:43:53 +0600] [1728] [INFO] Booting worker with pid: 1728
+[2021-07-09 18:43:53 +0600] [1729] [INFO] Booting worker with pid: 1729
+[2021-07-09 18:43:53 +0600] [1730] [INFO] Booting worker with pid: 1730
+Not Found: /assets/js/bootstrap.min.js
+Not Found: /assets/js/script.js
+Not Found: /assets/js/bootstrap.min.js
+Not Found: /assets/js/script.js
+Invalid HTTP_HOST header: '89.236.227.206'. You may need to add '89.236.227.206' to ALLOWED_HOSTS.
+Bad Request: /
+[2021-07-09 12:47:19 +0000] [1730] [INFO] Worker exiting (pid: 1730)
+[2021-07-09 12:47:19 +0000] [1729] [INFO] Worker exiting (pid: 1729)
+[2021-07-09 18:47:19 +0600] [1726] [INFO] Handling signal: term
+[2021-07-09 12:47:19 +0000] [1728] [INFO] Worker exiting (pid: 1728)
+[2021-07-09 18:47:20 +0600] [1726] [INFO] Shutting down: Master
+[2021-07-09 18:47:20 +0600] [1984] [INFO] Starting gunicorn 20.1.0
+[2021-07-09 18:47:20 +0600] [1984] [INFO] Listening at: http://0.0.0.0:8000 (1984)
+[2021-07-09 18:47:20 +0600] [1984] [INFO] Using worker: sync
+[2021-07-09 18:47:20 +0600] [1986] [INFO] Booting worker with pid: 1986
+[2021-07-09 18:47:20 +0600] [1987] [INFO] Booting worker with pid: 1987
+[2021-07-09 18:47:20 +0600] [1988] [INFO] Booting worker with pid: 1988
+Not Found: /assets/js/bootstrap.min.js
+Not Found: /assets/js/script.js
+Not Found: /assets/js/bootstrap.min.js
+Not Found: /assets/js/script.js
+Not Found: /assets/js/bootstrap.min.js
+Not Found: /assets/js/script.js
+Not Found: /login/assets/js/bootstrap.min.js
+Not Found: /login/assets/js/bootstrap.min.js
+Not Found: /login/assets/js/script.js
+Not Found: /assets/js/script.js
+Not Found: /assets/js/bootstrap.min.js
+Not Found: /assets/js/script.js
+Not Found: /assets/js/bootstrap.min.js
+Not Found: /assets/js/script.js
+Not Found: /assets/js/bootstrap.min.js
+Not Found: /assets/js/script.js
+Not Found: /assets/js/bootstrap.min.js
+Not Found: /assets/js/script.js
+Not Found: /assets/js/bootstrap.min.js
+Not Found: /assets/js/script.js
+Not Found: /assets/js/bootstrap.min.js
+Not Found: /assets/js/script.js
+[2021-07-26 17:56:49 +0600] [1098] [INFO] Starting gunicorn 20.1.0
+[2021-07-26 17:56:49 +0600] [1098] [INFO] Listening at: http://0.0.0.0:8000 (1098)
+[2021-07-26 17:56:49 +0600] [1098] [INFO] Using worker: sync
+[2021-07-26 17:56:49 +0600] [1235] [INFO] Booting worker with pid: 1235
+[2021-07-26 17:56:50 +0600] [1243] [INFO] Booting worker with pid: 1243
+[2021-07-26 17:56:50 +0600] [1244] [INFO] Booting worker with pid: 1244
+Not Found: /assets/js/script.js
+Not Found: /assets/js/bootstrap.min.js
+Not Found: /assets/js/script.js
+Not Found: /login/assets/js/bootstrap.min.js
+Not Found: /login/assets/js/script.js
+Not Found: /login/assets/js/script.js
+[2021-07-26 12:00:34 +0000] [1244] [INFO] Worker exiting (pid: 1244)
+[2021-07-26 18:00:34 +0600] [1098] [INFO] Handling signal: term
+[2021-07-26 12:00:34 +0000] [1243] [INFO] Worker exiting (pid: 1243)
+[2021-07-26 12:00:34 +0000] [1235] [INFO] Worker exiting (pid: 1235)
+[2021-07-26 18:00:34 +0600] [1098] [INFO] Shutting down: Master
+[2021-07-26 18:02:02 +0600] [2845] [INFO] Starting gunicorn 20.1.0
+[2021-07-26 18:02:02 +0600] [2845] [INFO] Listening at: http://0.0.0.0:8000 (2845)
+[2021-07-26 18:02:02 +0600] [2845] [INFO] Using worker: sync
+[2021-07-26 18:02:02 +0600] [2847] [INFO] Booting worker with pid: 2847
+[2021-07-26 18:02:02 +0600] [2848] [INFO] Booting worker with pid: 2848
+[2021-07-26 18:02:02 +0600] [2849] [INFO] Booting worker with pid: 2849
+Not Found: /static/makereport/css/style.css
+Not Found: /assets/js/bootstrap.min.js
+Not Found: /assets/js/script.js
+Not Found: /static/makereport/js/jquery-1.12.4.js
+Not Found: /static/makereport/js/search.js
+Not Found: /assets/js/bootstrap.min.js
+Not Found: /assets/js/script.js
+Not Found: /static/makereport/css/style.css
+Not Found: /static/makereport/js/search.js
+Not Found: /static/makereport/js/jquery-1.12.4.js
+Not Found: /assets/js/bootstrap.min.js
+Not Found: /assets/js/script.js
+Not Found: /static/makereport/js/search.js
+Not Found: /assets/js/bootstrap.min.js
+Not Found: /assets/js/script.js
+Not Found: /assets/js/bootstrap.min.js
+Not Found: /assets/js/script.js
+Not Found: /assets/js/bootstrap.min.js
+Not Found: /assets/js/script.js
+Not Found: /login/assets/js/script.js
+Not Found: /login/assets/js/bootstrap.min.js
+Not Found: /login/assets/js/script.js
+Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/backends/base/base.py", line 219, in ensure_connection
+    self.connect()
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/backends/base/base.py", line 200, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/backends/postgresql/base.py", line 187, in get_new_connection
+    connection = Database.connect(**conn_params)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: could not connect to server: Connection refused
+	Is the server running on host "localhost" (192.168.1.3) and accepting
+	TCP/IP connections on port 5432?
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/DTPreport/makereport/views.py", line 1015, in user_login
+    user = authenticate(request, username=username, password=password)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/contrib/auth/__init__.py", line 73, in authenticate
+    user = backend.authenticate(request, **credentials)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/contrib/auth/backends.py", line 42, in authenticate
+    user = UserModel._default_manager.get_by_natural_key(username)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/contrib/auth/base_user.py", line 45, in get_by_natural_key
+    return self.get(**{self.model.USERNAME_FIELD: username})
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/models/query.py", line 425, in get
+    num = len(clone)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/models/query.py", line 269, in __len__
+    self._fetch_all()
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/models/query.py", line 1308, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/models/query.py", line 53, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1154, in execute_sql
+    cursor = self.connection.cursor()
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/backends/base/base.py", line 259, in cursor
+    return self._cursor()
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/backends/base/base.py", line 235, in _cursor
+    self.ensure_connection()
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/backends/base/base.py", line 219, in ensure_connection
+    self.connect()
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/backends/base/base.py", line 219, in ensure_connection
+    self.connect()
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/backends/base/base.py", line 200, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/backends/postgresql/base.py", line 187, in get_new_connection
+    connection = Database.connect(**conn_params)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+django.db.utils.OperationalError: could not connect to server: Connection refused
+	Is the server running on host "localhost" (192.168.1.3) and accepting
+	TCP/IP connections on port 5432?
+
+Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/backends/base/base.py", line 219, in ensure_connection
+    self.connect()
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/backends/base/base.py", line 200, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/backends/postgresql/base.py", line 187, in get_new_connection
+    connection = Database.connect(**conn_params)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: FATAL:  no pg_hba.conf entry for host "192.168.1.3", user "vid", database "project", SSL on
+FATAL:  no pg_hba.conf entry for host "192.168.1.3", user "vid", database "project", SSL off
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/DTPreport/makereport/views.py", line 1015, in user_login
+    user = authenticate(request, username=username, password=password)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/contrib/auth/__init__.py", line 73, in authenticate
+    user = backend.authenticate(request, **credentials)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/contrib/auth/backends.py", line 42, in authenticate
+    user = UserModel._default_manager.get_by_natural_key(username)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/contrib/auth/base_user.py", line 45, in get_by_natural_key
+    return self.get(**{self.model.USERNAME_FIELD: username})
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/models/query.py", line 425, in get
+    num = len(clone)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/models/query.py", line 269, in __len__
+    self._fetch_all()
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/models/query.py", line 1308, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/models/query.py", line 53, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1154, in execute_sql
+    cursor = self.connection.cursor()
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/backends/base/base.py", line 259, in cursor
+    return self._cursor()
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/backends/base/base.py", line 235, in _cursor
+    self.ensure_connection()
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/backends/base/base.py", line 219, in ensure_connection
+    self.connect()
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/backends/base/base.py", line 219, in ensure_connection
+    self.connect()
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/backends/base/base.py", line 200, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/backends/postgresql/base.py", line 187, in get_new_connection
+    connection = Database.connect(**conn_params)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+django.db.utils.OperationalError: FATAL:  no pg_hba.conf entry for host "192.168.1.3", user "vid", database "project", SSL on
+FATAL:  no pg_hba.conf entry for host "192.168.1.3", user "vid", database "project", SSL off
+
+Not Found: /assets/js/bootstrap.min.js
+Not Found: /assets/js/script.js
+Not Found: /assets/js/bootstrap.min.js
+Not Found: /assets/js/script.js
+Not Found: /login/assets/js/bootstrap.min.js
+Not Found: /login/assets/js/script.js
+Not Found: /login/assets/js/script.js
+Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/backends/base/base.py", line 219, in ensure_connection
+    self.connect()
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/backends/base/base.py", line 200, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/backends/postgresql/base.py", line 187, in get_new_connection
+    connection = Database.connect(**conn_params)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: FATAL:  no pg_hba.conf entry for host "192.168.1.3", user "vid", database "project", SSL on
+FATAL:  no pg_hba.conf entry for host "192.168.1.3", user "vid", database "project", SSL off
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/DTPreport/makereport/views.py", line 1015, in user_login
+    user = authenticate(request, username=username, password=password)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/contrib/auth/__init__.py", line 73, in authenticate
+    user = backend.authenticate(request, **credentials)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/contrib/auth/backends.py", line 42, in authenticate
+    user = UserModel._default_manager.get_by_natural_key(username)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/contrib/auth/base_user.py", line 45, in get_by_natural_key
+    return self.get(**{self.model.USERNAME_FIELD: username})
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/models/query.py", line 425, in get
+    num = len(clone)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/models/query.py", line 269, in __len__
+    self._fetch_all()
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/models/query.py", line 1308, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/models/query.py", line 53, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1154, in execute_sql
+    cursor = self.connection.cursor()
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/backends/base/base.py", line 259, in cursor
+    return self._cursor()
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/backends/base/base.py", line 235, in _cursor
+    self.ensure_connection()
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/backends/base/base.py", line 219, in ensure_connection
+    self.connect()
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/backends/base/base.py", line 219, in ensure_connection
+    self.connect()
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/backends/base/base.py", line 200, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/backends/postgresql/base.py", line 187, in get_new_connection
+    connection = Database.connect(**conn_params)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+django.db.utils.OperationalError: FATAL:  no pg_hba.conf entry for host "192.168.1.3", user "vid", database "project", SSL on
+FATAL:  no pg_hba.conf entry for host "192.168.1.3", user "vid", database "project", SSL off
+
+Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/backends/base/base.py", line 219, in ensure_connection
+    self.connect()
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/backends/base/base.py", line 200, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/backends/postgresql/base.py", line 187, in get_new_connection
+    connection = Database.connect(**conn_params)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: FATAL:  no pg_hba.conf entry for host "192.168.1.3", user "vid", database "project", SSL on
+FATAL:  no pg_hba.conf entry for host "192.168.1.3", user "vid", database "project", SSL off
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/DTPreport/makereport/views.py", line 1015, in user_login
+    user = authenticate(request, username=username, password=password)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/contrib/auth/__init__.py", line 73, in authenticate
+    user = backend.authenticate(request, **credentials)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/contrib/auth/backends.py", line 42, in authenticate
+    user = UserModel._default_manager.get_by_natural_key(username)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/contrib/auth/base_user.py", line 45, in get_by_natural_key
+    return self.get(**{self.model.USERNAME_FIELD: username})
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/models/query.py", line 425, in get
+    num = len(clone)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/models/query.py", line 269, in __len__
+    self._fetch_all()
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/models/query.py", line 1308, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/models/query.py", line 53, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1154, in execute_sql
+    cursor = self.connection.cursor()
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/backends/base/base.py", line 259, in cursor
+    return self._cursor()
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/backends/base/base.py", line 235, in _cursor
+    self.ensure_connection()
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/backends/base/base.py", line 219, in ensure_connection
+    self.connect()
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/backends/base/base.py", line 219, in ensure_connection
+    self.connect()
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/backends/base/base.py", line 200, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/backends/postgresql/base.py", line 187, in get_new_connection
+    connection = Database.connect(**conn_params)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+django.db.utils.OperationalError: FATAL:  no pg_hba.conf entry for host "192.168.1.3", user "vid", database "project", SSL on
+FATAL:  no pg_hba.conf entry for host "192.168.1.3", user "vid", database "project", SSL off
+
+Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/backends/base/base.py", line 219, in ensure_connection
+    self.connect()
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/backends/base/base.py", line 200, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/backends/postgresql/base.py", line 187, in get_new_connection
+    connection = Database.connect(**conn_params)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: could not connect to server: Connection refused
+	Is the server running on host "localhost" (192.168.1.3) and accepting
+	TCP/IP connections on port 5432?
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/DTPreport/makereport/views.py", line 1015, in user_login
+    user = authenticate(request, username=username, password=password)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/contrib/auth/__init__.py", line 73, in authenticate
+    user = backend.authenticate(request, **credentials)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/contrib/auth/backends.py", line 42, in authenticate
+    user = UserModel._default_manager.get_by_natural_key(username)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/contrib/auth/base_user.py", line 45, in get_by_natural_key
+    return self.get(**{self.model.USERNAME_FIELD: username})
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/models/query.py", line 425, in get
+    num = len(clone)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/models/query.py", line 269, in __len__
+    self._fetch_all()
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/models/query.py", line 1308, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/models/query.py", line 53, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1154, in execute_sql
+    cursor = self.connection.cursor()
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/backends/base/base.py", line 259, in cursor
+    return self._cursor()
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/backends/base/base.py", line 235, in _cursor
+    self.ensure_connection()
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/backends/base/base.py", line 219, in ensure_connection
+    self.connect()
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/backends/base/base.py", line 219, in ensure_connection
+    self.connect()
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/backends/base/base.py", line 200, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/backends/postgresql/base.py", line 187, in get_new_connection
+    connection = Database.connect(**conn_params)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+django.db.utils.OperationalError: could not connect to server: Connection refused
+	Is the server running on host "localhost" (192.168.1.3) and accepting
+	TCP/IP connections on port 5432?
+
+Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/backends/base/base.py", line 219, in ensure_connection
+    self.connect()
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/backends/base/base.py", line 200, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/backends/postgresql/base.py", line 187, in get_new_connection
+    connection = Database.connect(**conn_params)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: could not connect to server: Connection refused
+	Is the server running on host "localhost" (192.168.1.3) and accepting
+	TCP/IP connections on port 5432?
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/DTPreport/makereport/views.py", line 1015, in user_login
+    user = authenticate(request, username=username, password=password)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/contrib/auth/__init__.py", line 73, in authenticate
+    user = backend.authenticate(request, **credentials)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/contrib/auth/backends.py", line 42, in authenticate
+    user = UserModel._default_manager.get_by_natural_key(username)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/contrib/auth/base_user.py", line 45, in get_by_natural_key
+    return self.get(**{self.model.USERNAME_FIELD: username})
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/models/query.py", line 425, in get
+    num = len(clone)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/models/query.py", line 269, in __len__
+    self._fetch_all()
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/models/query.py", line 1308, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/models/query.py", line 53, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1154, in execute_sql
+    cursor = self.connection.cursor()
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/backends/base/base.py", line 259, in cursor
+    return self._cursor()
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/backends/base/base.py", line 235, in _cursor
+    self.ensure_connection()
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/backends/base/base.py", line 219, in ensure_connection
+    self.connect()
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/backends/base/base.py", line 219, in ensure_connection
+    self.connect()
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/backends/base/base.py", line 200, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/backends/postgresql/base.py", line 187, in get_new_connection
+    connection = Database.connect(**conn_params)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+django.db.utils.OperationalError: could not connect to server: Connection refused
+	Is the server running on host "localhost" (192.168.1.3) and accepting
+	TCP/IP connections on port 5432?
+
+Not Found: /login/assets/js/bootstrap.min.js
+Not Found: /login/assets/js/script.js
+Not Found: /login/assets/js/script.js
+Not Found: /assets/js/bootstrap.min.js
+Not Found: /assets/js/script.js
+Not Found: /assets/js/bootstrap.min.js
+Not Found: /assets/js/script.js
+Not Found: /login/assets/js/bootstrap.min.js
+Not Found: /login/assets/js/script.js
+Not Found: /login/assets/js/bootstrap.min.js
+Not Found: /login/assets/js/script.js
+Not Found: /assets/js/script.js
+Not Found: /assets/js/bootstrap.min.js
+Not Found: /assets/js/bootstrap.min.js
+Not Found: /assets/js/script.js
+[2021-07-26 20:02:17 +0600] [1203] [INFO] Starting gunicorn 20.1.0
+[2021-07-26 20:02:17 +0600] [1203] [INFO] Listening at: http://0.0.0.0:8000 (1203)
+[2021-07-26 20:02:17 +0600] [1203] [INFO] Using worker: sync
+[2021-07-26 20:02:17 +0600] [1252] [INFO] Booting worker with pid: 1252
+[2021-07-26 20:02:17 +0600] [1254] [INFO] Booting worker with pid: 1254
+[2021-07-26 20:02:17 +0600] [1257] [INFO] Booting worker with pid: 1257
+Not Found: /boaform/admin/formLogin
+Not Found: /boaform/admin/formLogin
+Not Found: /assets/js/bootstrap.min.js
+Not Found: /assets/js/bootstrap.min.js
+Not Found: /assets/js/script.js
+Invalid HTTP_HOST header: 'e-otsenka'. You may need to add 'e-otsenka' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'e-otsenka'. You may need to add 'e-otsenka' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'e-otsenka'. You may need to add 'e-otsenka' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'e-otsenka'. You may need to add 'e-otsenka' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'e-otsenka'. You may need to add 'e-otsenka' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'e-otsenka'. You may need to add 'e-otsenka' to ALLOWED_HOSTS.
+Bad Request: /
+Not Found: /assets/js/bootstrap.min.js
+Not Found: /assets/js/script.js
+Not Found: /assets/js/bootstrap.min.js
+Not Found: /assets/js/script.js
+Not Found: /assets/js/bootstrap.min.js
+Not Found: /assets/js/script.js
+Not Found: /assets/js/bootstrap.min.js
+Not Found: /assets/js/script.js
+Invalid HTTP_HOST header: '0.0.0.0:8000'. You may need to add '0.0.0.0' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'e-otsenka'. You may need to add 'e-otsenka' to ALLOWED_HOSTS.
+Bad Request: /
+Not Found: /assets/js/bootstrap.min.js
+Not Found: /assets/js/script.js
+Not Found: /assets/js/bootstrap.min.js
+Not Found: /assets/js/script.js
+Not Found: /login/assets/js/script.js
+Not Found: /login/assets/js/bootstrap.min.js
+Not Found: /login/assets/js/script.js
+Not Found: /assets/js/bootstrap.min.js
+Not Found: /assets/js/script.js
+Not Found: /assets/js/bootstrap.min.js
+Not Found: /assets/js/script.js
+Not Found: /login/assets/js/script.js
+Not Found: /login/assets/js/bootstrap.min.js
+Not Found: /login/assets/js/script.js
+Not Found: /login/assets/js/bootstrap.min.js
+Not Found: /login/assets/js/script.js
+Not Found: /assets/js/bootstrap.min.js
+Not Found: /assets/js/script.js
+Not Found: /assets/js/bootstrap.min.js
+Not Found: /assets/js/script.js
+Not Found: /login/assets/js/bootstrap.min.js
+Not Found: /login/assets/js/script.js
+Not Found: /login/assets/js/bootstrap.min.js
+Not Found: /login/assets/js/script.js
+Not Found: /login/assets/js/bootstrap.min.js
+Not Found: /login/assets/js/script.js
+Invalid HTTP_HOST header: '0.0.0.0:8000'. You may need to add '0.0.0.0' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: '0.0.0.0:8000'. You may need to add '0.0.0.0' to ALLOWED_HOSTS.
+Bad Request: /setup.cgi
+Invalid HTTP_HOST header: '0.0.0.0:8000'. You may need to add '0.0.0.0' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: '0.0.0.0:8000'. You may need to add '0.0.0.0' to ALLOWED_HOSTS.
+Bad Request: /setup.cgi
+Not Found: /admin/phpmyadmin/index.php
+Not Found: /myadmin/index.php
+Not Found: /phpmyadmin/index.php
+Not Found: /phpmyadmin2018/index.php
+Not Found: /PMA2021/index.php
+Not Found: /admin/sqladmin/index.php
+Not Found: /phpmyadmin/index.php
+Not Found: /phpMyadmin/index.php
+Not Found: /phpmyadmin3/index.php
+Not Found: /shopdb/index.php
+Not Found: /sql/phpmyadmin2/index.php
+Not Found: /phpmyadmin2015/index.php
+Not Found: /sql/websql/index.php
+Not Found: /sql/phpMyAdmin2/index.php
+Not Found: /sql/phpMyAdmin2/index.php
+Invalid HTTP_HOST header: '89.236.227.206.ip.tps.uz'. You may need to add '89.236.227.206.ip.tps.uz' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: '89.236.227.206.ip.tps.uz'. You may need to add '89.236.227.206.ip.tps.uz' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: '89.236.227.206.ip.tps.uz'. You may need to add '89.236.227.206.ip.tps.uz' to ALLOWED_HOSTS.
+Bad Request: /
+Not Found: /assets/js/bootstrap.min.js
+Not Found: /assets/js/script.js
+Not Found: /assets/js/bootstrap.min.js
+Not Found: /assets/js/script.js
+Not Found: /assets/js/bootstrap.min.js
+Not Found: /assets/js/script.js
+Not Found: /assets/js/bootstrap.min.js
+Not Found: /assets/js/script.js
+Not Found: /assets/js/script.js
+Not Found: /assets/js/bootstrap.min.js
+Not Found: /assets/js/bootstrap.min.js
+Not Found: /assets/js/script.js
+Not Found: /login/assets/js/bootstrap.min.js
+Not Found: /login/assets/js/script.js
+Not Found: /login/assets/js/bootstrap.min.js
+Not Found: /login/assets/js/script.js
+Not Found: /.well-known/acme-challenge/76Rq_fHagYVJuisai6E1FeH7BhCfof05SDiodq6YXBw
+Not Found: /.well-known/acme-challenge/YhkHI5KUSJekC6tWeT-XELcKbfQzTuPb6gglF9Qd7Jk
+Not Found: /.well-known/acme-challenge/YhkHI5KUSJekC6tWeT-XELcKbfQzTuPb6gglF9Qd7Jk
+Not Found: /.well-known/acme-challenge/YhkHI5KUSJekC6tWeT-XELcKbfQzTuPb6gglF9Qd7Jk
+Not Found: /assets/js/bootstrap.min.js
+Not Found: /assets/js/script.js
+Not Found: /assets/js/bootstrap.min.js
+Not Found: /assets/js/script.js
+Not Found: /config/getuser
+Invalid HTTP_HOST header: '0.0.0.0:8000'. You may need to add '0.0.0.0' to ALLOWED_HOSTS.
+Bad Request: /boaform/admin/formLogin
+[2021-07-27 10:55:18 +0000] [1252] [INFO] Worker exiting (pid: 1252)
+[2021-07-27 10:55:18 +0000] [1254] [INFO] Worker exiting (pid: 1254)
+[2021-07-27 10:55:18 +0000] [1257] [INFO] Worker exiting (pid: 1257)
+[2021-07-27 16:55:18 +0600] [1203] [INFO] Handling signal: term
+[2021-07-27 16:55:19 +0600] [1203] [INFO] Shutting down: Master
+[2021-07-27 16:55:19 +0600] [26721] [INFO] Starting gunicorn 20.1.0
+[2021-07-27 16:55:19 +0600] [26721] [INFO] Listening at: http://0.0.0.0:8000 (26721)
+[2021-07-27 16:55:19 +0600] [26721] [INFO] Using worker: sync
+[2021-07-27 16:55:19 +0600] [26723] [INFO] Booting worker with pid: 26723
+[2021-07-27 16:55:19 +0600] [26724] [INFO] Booting worker with pid: 26724
+[2021-07-27 16:55:19 +0600] [26725] [INFO] Booting worker with pid: 26725
+Internal Server Error: /report/7/edit/
+Traceback (most recent call last):
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 167, in _get_response
+    callback, callback_args, callback_kwargs = self.resolve_request(request)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 290, in resolve_request
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/urls/resolvers.py", line 545, in resolve
+    for pattern in self.url_patterns:
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/urls/resolvers.py", line 589, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/urls/resolvers.py", line 582, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/user/DTPreport/DTPreport/urls.py", line 21, in <module>
+    from makereport.views import user_login, user_logout, users_list, search
+  File "/home/user/DTPreport/makereport/views.py", line 19, in <module>
+    from pdf_report.tasks import reduce_image, delete_empty_report, make_pdf, make_pdf_additional, make_pdf_enumeration, \
+  File "/home/user/DTPreport/pdf_report/tasks.py", line 8, in <module>
+    from pdf_report.pdf_merger import PDFMerger, PDFInputImage
+  File "/home/user/DTPreport/pdf_report/pdf_merger.py", line 1, in <module>
+    import PyPDF2
+ModuleNotFoundError: No module named 'PyPDF2'
+Internal Server Error: /report/7/edit/
+Traceback (most recent call last):
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 167, in _get_response
+    callback, callback_args, callback_kwargs = self.resolve_request(request)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 290, in resolve_request
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/urls/resolvers.py", line 545, in resolve
+    for pattern in self.url_patterns:
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/urls/resolvers.py", line 589, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/urls/resolvers.py", line 582, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/user/DTPreport/DTPreport/urls.py", line 21, in <module>
+    from makereport.views import user_login, user_logout, users_list, search
+  File "/home/user/DTPreport/makereport/views.py", line 19, in <module>
+    from pdf_report.tasks import reduce_image, delete_empty_report, make_pdf, make_pdf_additional, make_pdf_enumeration, \
+  File "/home/user/DTPreport/pdf_report/tasks.py", line 8, in <module>
+    from pdf_report.pdf_merger import PDFMerger, PDFInputImage
+  File "/home/user/DTPreport/pdf_report/pdf_merger.py", line 3, in <module>
+    from fitz import Rect, fitz
+ModuleNotFoundError: No module named 'fitz'
+Internal Server Error: /report/7/edit/
+Traceback (most recent call last):
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UndefinedColumn: column makereport_customer.type_customer does not exist
+LINE 1: ...ajaemaya", "makereport_customer"."mesto_osmotra", "makerepor...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/home/user/DTPreport/makereport/views.py", line 378, in get
+    context = self.prepare_get_request(request, id, report, customer_form=CustomerForm)
+  File "/home/user/DTPreport/makereport/views.py", line 407, in prepare_get_request
+    customer = Customer.objects.get(customer_id=contract.customer_id)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/models/query.py", line 425, in get
+    num = len(clone)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/models/query.py", line 269, in __len__
+    self._fetch_all()
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/models/query.py", line 1308, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/models/query.py", line 53, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1156, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/backends/utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/backends/utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.ProgrammingError: column makereport_customer.type_customer does not exist
+LINE 1: ...ajaemaya", "makereport_customer"."mesto_osmotra", "makerepor...
+                                                             ^
+
+Internal Server Error: /pdf/4/
+Traceback (most recent call last):
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/user/DTPreport/pdf_report/views.py", line 293, in get
+    pdf = open(os.path.abspath(os.path.join(report_pdf.pdf_report.path)), 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: '/home/user/DTPreport/media/uploads/2021/06/30/.pdf_wxMmJpt'
+Internal Server Error: /pdf/4/
+Traceback (most recent call last):
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/user/DTPreport/pdf_report/views.py", line 293, in get
+    pdf = open(os.path.abspath(os.path.join(report_pdf.pdf_report.path)), 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: '/home/user/DTPreport/media/uploads/2021/06/30/.pdf_wxMmJpt'
+Internal Server Error: /pdf/4/
+Traceback (most recent call last):
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/user/DTPreport/pdf_report/views.py", line 293, in get
+    pdf = open(os.path.abspath(os.path.join(report_pdf.pdf_report.path)), 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: '/home/user/DTPreport/media/uploads/2021/06/30/.pdf_wxMmJpt'
+Internal Server Error: /pdf/284/
+Traceback (most recent call last):
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/user/DTPreport/pdf_report/views.py", line 292, in get
+    report_pdf = Report.objects.get(report_id=id)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/models/query.py", line 429, in get
+    raise self.model.DoesNotExist(
+makereport.models.Report.DoesNotExist: Report matching query does not exist.
+Internal Server Error: /pdf/284/
+Traceback (most recent call last):
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/user/DTPreport/pdf_report/views.py", line 292, in get
+    report_pdf = Report.objects.get(report_id=id)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/models/query.py", line 429, in get
+    raise self.model.DoesNotExist(
+makereport.models.Report.DoesNotExist: Report matching query does not exist.
+Internal Server Error: /pdf/284/
+Traceback (most recent call last):
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/user/DTPreport/pdf_report/views.py", line 292, in get
+    report_pdf = Report.objects.get(report_id=id)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/models/query.py", line 429, in get
+    raise self.model.DoesNotExist(
+makereport.models.Report.DoesNotExist: Report matching query does not exist.
+Internal Server Error: /pdf/284/
+Traceback (most recent call last):
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/user/DTPreport/pdf_report/views.py", line 292, in get
+    report_pdf = Report.objects.get(report_id=id)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/models/query.py", line 429, in get
+    raise self.model.DoesNotExist(
+makereport.models.Report.DoesNotExist: Report matching query does not exist.
+[2021-07-27 11:05:21 +0000] [26723] [INFO] Worker exiting (pid: 26723)
+[2021-07-27 17:05:21 +0600] [26721] [INFO] Handling signal: term
+[2021-07-27 11:05:21 +0000] [26724] [INFO] Worker exiting (pid: 26724)
+[2021-07-27 11:05:21 +0000] [26725] [INFO] Worker exiting (pid: 26725)
+[2021-07-27 17:05:21 +0600] [26721] [INFO] Shutting down: Master
+[2021-07-27 17:05:21 +0600] [27088] [INFO] Starting gunicorn 20.1.0
+[2021-07-27 17:05:21 +0600] [27088] [INFO] Listening at: http://0.0.0.0:8000 (27088)
+[2021-07-27 17:05:21 +0600] [27088] [INFO] Using worker: sync
+[2021-07-27 17:05:21 +0600] [27090] [INFO] Booting worker with pid: 27090
+[2021-07-27 17:05:21 +0600] [27091] [INFO] Booting worker with pid: 27091
+[2021-07-27 17:05:22 +0600] [27092] [INFO] Booting worker with pid: 27092
+Not Found: /_ignition/execute-solution
+[2021-07-27 11:09:26 +0000] [27091] [INFO] Worker exiting (pid: 27091)
+[2021-07-27 17:09:26 +0600] [27088] [INFO] Handling signal: term
+[2021-07-27 11:09:26 +0000] [27090] [INFO] Worker exiting (pid: 27090)
+[2021-07-27 11:09:26 +0000] [27092] [INFO] Worker exiting (pid: 27092)
+[2021-07-27 17:09:26 +0600] [27088] [INFO] Shutting down: Master
+[2021-07-27 17:09:26 +0600] [27294] [INFO] Starting gunicorn 20.1.0
+[2021-07-27 17:09:26 +0600] [27294] [INFO] Listening at: http://0.0.0.0:8000 (27294)
+[2021-07-27 17:09:26 +0600] [27294] [INFO] Using worker: sync
+[2021-07-27 17:09:26 +0600] [27296] [INFO] Booting worker with pid: 27296
+[2021-07-27 17:09:26 +0600] [27297] [INFO] Booting worker with pid: 27297
+[2021-07-27 17:09:26 +0600] [27298] [INFO] Booting worker with pid: 27298
+[2021-07-27 11:10:17 +0000] [27296] [INFO] Worker exiting (pid: 27296)
+[2021-07-27 11:10:17 +0000] [27297] [INFO] Worker exiting (pid: 27297)
+[2021-07-27 17:10:17 +0600] [27294] [INFO] Handling signal: term
+[2021-07-27 11:10:17 +0000] [27298] [INFO] Worker exiting (pid: 27298)
+[2021-07-27 17:10:18 +0600] [27294] [INFO] Shutting down: Master
+[2021-07-27 17:10:18 +0600] [27354] [INFO] Starting gunicorn 20.1.0
+[2021-07-27 17:10:18 +0600] [27354] [INFO] Listening at: http://0.0.0.0:8000 (27354)
+[2021-07-27 17:10:18 +0600] [27354] [INFO] Using worker: sync
+[2021-07-27 17:10:18 +0600] [27356] [INFO] Booting worker with pid: 27356
+[2021-07-27 17:10:18 +0600] [27357] [INFO] Booting worker with pid: 27357
+[2021-07-27 17:10:18 +0600] [27358] [INFO] Booting worker with pid: 27358
+Not Found: /mediaAAB.png
+Not Found: /mediaAAB.png
+Internal Server Error: /pdf/309/
+Traceback (most recent call last):
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/user/DTPreport/pdf_report/views.py", line 292, in get
+    report_pdf = Report.objects.get(report_id=id)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/models/query.py", line 429, in get
+    raise self.model.DoesNotExist(
+makereport.models.Report.DoesNotExist: Report matching query does not exist.
+Internal Server Error: /pdf/309/
+Traceback (most recent call last):
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/user/DTPreport/pdf_report/views.py", line 292, in get
+    report_pdf = Report.objects.get(report_id=id)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/models/query.py", line 429, in get
+    raise self.model.DoesNotExist(
+makereport.models.Report.DoesNotExist: Report matching query does not exist.
+Internal Server Error: /pdf/309/
+Traceback (most recent call last):
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/user/DTPreport/pdf_report/views.py", line 292, in get
+    report_pdf = Report.objects.get(report_id=id)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/models/query.py", line 429, in get
+    raise self.model.DoesNotExist(
+makereport.models.Report.DoesNotExist: Report matching query does not exist.
+Internal Server Error: /pdf/309/
+Traceback (most recent call last):
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/user/DTPreport/pdf_report/views.py", line 292, in get
+    report_pdf = Report.objects.get(report_id=id)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/models/query.py", line 429, in get
+    raise self.model.DoesNotExist(
+makereport.models.Report.DoesNotExist: Report matching query does not exist.
+Internal Server Error: /pdf/309/
+Traceback (most recent call last):
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/user/DTPreport/pdf_report/views.py", line 292, in get
+    report_pdf = Report.objects.get(report_id=id)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/models/query.py", line 429, in get
+    raise self.model.DoesNotExist(
+makereport.models.Report.DoesNotExist: Report matching query does not exist.
+Internal Server Error: /pdf/309/
+Traceback (most recent call last):
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/user/DTPreport/pdf_report/views.py", line 292, in get
+    report_pdf = Report.objects.get(report_id=id)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/models/query.py", line 429, in get
+    raise self.model.DoesNotExist(
+makereport.models.Report.DoesNotExist: Report matching query does not exist.
+Internal Server Error: /pdf/309/
+Traceback (most recent call last):
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/user/DTPreport/pdf_report/views.py", line 292, in get
+    report_pdf = Report.objects.get(report_id=id)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/models/query.py", line 429, in get
+    raise self.model.DoesNotExist(
+makereport.models.Report.DoesNotExist: Report matching query does not exist.
+Not Found: /mediaAAB.png
+Not Found: /mediaAAB.png
+[2021-07-27 17:56:54 +0600] [27354] [INFO] Handling signal: term
+[2021-07-27 11:56:54 +0000] [27356] [INFO] Worker exiting (pid: 27356)
+[2021-07-27 11:56:54 +0000] [27358] [INFO] Worker exiting (pid: 27358)
+[2021-07-27 11:56:54 +0000] [27357] [INFO] Worker exiting (pid: 27357)
+[2021-07-27 17:56:55 +0600] [27354] [INFO] Shutting down: Master
+[2021-07-27 17:56:55 +0600] [27942] [INFO] Starting gunicorn 20.1.0
+[2021-07-27 17:56:55 +0600] [27942] [INFO] Listening at: http://0.0.0.0:8000 (27942)
+[2021-07-27 17:56:55 +0600] [27942] [INFO] Using worker: sync
+[2021-07-27 17:56:55 +0600] [27944] [INFO] Booting worker with pid: 27944
+[2021-07-27 17:56:55 +0600] [27945] [INFO] Booting worker with pid: 27945
+[2021-07-27 17:56:55 +0600] [27946] [INFO] Booting worker with pid: 27946
+Not Found: /mediaAAB.png
+Not Found: /mediaAAB.png
+[2021-07-27 17:58:48 +0600] [27942] [INFO] Handling signal: term
+[2021-07-27 11:58:48 +0000] [27946] [INFO] Worker exiting (pid: 27946)
+[2021-07-27 11:58:48 +0000] [27944] [INFO] Worker exiting (pid: 27944)
+[2021-07-27 11:58:48 +0000] [27945] [INFO] Worker exiting (pid: 27945)
+[2021-07-27 17:58:48 +0600] [27942] [INFO] Shutting down: Master
+[2021-07-27 17:58:49 +0600] [28116] [INFO] Starting gunicorn 20.1.0
+[2021-07-27 17:58:49 +0600] [28116] [INFO] Listening at: http://0.0.0.0:8000 (28116)
+[2021-07-27 17:58:49 +0600] [28116] [INFO] Using worker: sync
+[2021-07-27 17:58:49 +0600] [28118] [INFO] Booting worker with pid: 28118
+[2021-07-27 17:58:49 +0600] [28119] [INFO] Booting worker with pid: 28119
+[2021-07-27 17:58:49 +0600] [28120] [INFO] Booting worker with pid: 28120
+Not Found: /mediaAAB.png
+Not Found: /mediaAAB.png
+Not Found: /mediaAAB.png
+[2021-07-27 12:00:21 +0000] [28119] [INFO] Worker exiting (pid: 28119)
+[2021-07-27 18:00:21 +0600] [28116] [INFO] Handling signal: term
+[2021-07-27 12:00:21 +0000] [28120] [INFO] Worker exiting (pid: 28120)
+[2021-07-27 12:00:21 +0000] [28118] [INFO] Worker exiting (pid: 28118)
+[2021-07-27 18:00:22 +0600] [28116] [INFO] Shutting down: Master
+[2021-07-27 18:00:22 +0600] [28332] [INFO] Starting gunicorn 20.1.0
+[2021-07-27 18:00:22 +0600] [28332] [INFO] Listening at: http://0.0.0.0:8000 (28332)
+[2021-07-27 18:00:22 +0600] [28332] [INFO] Using worker: sync
+[2021-07-27 18:00:22 +0600] [28334] [INFO] Booting worker with pid: 28334
+[2021-07-27 18:00:22 +0600] [28335] [INFO] Booting worker with pid: 28335
+[2021-07-27 18:00:22 +0600] [28336] [INFO] Booting worker with pid: 28336
+Not Found: /mediaAAB.png
+Not Found: /assets/js/bootstrap.min.js
+Not Found: /assets/js/script.js
+Not Found: /assets/js/bootstrap.min.js
+Not Found: /assets/js/script.js
+Not Found: /mediaAAB.png
+Not Found: /assets/js/bootstrap.min.js
+Not Found: /assets/js/script.js
+Not Found: /assets/js/bootstrap.min.js
+Not Found: /assets/js/script.js
+Not Found: /mediaAAB.png
+[2021-07-27 12:06:41 +0000] [28336] [INFO] Worker exiting (pid: 28336)
+[2021-07-27 12:06:41 +0000] [28335] [INFO] Worker exiting (pid: 28335)
+[2021-07-27 18:06:41 +0600] [28332] [INFO] Handling signal: term
+[2021-07-27 12:06:41 +0000] [28334] [INFO] Worker exiting (pid: 28334)
+[2021-07-27 18:06:41 +0600] [28332] [INFO] Shutting down: Master
+[2021-07-27 18:06:41 +0600] [28523] [INFO] Starting gunicorn 20.1.0
+[2021-07-27 18:06:41 +0600] [28523] [INFO] Listening at: http://0.0.0.0:8000 (28523)
+[2021-07-27 18:06:41 +0600] [28523] [INFO] Using worker: sync
+[2021-07-27 18:06:41 +0600] [28525] [INFO] Booting worker with pid: 28525
+[2021-07-27 18:06:41 +0600] [28526] [INFO] Booting worker with pid: 28526
+[2021-07-27 18:06:41 +0600] [28527] [INFO] Booting worker with pid: 28527
+Not Found: /accounts/login/
+Not Found: /accounts/login/
+Not Found: /assets/js/bootstrap.min.js
+Not Found: /assets/js/script.js
+Not Found: /assets/js/bootstrap.min.js
+Not Found: /assets/js/script.js
+Not Found: /login/assets/js/bootstrap.min.js
+Not Found: /login/assets/js/bootstrap.min.js
+Not Found: /login/assets/js/script.js
+Internal Server Error: /report/1/edit/
+Traceback (most recent call last):
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/backends/sqlite3/base.py", line 413, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such column: makereport_customer.type_customer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/home/user/DTPreport/makereport/views.py", line 378, in get
+    context = self.prepare_get_request(request, id, report, customer_form=CustomerForm)
+  File "/home/user/DTPreport/makereport/views.py", line 407, in prepare_get_request
+    customer = Customer.objects.get(customer_id=contract.customer_id)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/models/query.py", line 425, in get
+    num = len(clone)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/models/query.py", line 269, in __len__
+    self._fetch_all()
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/models/query.py", line 1308, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/models/query.py", line 53, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1156, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/backends/utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/backends/utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/db/backends/sqlite3/base.py", line 413, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such column: makereport_customer.type_customer
+[2021-07-27 12:07:43 +0000] [28525] [INFO] Worker exiting (pid: 28525)
+[2021-07-27 18:07:43 +0600] [28523] [INFO] Handling signal: term
+[2021-07-27 12:07:43 +0000] [28526] [INFO] Worker exiting (pid: 28526)
+[2021-07-27 12:07:43 +0000] [28527] [INFO] Worker exiting (pid: 28527)
+[2021-07-27 18:07:44 +0600] [28523] [INFO] Shutting down: Master
+[2021-07-27 18:07:44 +0600] [28647] [INFO] Starting gunicorn 20.1.0
+[2021-07-27 18:07:44 +0600] [28647] [INFO] Listening at: http://0.0.0.0:8000 (28647)
+[2021-07-27 18:07:44 +0600] [28647] [INFO] Using worker: sync
+[2021-07-27 18:07:44 +0600] [28649] [INFO] Booting worker with pid: 28649
+[2021-07-27 18:07:44 +0600] [28650] [INFO] Booting worker with pid: 28650
+[2021-07-27 18:07:44 +0600] [28651] [INFO] Booting worker with pid: 28651
+Not Found: /accounts/login/
+Not Found: /accounts/login/
+Not Found: /assets/js/bootstrap.min.js
+Not Found: /assets/js/script.js
+Not Found: /assets/js/bootstrap.min.js
+Not Found: /assets/js/script.js
+Not Found: /login/assets/js/script.js
+Not Found: /login/assets/js/bootstrap.min.js
+[2021-07-27 12:15:14 +0000] [28651] [INFO] Worker exiting (pid: 28651)
+[2021-07-27 18:15:14 +0600] [28647] [INFO] Handling signal: term
+[2021-07-27 12:15:14 +0000] [28650] [INFO] Worker exiting (pid: 28650)
+[2021-07-27 12:15:14 +0000] [28649] [INFO] Worker exiting (pid: 28649)
+[2021-07-27 18:15:15 +0600] [28647] [INFO] Shutting down: Master
+[2021-07-27 18:15:15 +0600] [28885] [INFO] Starting gunicorn 20.1.0
+[2021-07-27 18:15:15 +0600] [28885] [INFO] Listening at: http://0.0.0.0:8000 (28885)
+[2021-07-27 18:15:15 +0600] [28885] [INFO] Using worker: sync
+[2021-07-27 18:15:15 +0600] [28887] [INFO] Booting worker with pid: 28887
+[2021-07-27 18:15:15 +0600] [28888] [INFO] Booting worker with pid: 28888
+[2021-07-27 18:15:15 +0600] [28889] [INFO] Booting worker with pid: 28889
+[2021-07-27 18:20:26 +0600] [28885] [INFO] Handling signal: term
+[2021-07-27 12:20:26 +0000] [28888] [INFO] Worker exiting (pid: 28888)
+[2021-07-27 12:20:26 +0000] [28889] [INFO] Worker exiting (pid: 28889)
+[2021-07-27 12:20:26 +0000] [28887] [INFO] Worker exiting (pid: 28887)
+[2021-07-27 18:20:27 +0600] [28885] [INFO] Shutting down: Master
+[2021-07-27 18:20:27 +0600] [29026] [INFO] Starting gunicorn 20.1.0
+[2021-07-27 18:20:27 +0600] [29026] [INFO] Listening at: http://0.0.0.0:8000 (29026)
+[2021-07-27 18:20:27 +0600] [29026] [INFO] Using worker: sync
+[2021-07-27 18:20:27 +0600] [29028] [INFO] Booting worker with pid: 29028
+[2021-07-27 18:20:27 +0600] [29029] [INFO] Booting worker with pid: 29029
+[2021-07-27 18:20:27 +0600] [29030] [INFO] Booting worker with pid: 29030
+[2021-07-27 12:21:30 +0000] [29030] [INFO] Worker exiting (pid: 29030)
+[2021-07-27 12:21:30 +0000] [29029] [INFO] Worker exiting (pid: 29029)
+[2021-07-27 18:21:30 +0600] [29026] [INFO] Handling signal: term
+[2021-07-27 12:21:30 +0000] [29028] [INFO] Worker exiting (pid: 29028)
+[2021-07-27 18:21:30 +0600] [29026] [INFO] Shutting down: Master
+[2021-07-27 18:21:30 +0600] [29084] [INFO] Starting gunicorn 20.1.0
+[2021-07-27 18:21:30 +0600] [29084] [INFO] Listening at: http://0.0.0.0:8000 (29084)
+[2021-07-27 18:21:30 +0600] [29084] [INFO] Using worker: sync
+[2021-07-27 18:21:30 +0600] [29086] [INFO] Booting worker with pid: 29086
+[2021-07-27 18:21:30 +0600] [29087] [INFO] Booting worker with pid: 29087
+[2021-07-27 18:21:30 +0600] [29088] [INFO] Booting worker with pid: 29088
+Invalid HTTP_HOST header: 'www.e-otsenka.uz'. You may need to add 'www.e-otsenka.uz' to ALLOWED_HOSTS.
+Bad Request: /
+Not Found: /assets/js/bootstrap.min.js
+Not Found: /assets/js/script.js
+Not Found: /assets/js/bootstrap.min.js
+Not Found: /assets/js/script.js
+Invalid HTTP_HOST header: '0.0.0.0:8000'. You may need to add '0.0.0.0' to ALLOWED_HOSTS.
+Bad Request: /
+Not Found: /_ignition/execute-solution
+[2021-07-27 12:40:36 +0000] [29086] [INFO] Worker exiting (pid: 29086)
+[2021-07-27 18:40:36 +0600] [29084] [INFO] Handling signal: term
+[2021-07-27 12:40:36 +0000] [29088] [INFO] Worker exiting (pid: 29088)
+[2021-07-27 12:40:36 +0000] [29087] [INFO] Worker exiting (pid: 29087)
+[2021-07-27 18:40:36 +0600] [29084] [INFO] Shutting down: Master
+[2021-07-27 18:40:36 +0600] [29306] [INFO] Starting gunicorn 20.1.0
+[2021-07-27 18:40:36 +0600] [29306] [INFO] Listening at: http://0.0.0.0:8000 (29306)
+[2021-07-27 18:40:36 +0600] [29306] [INFO] Using worker: sync
+[2021-07-27 18:40:36 +0600] [29308] [INFO] Booting worker with pid: 29308
+[2021-07-27 18:40:36 +0600] [29309] [INFO] Booting worker with pid: 29309
+[2021-07-27 18:40:36 +0600] [29310] [INFO] Booting worker with pid: 29310
+Not Found: /mediaAAB.png
+[2021-07-27 18:53:04 +0600] [29306] [INFO] Handling signal: term
+[2021-07-27 12:53:04 +0000] [29310] [INFO] Worker exiting (pid: 29310)
+[2021-07-27 12:53:04 +0000] [29308] [INFO] Worker exiting (pid: 29308)
+[2021-07-27 12:53:04 +0000] [29309] [INFO] Worker exiting (pid: 29309)
+[2021-07-27 18:53:05 +0600] [29306] [INFO] Shutting down: Master
+[2021-07-27 18:53:05 +0600] [29581] [INFO] Starting gunicorn 20.1.0
+[2021-07-27 18:53:05 +0600] [29581] [INFO] Listening at: http://0.0.0.0:8000 (29581)
+[2021-07-27 18:53:05 +0600] [29581] [INFO] Using worker: sync
+[2021-07-27 18:53:05 +0600] [29583] [INFO] Booting worker with pid: 29583
+[2021-07-27 18:53:05 +0600] [29584] [INFO] Booting worker with pid: 29584
+[2021-07-27 18:53:05 +0600] [29585] [INFO] Booting worker with pid: 29585
+Internal Server Error: /report/disposable/
+Traceback (most recent call last):
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/user/DTPreport/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/user/DTPreport/makereport/views.py", line 1102, in post
+    return self.store_disposable(request, id_report)
+  File "/home/user/DTPreport/makereport/views.py", line 1150, in store_disposable
+    raise Exception(dict)
+Exception: {1: {}, 2: {}, 3: {}, 4: {}, 5: {}, 6: {'movable_property': ['Убедитесь, что это значение содержит не более 100 символов (сейчас 156).']}}
+[2021-07-27 12:57:01 +0000] [29584] [INFO] Worker exiting (pid: 29584)
+[2021-07-27 18:57:01 +0600] [29581] [INFO] Handling signal: term
+[2021-07-27 12:57:01 +0000] [29585] [INFO] Worker exiting (pid: 29585)
+[2021-07-27 12:57:01 +0000] [29583] [INFO] Worker exiting (pid: 29583)
+[2021-07-27 18:57:01 +0600] [29581] [INFO] Shutting down: Master
+[2021-07-27 18:57:01 +0600] [29696] [INFO] Starting gunicorn 20.1.0
+[2021-07-27 18:57:01 +0600] [29696] [INFO] Listening at: http://0.0.0.0:8000 (29696)
+[2021-07-27 18:57:01 +0600] [29696] [INFO] Using worker: sync
+[2021-07-27 18:57:01 +0600] [29698] [INFO] Booting worker with pid: 29698
+[2021-07-27 18:57:01 +0600] [29699] [INFO] Booting worker with pid: 29699
+[2021-07-27 18:57:01 +0600] [29700] [INFO] Booting worker with pid: 29700
+[2021-07-27 12:58:08 +0000] [29700] [INFO] Worker exiting (pid: 29700)
+[2021-07-27 12:58:08 +0000] [29699] [INFO] Worker exiting (pid: 29699)
+[2021-07-27 12:58:08 +0000] [29698] [INFO] Worker exiting (pid: 29698)
+[2021-07-27 18:58:08 +0600] [29696] [INFO] Handling signal: term
+[2021-07-27 18:58:09 +0600] [29696] [INFO] Shutting down: Master
+[2021-07-27 18:58:09 +0600] [29782] [INFO] Starting gunicorn 20.1.0
+[2021-07-27 18:58:09 +0600] [29782] [INFO] Listening at: http://0.0.0.0:8000 (29782)
+[2021-07-27 18:58:09 +0600] [29782] [INFO] Using worker: sync
+[2021-07-27 18:58:09 +0600] [29784] [INFO] Booting worker with pid: 29784
+[2021-07-27 18:58:09 +0600] [29785] [INFO] Booting worker with pid: 29785
+[2021-07-27 18:58:09 +0600] [29786] [INFO] Booting worker with pid: 29786

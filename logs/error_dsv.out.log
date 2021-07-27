@@ -1,0 +1,159 @@
+Error: Unable to access jarfile home/vid/vid/E-IMZO/E-IMZO/dsv-server/dsv-server.jar
+Error: Unable to access jarfile home/vid/vid/E-IMZO/E-IMZO/dsv-server/dsv-server.jar
+Error: Unable to access jarfile home/vid/vid/E-IMZO/E-IMZO/dsv-server/dsv-server.jar
+Jul 27, 2021 4:58:14 PM uz.yt.cams.pki.DocumentVerifier verifyPkcs7Attached
+SEVERE: 
+java.lang.NullPointerException
+	at uz.yt.cams.pki.DocumentVerifier.verifyPkcs7Attached(DocumentVerifier.java:127)
+	at uz.yt.cams.pki.DocumentVerifier.verifyPkcs7Attached(DocumentVerifier.java:119)
+	at uz.yt.cams.pki.DocumentOnlineVerifier.verifyPkcs7WithTimeStampAttached(DocumentOnlineVerifier.java:330)
+	at uz.yt.eimzo.dsv.server.plugin.pkcs7.v1.Pkcs7.verifyPkcs7(Pkcs7.java:101)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.reflect.misc.Trampoline.invoke(MethodUtil.java:72)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.reflect.misc.MethodUtil.invoke(MethodUtil.java:276)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.sun.xml.internal.ws.api.server.MethodUtil.invoke(MethodUtil.java:68)
+	at com.sun.xml.internal.ws.api.server.InstanceResolver$1.invoke(InstanceResolver.java:235)
+	at com.sun.xml.internal.ws.server.InvokerTube$2.invoke(InvokerTube.java:134)
+	at com.sun.xml.internal.ws.server.sei.SEIInvokerTube.processRequest(SEIInvokerTube.java:73)
+	at com.sun.xml.internal.ws.api.pipe.Fiber.__doRun(Fiber.java:1121)
+	at com.sun.xml.internal.ws.api.pipe.Fiber._doRun(Fiber.java:1035)
+	at com.sun.xml.internal.ws.api.pipe.Fiber.doRun(Fiber.java:1004)
+	at com.sun.xml.internal.ws.api.pipe.Fiber.runSync(Fiber.java:862)
+	at com.sun.xml.internal.ws.server.WSEndpointImpl$2.process(WSEndpointImpl.java:404)
+	at com.sun.xml.internal.ws.transport.http.HttpAdapter$HttpToolkit.handle(HttpAdapter.java:706)
+	at com.sun.xml.internal.ws.transport.http.HttpAdapter.handle(HttpAdapter.java:260)
+	at com.sun.xml.internal.ws.transport.http.server.WSHttpHandler.handleExchange(WSHttpHandler.java:98)
+	at com.sun.xml.internal.ws.transport.http.server.WSHttpHandler.handle(WSHttpHandler.java:82)
+	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:79)
+	at sun.net.httpserver.AuthFilter.doFilter(AuthFilter.java:83)
+	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:82)
+	at sun.net.httpserver.ServerImpl$Exchange$LinkHandler.handle(ServerImpl.java:675)
+	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:79)
+	at sun.net.httpserver.ServerImpl$Exchange.run(ServerImpl.java:647)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Jul 27, 2021 4:58:14 PM uz.yt.cams.pki.DocumentVerifier verify
+WARNING: message-digest attribute value does not match calculated value : 778137f9 - CMSSignerDigestMismatchException
+Jul 27, 2021 4:58:14 PM uz.yt.cams.pki.provider.DefaultCertificateStatusProvder check
+INFO: TRY OCSP : http://e-imzo.uz/cams/ocsp
+Jul 27, 2021 4:58:14 PM uz.yt.cams.pki.provider.DefaultCertificateStatusProvder check
+WARNING: ConnectionException: java.io.IOException: Server returned HTTP response code: 403 for URL: http://e-imzo.uz/cams/ocsp
+Jul 27, 2021 4:58:14 PM uz.yt.cams.pki.DocumentOnlineVerifier verify
+WARNING: INVALID AT SIGNING TIME : 778137f9 - CN=IKROMXO‘JAYEV MURODXO‘JA AXMET-O‘G‘LI,Name=MURODXO‘JA,SURNAME=IKROMXO‘JAYEV,L=ЮНУСАБАДСКИЙ РАЙОН,ST=ГОРОД ТАШКЕНТ,C=UZ,UID=543135673,1.2.860.3.16.1.2=31401966520023
+Jul 27, 2021 6:54:29 PM uz.yt.cams.pki.DocumentVerifier verifyPkcs7Attached
+SEVERE: 
+java.lang.NullPointerException
+	at uz.yt.cams.pki.DocumentVerifier.verifyPkcs7Attached(DocumentVerifier.java:127)
+	at uz.yt.cams.pki.DocumentVerifier.verifyPkcs7Attached(DocumentVerifier.java:119)
+	at uz.yt.cams.pki.DocumentOnlineVerifier.verifyPkcs7WithTimeStampAttached(DocumentOnlineVerifier.java:330)
+	at uz.yt.eimzo.dsv.server.plugin.pkcs7.v1.Pkcs7.verifyPkcs7(Pkcs7.java:101)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.reflect.misc.Trampoline.invoke(MethodUtil.java:72)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.reflect.misc.MethodUtil.invoke(MethodUtil.java:276)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.sun.xml.internal.ws.api.server.MethodUtil.invoke(MethodUtil.java:68)
+	at com.sun.xml.internal.ws.api.server.InstanceResolver$1.invoke(InstanceResolver.java:235)
+	at com.sun.xml.internal.ws.server.InvokerTube$2.invoke(InvokerTube.java:134)
+	at com.sun.xml.internal.ws.server.sei.SEIInvokerTube.processRequest(SEIInvokerTube.java:73)
+	at com.sun.xml.internal.ws.api.pipe.Fiber.__doRun(Fiber.java:1121)
+	at com.sun.xml.internal.ws.api.pipe.Fiber._doRun(Fiber.java:1035)
+	at com.sun.xml.internal.ws.api.pipe.Fiber.doRun(Fiber.java:1004)
+	at com.sun.xml.internal.ws.api.pipe.Fiber.runSync(Fiber.java:862)
+	at com.sun.xml.internal.ws.server.WSEndpointImpl$2.process(WSEndpointImpl.java:404)
+	at com.sun.xml.internal.ws.transport.http.HttpAdapter$HttpToolkit.handle(HttpAdapter.java:706)
+	at com.sun.xml.internal.ws.transport.http.HttpAdapter.handle(HttpAdapter.java:260)
+	at com.sun.xml.internal.ws.transport.http.server.WSHttpHandler.handleExchange(WSHttpHandler.java:98)
+	at com.sun.xml.internal.ws.transport.http.server.WSHttpHandler.handle(WSHttpHandler.java:82)
+	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:79)
+	at sun.net.httpserver.AuthFilter.doFilter(AuthFilter.java:83)
+	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:82)
+	at sun.net.httpserver.ServerImpl$Exchange$LinkHandler.handle(ServerImpl.java:675)
+	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:79)
+	at sun.net.httpserver.ServerImpl$Exchange.run(ServerImpl.java:647)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Jul 27, 2021 6:54:29 PM uz.yt.cams.pki.DocumentVerifier verify
+WARNING: message-digest attribute value does not match calculated value : 778137f9 - CMSSignerDigestMismatchException
+Jul 27, 2021 6:54:29 PM uz.yt.cams.pki.provider.DefaultCertificateStatusProvder check
+INFO: TRY OCSP : http://e-imzo.uz/cams/ocsp
+Jul 27, 2021 6:54:29 PM uz.yt.cams.pki.provider.DefaultCertificateStatusProvder check
+WARNING: ConnectionException: java.io.IOException: Server returned HTTP response code: 403 for URL: http://e-imzo.uz/cams/ocsp
+Jul 27, 2021 6:54:29 PM uz.yt.cams.pki.DocumentOnlineVerifier verify
+WARNING: INVALID AT SIGNING TIME : 778137f9 - CN=IKROMXO‘JAYEV MURODXO‘JA AXMET-O‘G‘LI,Name=MURODXO‘JA,SURNAME=IKROMXO‘JAYEV,L=ЮНУСАБАДСКИЙ РАЙОН,ST=ГОРОД ТАШКЕНТ,C=UZ,UID=543135673,1.2.860.3.16.1.2=31401966520023
+Jul 27, 2021 6:54:30 PM uz.yt.cams.pki.DocumentVerifier verifyPkcs7Attached
+SEVERE: 
+java.lang.NullPointerException
+	at uz.yt.cams.pki.DocumentVerifier.verifyPkcs7Attached(DocumentVerifier.java:127)
+	at uz.yt.cams.pki.DocumentVerifier.verifyPkcs7Attached(DocumentVerifier.java:119)
+	at uz.yt.cams.pki.DocumentOnlineVerifier.verifyPkcs7WithTimeStampAttached(DocumentOnlineVerifier.java:330)
+	at uz.yt.eimzo.dsv.server.plugin.pkcs7.v1.Pkcs7.verifyPkcs7(Pkcs7.java:101)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.reflect.misc.Trampoline.invoke(MethodUtil.java:72)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.reflect.misc.MethodUtil.invoke(MethodUtil.java:276)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.sun.xml.internal.ws.api.server.MethodUtil.invoke(MethodUtil.java:68)
+	at com.sun.xml.internal.ws.api.server.InstanceResolver$1.invoke(InstanceResolver.java:235)
+	at com.sun.xml.internal.ws.server.InvokerTube$2.invoke(InvokerTube.java:134)
+	at com.sun.xml.internal.ws.server.sei.SEIInvokerTube.processRequest(SEIInvokerTube.java:73)
+	at com.sun.xml.internal.ws.api.pipe.Fiber.__doRun(Fiber.java:1121)
+	at com.sun.xml.internal.ws.api.pipe.Fiber._doRun(Fiber.java:1035)
+	at com.sun.xml.internal.ws.api.pipe.Fiber.doRun(Fiber.java:1004)
+	at com.sun.xml.internal.ws.api.pipe.Fiber.runSync(Fiber.java:862)
+	at com.sun.xml.internal.ws.server.WSEndpointImpl$2.process(WSEndpointImpl.java:404)
+	at com.sun.xml.internal.ws.transport.http.HttpAdapter$HttpToolkit.handle(HttpAdapter.java:706)
+	at com.sun.xml.internal.ws.transport.http.HttpAdapter.handle(HttpAdapter.java:260)
+	at com.sun.xml.internal.ws.transport.http.server.WSHttpHandler.handleExchange(WSHttpHandler.java:98)
+	at com.sun.xml.internal.ws.transport.http.server.WSHttpHandler.handle(WSHttpHandler.java:82)
+	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:79)
+	at sun.net.httpserver.AuthFilter.doFilter(AuthFilter.java:83)
+	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:82)
+	at sun.net.httpserver.ServerImpl$Exchange$LinkHandler.handle(ServerImpl.java:675)
+	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:79)
+	at sun.net.httpserver.ServerImpl$Exchange.run(ServerImpl.java:647)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Jul 27, 2021 6:54:30 PM uz.yt.cams.pki.DocumentVerifier verify
+WARNING: message-digest attribute value does not match calculated value : 778137f9 - CMSSignerDigestMismatchException
+Jul 27, 2021 6:54:30 PM uz.yt.cams.pki.provider.DefaultCertificateStatusProvder check
+INFO: TRY OCSP : http://e-imzo.uz/cams/ocsp
+Jul 27, 2021 6:54:30 PM uz.yt.cams.pki.provider.DefaultCertificateStatusProvder check
+WARNING: ConnectionException: java.io.IOException: Server returned HTTP response code: 403 for URL: http://e-imzo.uz/cams/ocsp
+Jul 27, 2021 6:54:30 PM uz.yt.cams.pki.DocumentOnlineVerifier verify
+WARNING: INVALID AT SIGNING TIME : 778137f9 - CN=IKROMXO‘JAYEV MURODXO‘JA AXMET-O‘G‘LI,Name=MURODXO‘JA,SURNAME=IKROMXO‘JAYEV,L=ЮНУСАБАДСКИЙ РАЙОН,ST=ГОРОД ТАШКЕНТ,C=UZ,UID=543135673,1.2.860.3.16.1.2=31401966520023

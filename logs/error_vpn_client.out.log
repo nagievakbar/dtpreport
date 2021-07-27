@@ -1,0 +1,279 @@
+Error: Unable to access jarfile /home/vid/vid/E-IMZO/E-IMZO/vpn-client/vpn-client.jar
+Error: Unable to access jarfile /home/vid/vid/E-IMZO/E-IMZO/vpn-client/vpn-client.jar
+Error: Unable to access jarfile /home/vid/vid/E-IMZO/E-IMZO/vpn-client/vpn-client.jar
+Jul 01, 2021 12:24:06 AM uz.yt.vpn.client.Application main
+INFO: VPN-CLIENT v1.1.
+Jul 01, 2021 12:24:06 AM uz.yt.vpn.client.Application main
+INFO: Trying run configuration in /home/user/E-IMZO/vpn-client/client-eimzo.conf.
+Jul 01, 2021 12:24:06 AM uz.yt.vpn.client.Application main
+INFO: Running VPN client on 127.0.0.5:8080.
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by io.netty.util.internal.PlatformDependent0 (file:/home/user/E-IMZO/vpn-client/lib/netty-all-5.0.0.Alpha2.jar) to field java.nio.Buffer.address
+WARNING: Please consider reporting this to the maintainers of io.netty.util.internal.PlatformDependent0
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Jul 01, 2021 12:24:07 AM io.netty.util.internal.PlatformDependent <clinit>
+INFO: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+Jul 01, 2021 7:47:40 PM uz.yt.vpn.client.Application main
+INFO: VPN-CLIENT v1.1.
+Jul 01, 2021 7:47:40 PM uz.yt.vpn.client.Application main
+INFO: Trying run configuration in /home/user/E-IMZO/vpn-client/client-eimzo.conf.
+Jul 01, 2021 7:47:40 PM uz.yt.vpn.client.Application main
+INFO: Running VPN client on 127.0.0.5:8080.
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by io.netty.util.internal.PlatformDependent0 (file:/home/user/E-IMZO/vpn-client/lib/netty-all-5.0.0.Alpha2.jar) to field java.nio.Buffer.address
+WARNING: Please consider reporting this to the maintainers of io.netty.util.internal.PlatformDependent0
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Jul 01, 2021 7:47:41 PM io.netty.util.internal.PlatformDependent <clinit>
+INFO: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+Jul 02, 2021 9:13:12 AM uz.yt.vpn.client.Application main
+INFO: VPN-CLIENT v1.1.
+Jul 02, 2021 9:13:12 AM uz.yt.vpn.client.Application main
+INFO: Trying run configuration in /home/user/E-IMZO/vpn-client/client-eimzo.conf.
+Jul 02, 2021 9:13:12 AM uz.yt.vpn.client.Application main
+INFO: Running VPN client on 127.0.0.5:8080.
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by io.netty.util.internal.PlatformDependent0 (file:/home/user/E-IMZO/vpn-client/lib/netty-all-5.0.0.Alpha2.jar) to field java.nio.Buffer.address
+WARNING: Please consider reporting this to the maintainers of io.netty.util.internal.PlatformDependent0
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Jul 02, 2021 9:13:13 AM io.netty.util.internal.PlatformDependent <clinit>
+INFO: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+Jul 08, 2021 6:05:05 PM uz.yt.vpn.client.Application main
+INFO: VPN-CLIENT v1.1.
+Jul 08, 2021 6:05:05 PM uz.yt.vpn.client.Application main
+INFO: Trying run configuration in /home/user/E-IMZO/vpn-client/client-eimzo.conf.
+Jul 08, 2021 6:05:05 PM uz.yt.vpn.client.Application main
+INFO: Running VPN client on 127.0.0.5:8080.
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by io.netty.util.internal.PlatformDependent0 (file:/home/user/E-IMZO/vpn-client/lib/netty-all-5.0.0.Alpha2.jar) to field java.nio.Buffer.address
+WARNING: Please consider reporting this to the maintainers of io.netty.util.internal.PlatformDependent0
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Jul 08, 2021 6:05:07 PM io.netty.util.internal.PlatformDependent <clinit>
+INFO: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+Jul 08, 2021 6:06:41 PM uz.yt.vpn.client.Application main
+INFO: VPN-CLIENT v1.1.
+Jul 08, 2021 6:06:41 PM uz.yt.vpn.client.Application main
+INFO: Trying run configuration in /home/user/E-IMZO/vpn-client/client-eimzo.conf.
+Jul 08, 2021 6:06:41 PM uz.yt.vpn.client.Application main
+INFO: Running VPN client on 127.0.0.5:8080.
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by io.netty.util.internal.PlatformDependent0 (file:/home/user/E-IMZO/vpn-client/lib/netty-all-5.0.0.Alpha2.jar) to field java.nio.Buffer.address
+WARNING: Please consider reporting this to the maintainers of io.netty.util.internal.PlatformDependent0
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Jul 08, 2021 6:06:42 PM io.netty.util.internal.PlatformDependent <clinit>
+INFO: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+Jul 08, 2021 6:19:56 PM uz.yt.vpn.client.Application main
+INFO: VPN-CLIENT v1.1.
+Jul 08, 2021 6:19:56 PM uz.yt.vpn.client.Application main
+INFO: Trying run configuration in /home/user/E-IMZO/vpn-client/client-eimzo.conf.
+Jul 08, 2021 6:20:06 PM uz.yt.vpn.client.Application main
+INFO: Running VPN client on 127.0.0.5:8080.
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by io.netty.util.internal.PlatformDependent0 (file:/home/user/E-IMZO/vpn-client/lib/netty-all-5.0.0.Alpha2.jar) to field java.nio.Buffer.address
+WARNING: Please consider reporting this to the maintainers of io.netty.util.internal.PlatformDependent0
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Jul 08, 2021 6:20:06 PM io.netty.util.internal.PlatformDependent <clinit>
+INFO: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+Exception in thread "main" java.net.BindException: Address already in use
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:455)
+	at java.base/sun.nio.ch.Net.bind(Net.java:447)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:227)
+	at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:80)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:125)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:554)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1237)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeBindNow(ChannelHandlerInvokerUtil.java:109)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeBind(DefaultChannelHandlerInvoker.java:214)
+	at io.netty.channel.PausableChannelEventExecutor.invokeBind(PausableChannelEventExecutor.java:101)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:481)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:1013)
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:236)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:357)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:328)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at io.netty.util.internal.chmv8.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1412)
+	at io.netty.util.internal.chmv8.ForkJoinTask.doExec(ForkJoinTask.java:280)
+	at io.netty.util.internal.chmv8.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:877)
+	at io.netty.util.internal.chmv8.ForkJoinPool.scan(ForkJoinPool.java:1706)
+	at io.netty.util.internal.chmv8.ForkJoinPool.runWorker(ForkJoinPool.java:1661)
+	at io.netty.util.internal.chmv8.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:126)
+Jul 08, 2021 7:50:43 PM uz.yt.vpn.client.Application main
+INFO: VPN-CLIENT v1.1.
+Jul 08, 2021 7:50:43 PM uz.yt.vpn.client.Application main
+INFO: Trying run configuration in /home/user/E-IMZO/vpn-client/client-eimzo.conf.
+Jul 08, 2021 7:50:43 PM uz.yt.vpn.client.Application main
+INFO: Running VPN client on 127.0.0.5:8080.
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by io.netty.util.internal.PlatformDependent0 (file:/home/user/E-IMZO/vpn-client/lib/netty-all-5.0.0.Alpha2.jar) to field java.nio.Buffer.address
+WARNING: Please consider reporting this to the maintainers of io.netty.util.internal.PlatformDependent0
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Jul 08, 2021 7:50:44 PM io.netty.util.internal.PlatformDependent <clinit>
+INFO: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+Jul 08, 2021 7:50:44 PM io.netty.channel.DefaultChannelId defaultMachineId
+WARNING: Failed to find a usable hardware address from the network interfaces; using random bytes: 28:ce:1a:8e:28:99:a0:33
+Jul 08, 2021 7:55:59 PM uz.yt.vpn.client.Application main
+INFO: VPN-CLIENT v1.1.
+Jul 08, 2021 7:55:59 PM uz.yt.vpn.client.Application main
+INFO: Trying run configuration in /home/user/E-IMZO/vpn-client/client-eimzo.conf.
+Jul 08, 2021 7:55:59 PM uz.yt.vpn.client.Application main
+INFO: Running VPN client on 127.0.0.5:8080.
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by io.netty.util.internal.PlatformDependent0 (file:/home/user/E-IMZO/vpn-client/lib/netty-all-5.0.0.Alpha2.jar) to field java.nio.Buffer.address
+WARNING: Please consider reporting this to the maintainers of io.netty.util.internal.PlatformDependent0
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Jul 08, 2021 7:56:00 PM io.netty.util.internal.PlatformDependent <clinit>
+INFO: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+Jul 08, 2021 8:05:26 PM uz.yt.vpn.client.Application main
+INFO: VPN-CLIENT v1.1.
+Jul 08, 2021 8:05:26 PM uz.yt.vpn.client.Application main
+INFO: Trying run configuration in /home/user/E-IMZO/vpn-client/client-eimzo.conf.
+Jul 08, 2021 8:05:26 PM uz.yt.vpn.client.Application main
+INFO: Running VPN client on 127.0.0.5:8080.
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by io.netty.util.internal.PlatformDependent0 (file:/home/user/E-IMZO/vpn-client/lib/netty-all-5.0.0.Alpha2.jar) to field java.nio.Buffer.address
+WARNING: Please consider reporting this to the maintainers of io.netty.util.internal.PlatformDependent0
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Jul 08, 2021 8:05:27 PM io.netty.util.internal.PlatformDependent <clinit>
+INFO: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+Jul 08, 2021 8:05:27 PM io.netty.channel.DefaultChannelId defaultMachineId
+WARNING: Failed to find a usable hardware address from the network interfaces; using random bytes: 36:87:c5:bf:35:bb:50:00
+Jul 08, 2021 8:12:47 PM uz.yt.vpn.client.Application main
+INFO: VPN-CLIENT v1.1.
+Jul 08, 2021 8:12:47 PM uz.yt.vpn.client.Application main
+INFO: Trying run configuration in /home/user/E-IMZO/vpn-client/client-eimzo.conf.
+Jul 08, 2021 8:12:47 PM uz.yt.vpn.client.Application main
+INFO: Running VPN client on 127.0.0.5:8080.
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by io.netty.util.internal.PlatformDependent0 (file:/home/user/E-IMZO/vpn-client/lib/netty-all-5.0.0.Alpha2.jar) to field java.nio.Buffer.address
+WARNING: Please consider reporting this to the maintainers of io.netty.util.internal.PlatformDependent0
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Jul 08, 2021 8:12:49 PM io.netty.util.internal.PlatformDependent <clinit>
+INFO: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+Jul 08, 2021 8:23:37 PM uz.yt.vpn.client.Application main
+INFO: VPN-CLIENT v1.1.
+Jul 08, 2021 8:23:37 PM uz.yt.vpn.client.Application main
+INFO: Trying run configuration in /home/user/E-IMZO/vpn-client/client-eimzo.conf.
+Jul 08, 2021 8:23:37 PM uz.yt.vpn.client.Application main
+INFO: Running VPN client on 127.0.0.5:8080.
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by io.netty.util.internal.PlatformDependent0 (file:/home/user/E-IMZO/vpn-client/lib/netty-all-5.0.0.Alpha2.jar) to field java.nio.Buffer.address
+WARNING: Please consider reporting this to the maintainers of io.netty.util.internal.PlatformDependent0
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Jul 08, 2021 8:23:38 PM io.netty.util.internal.PlatformDependent <clinit>
+INFO: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+Jul 08, 2021 8:30:28 PM uz.yt.vpn.client.Application main
+INFO: VPN-CLIENT v1.1.
+Jul 08, 2021 8:30:28 PM uz.yt.vpn.client.Application main
+INFO: Trying run configuration in /home/user/E-IMZO/vpn-client/client-eimzo.conf.
+Jul 08, 2021 8:30:28 PM uz.yt.vpn.client.Application main
+INFO: Running VPN client on 127.0.0.5:8080.
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by io.netty.util.internal.PlatformDependent0 (file:/home/user/E-IMZO/vpn-client/lib/netty-all-5.0.0.Alpha2.jar) to field java.nio.Buffer.address
+WARNING: Please consider reporting this to the maintainers of io.netty.util.internal.PlatformDependent0
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Jul 08, 2021 8:30:29 PM io.netty.util.internal.PlatformDependent <clinit>
+INFO: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+Jul 09, 2021 6:43:20 PM uz.yt.vpn.client.Application main
+INFO: VPN-CLIENT v1.1.
+Jul 09, 2021 6:43:20 PM uz.yt.vpn.client.Application main
+INFO: Trying run configuration in /home/user/E-IMZO/vpn-client/client-eimzo.conf.
+Jul 09, 2021 6:43:20 PM uz.yt.vpn.client.Application main
+INFO: Running VPN client on 127.0.0.5:8080.
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by io.netty.util.internal.PlatformDependent0 (file:/home/user/E-IMZO/vpn-client/lib/netty-all-5.0.0.Alpha2.jar) to field java.nio.Buffer.address
+WARNING: Please consider reporting this to the maintainers of io.netty.util.internal.PlatformDependent0
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Jul 09, 2021 6:43:21 PM io.netty.util.internal.PlatformDependent <clinit>
+INFO: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+Jul 26, 2021 5:56:51 PM uz.yt.vpn.client.Application main
+INFO: VPN-CLIENT v1.1.
+Jul 26, 2021 5:56:51 PM uz.yt.vpn.client.Application main
+INFO: Trying run configuration in /home/user/E-IMZO/vpn-client/client-eimzo.conf.
+Jul 26, 2021 5:56:51 PM uz.yt.vpn.client.Application main
+INFO: Running VPN client on 127.0.0.5:8080.
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by io.netty.util.internal.PlatformDependent0 (file:/home/user/E-IMZO/vpn-client/lib/netty-all-5.0.0.Alpha2.jar) to field java.nio.Buffer.address
+WARNING: Please consider reporting this to the maintainers of io.netty.util.internal.PlatformDependent0
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Jul 26, 2021 5:56:53 PM io.netty.util.internal.PlatformDependent <clinit>
+INFO: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+/home/user/E-IMZO/vpn-client/run.sh: line 3:  1105 Killed                  java -jar /home/user/E-IMZO/vpn-client/vpn-client.jar /home/user/E-IMZO/vpn-client/client-eimzo.conf
+Jul 26, 2021 5:59:46 PM uz.yt.vpn.client.Application main
+INFO: VPN-CLIENT v1.1.
+Jul 26, 2021 5:59:46 PM uz.yt.vpn.client.Application main
+INFO: Trying run configuration in /home/user/E-IMZO/vpn-client/client-eimzo.conf.
+Jul 26, 2021 5:59:46 PM uz.yt.vpn.client.Application main
+INFO: Running VPN client on 127.0.0.5:8080.
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by io.netty.util.internal.PlatformDependent0 (file:/home/user/E-IMZO/vpn-client/lib/netty-all-5.0.0.Alpha2.jar) to field java.nio.Buffer.address
+WARNING: Please consider reporting this to the maintainers of io.netty.util.internal.PlatformDependent0
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Jul 26, 2021 5:59:47 PM io.netty.util.internal.PlatformDependent <clinit>
+INFO: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+Jul 26, 2021 8:02:17 PM uz.yt.vpn.client.Application main
+INFO: VPN-CLIENT v1.1.
+Jul 26, 2021 8:02:17 PM uz.yt.vpn.client.Application main
+INFO: Trying run configuration in /home/user/E-IMZO/vpn-client/client-eimzo.conf.
+Jul 26, 2021 8:02:17 PM uz.yt.vpn.client.Application main
+INFO: Running VPN client on 127.0.0.5:8080.
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by io.netty.util.internal.PlatformDependent0 (file:/home/user/E-IMZO/vpn-client/lib/netty-all-5.0.0.Alpha2.jar) to field java.nio.Buffer.address
+WARNING: Please consider reporting this to the maintainers of io.netty.util.internal.PlatformDependent0
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Jul 26, 2021 8:02:18 PM io.netty.util.internal.PlatformDependent <clinit>
+INFO: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+/home/user/E-IMZO/vpn-client/run.sh: line 3:  1208 Killed                  java -jar /home/user/E-IMZO/vpn-client/vpn-client.jar /home/user/E-IMZO/vpn-client/client-eimzo.conf
+Jul 27, 2021 4:27:00 PM uz.yt.vpn.client.Application main
+INFO: VPN-CLIENT v1.1.
+Jul 27, 2021 4:27:00 PM uz.yt.vpn.client.Application main
+INFO: Trying run configuration in /home/user/E-IMZO/vpn-client/client-eimzo.conf.
+Jul 27, 2021 4:27:00 PM uz.yt.vpn.client.Application main
+INFO: Running VPN client on 127.0.0.5:80.
+Exception in thread "main" java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:461)
+	at sun.nio.ch.Net.bind(Net.java:453)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:222)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:85)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:125)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:554)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1237)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeBindNow(ChannelHandlerInvokerUtil.java:109)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeBind(DefaultChannelHandlerInvoker.java:214)
+	at io.netty.channel.PausableChannelEventExecutor.invokeBind(PausableChannelEventExecutor.java:101)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:481)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:1013)
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:236)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:357)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:328)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at io.netty.util.internal.chmv8.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1412)
+	at io.netty.util.internal.chmv8.ForkJoinTask.doExec(ForkJoinTask.java:280)
+	at io.netty.util.internal.chmv8.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:877)
+	at io.netty.util.internal.chmv8.ForkJoinPool.scan(ForkJoinPool.java:1706)
+	at io.netty.util.internal.chmv8.ForkJoinPool.runWorker(ForkJoinPool.java:1661)
+	at io.netty.util.internal.chmv8.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:126)
+Jul 27, 2021 4:30:24 PM uz.yt.vpn.client.Application main
+INFO: VPN-CLIENT v1.1.
+Jul 27, 2021 4:30:24 PM uz.yt.vpn.client.Application main
+INFO: Trying run configuration in /home/user/E-IMZO/vpn-client/client-eimzo.conf.
+Jul 27, 2021 4:30:24 PM uz.yt.vpn.client.Application main
+INFO: Running VPN client on 127.0.0.5:8080.
