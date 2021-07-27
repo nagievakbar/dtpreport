@@ -690,8 +690,8 @@ class ReportView(View):
             else:
                 print("ERRROS WEAR FORMSSS")
                 print(wear_form.errors)
-            if new_report.key is None or new_report.key == "":
-                new_report.set_private_key()
+
+            new_report.set_private_key()
             new_report.save()
 
             context['report'] = new_report
@@ -1133,9 +1133,8 @@ class DisposableView(View):
             report_form.save()
             customer_form.save()
             enumeration_form.save()
-            if report.key is None:
-                report.set_private_key()
-                create_base64_closing(report)
+            report.set_private_key()
+            create_base64_closing(report)
             report.save()
             concatenate_pdf_disposable.delay(report.id)
 
