@@ -2,6 +2,7 @@
 {% block javascript %}
 
     <script>
+        const server = "http://e-otsenka.uz";
         var addServiceCounter = $('#service_formset').find('table').length - 1;
         var addProductCounter = $('#product_formset').find('table').length - 1;
         var addConsumableCounter = $('#consumable_formset').find('table').length - 1;
@@ -439,7 +440,7 @@
                         }
                         const present_table = parent.next().find('.name3');
                         present_table.select();
-                        console.log(typeof(cost.val()));
+                        console.log(typeof (cost.val()));
                         var sum = data.total_cost - cost.val().replace(/\s/g, '');
                         console.log(sum);
                         calculate_exact_sum(sum, 'product');
@@ -528,7 +529,7 @@
 
         $(document).ready(function () {
 
-            const server = "https://e-otsenka.uz";
+
             $("#test-upload").fileinput({
                 'theme': 'fas',
                 'showPreview': false,
@@ -693,7 +694,7 @@
                 $(this).val(serialized);
                 $(this).text(serialized);
             })
-            $(".divide-integer-label").each(function (){
+            $(".divide-integer-label").each(function () {
                 var serialized = $(this).text().replace(/\s/g, '').replace(/\B(?=(\d{3})+(?!\d))/g, " ");
                 $(this).text(serialized);
             })
