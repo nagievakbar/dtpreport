@@ -237,13 +237,13 @@ class ServiceForm(forms.Form):
         widget=forms.Textarea(attrs={'class': 'input2 work-price-input2 name2', 'onkeyup': 'textAreaAdjust(this)'}))
     norm_per_hour = forms.FloatField(
         required=False,
-        widget=forms.NumberInput(attrs={'class': 'input2 work-price-input2 time2'}))
+        widget=forms.NumberInput(attrs={'class': 'input2 work-price-input2 time2 commaToPoint'}))
     premium = forms.FloatField(
         required=False,
-        widget=forms.TextInput(attrs={'class': 'input2 work-price-input2 allowance2'}))  # 'value': '0'
+        widget=forms.TextInput(attrs={'class': 'input2 work-price-input2 allowance2 commaToPoint'}))  # 'value': '0'
     price = forms.CharField(
         required=False,
-        widget=forms.TextInput(attrs={'class': 'input2 work-price-input2 price2 divide-integer'}))
+        widget=forms.TextInput(attrs={'class': 'input2 work-price-input2 price2 divide-integer commaToPoint'}))
     service_cost = forms.CharField(
         required=False,
         widget=forms.TextInput(attrs={'class': 'input2 work-price-input2 sum2 divide-integer', 'readonly': ''}))
@@ -257,13 +257,13 @@ class ProductForm(forms.Form):
         widget=forms.Textarea(attrs={'class': 'input3 work-price-input3 name3', 'onkeyup': 'textAreaAdjust(this)'}))
     quantity = forms.FloatField(
         required=False,
-        widget=forms.TextInput(attrs={'class': 'input3 work-price-input3 time3', }))  # 'value': '0'
+        widget=forms.TextInput(attrs={'class': 'input3 work-price-input3 time3 commaToPoint' , }))  # 'value': '0'
     price = forms.CharField(
         required=False,
-        widget=forms.TextInput(attrs={'class': 'input3 work-price-input3 price3 divide-integer', }))
+        widget=forms.TextInput(attrs={'class': 'input3 work-price-input3 price3 divide-integer commaToPoint', }))
     product_cost = forms.CharField(
         required=False,
-        widget=forms.TextInput(attrs={'class': 'input3 work-price-input3 sum3 divide-integer', 'readonly': ''}))
+        widget=forms.TextInput(attrs={'class': 'input3 work-price-input3 sum3 divide-integer ', 'readonly': ''}))
 
 
 class ConsumableForm(forms.Form):
@@ -275,16 +275,16 @@ class ConsumableForm(forms.Form):
         widget=forms.Textarea(attrs={'class': 'input4 work-price-input4 name4', 'onkeyup': 'textAreaAdjust(this)'}))
     unit = forms.CharField(
         required=False,
-        widget=forms.TextInput(attrs={'class': 'input4 work-price-input4 time4', }))
+        widget=forms.TextInput(attrs={'class': 'input4 work-price-input4 time4 commaToPoint', }))
     quantity = forms.FloatField(
         required=False,
-        widget=forms.TextInput(attrs={'class': 'input4 work-price-input4 allowance4', }))  # 'value': '0'
+        widget=forms.TextInput(attrs={'class': 'input4 work-price-input4 allowance4 commaToPoint', }))  # 'value': '0'
     price = forms.CharField(
         required=False,
-        widget=forms.TextInput(attrs={'class': 'input4 work-price-input4 price4 divide-integer', }))
+        widget=forms.TextInput(attrs={'class': 'input4 work-price-input4 price4 divide-integer commaToPoint', }))
     consumable_cost = forms.CharField(
         required=False,
-        widget=forms.TextInput(attrs={'class': 'input4 work-price-input4 sum4 divide-integer', 'readonly': ''}))
+        widget=forms.TextInput(attrs={'class': 'input4 work-price-input4 sum4 divide-integer commaToPoint', 'readonly': ''}))
 
 
 class ImageForm(forms.ModelForm):
@@ -345,16 +345,16 @@ class ChecksForm(forms.ModelForm):
 class WearForm(forms.Form):
     point = forms.FloatField(
         required=False,
-        widget=forms.TextInput(attrs={'class': 'input work-price-input point-input'}))
+        widget=forms.TextInput(attrs={'class': 'input work-price-input point-input commaToPoint'}))
     weight = forms.FloatField(
         required=False,
-        widget=forms.TextInput(attrs={'class': 'input work-price-input weight-input'}))
+        widget=forms.TextInput(attrs={'class': 'input work-price-input weight-input commaToPoint'}))
     wear = forms.FloatField(
         required=False,
         widget=forms.TextInput(attrs={'class': 'input work-price-input prehnite-input', 'readonly': ""}))
     accept_wear = forms.FloatField(
         required=False,
-        widget=forms.TextInput(attrs={'class': 'input work-price-input prehnite-input'}))
+        widget=forms.TextInput(attrs={'class': 'input work-price-input prehnite-input commaToPoint'}))
 
 
 class ClosingDescForm(forms.ModelForm):

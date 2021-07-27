@@ -7,7 +7,11 @@
         var addProductCounter = $('#product_formset').find('table').length - 1;
         var addConsumableCounter = $('#consumable_formset').find('table').length - 1;
 
-
+        $('.commaToPoint').on('input', function (){
+            var value = $(this).val().replace(',','.')
+            console.log(value);
+            $(this).val(value)
+        })
         function textAreaAdjust(element) {
             element.style.height = "1px";
             if (element.scrollHeight === 0) {
