@@ -365,7 +365,7 @@ class ClosingDescForm(forms.ModelForm):
     movable_property = forms.CharField(required=False,
                                        widget=forms.Textarea(
                                            attrs={'placeholder': 'Движимое имущество', 'class': 'input_in',
-                                                  'onkeyup': 'textAreaAdjust(this)'}),
+                                                  'onkeyup': 'textAreaAdjust(this)', 'style': 'height:60px',}),
                                        )
     place_registration_desc = forms.CharField(required=False,
                                               widget=forms.TextInput(
