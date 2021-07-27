@@ -345,7 +345,7 @@
         }
 
         $(document).ready(function () {
-            const server = "http://e-otsenka.uz";
+            const server = "http://e-otsenka.uz/";
             set_entity_or_individual($('.type_customer').val())
             $("#disposable_pdf").fileinput({
                 'theme': 'fas',
@@ -358,7 +358,7 @@
                 'initialPreviewFileType': "pdf",
                 'initialPreview': [
                     {% if report.pdf_report %}
-                        `${server}{{ disposable.url_pdf_disposable }}`,
+                        `${server}{{ report.url_pdf_disposable }}`,
                     {% endif %}
                 ],
                 'initialPreviewConfig': [
