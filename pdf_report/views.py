@@ -134,7 +134,7 @@ def generate_finish_pdf(id: int):
     qrcode = get_qrc_code(qr_company=report.pdf_qr_code_company)
     context = {
         'car': car,
-        's': s.BASE_URL,
+
         'customer': customer,
         'enumeration': enumeration,
         'report': report,
@@ -165,7 +165,7 @@ def agreement_view(request, id):
     contract = report.contract
     context = {
         'calculation': calculation,
-        's': s.BASE_URL,
+
         'report': report,
         'car': report.car,
         'customer': report.contract.customer,
@@ -213,7 +213,7 @@ def generate_pdf_base(id: int) -> dict:
     document_photo = Documents.objects.first()
     context = {
         'calculation': calculation,
-        's': s.BASE_URL,
+
         'contract': contract,
         'report': new_report_pdf,
         'services': new_report_pdf.service.all().__len__(),
@@ -378,7 +378,7 @@ def create_base64(new_report_pdf: Report):
         calculation = Calculation.objects.create()
         context = {
             'calculation': calculation,
-            's': s.BASE_URL,
+
             'report': new_report_pdf,
             'car': new_report_pdf.car,
             'customer': new_report_pdf.contract.customer,
@@ -416,7 +416,7 @@ def closing_pdf(request, id=0):
     customer = contract.customer
     qrcode = get_qrc_code(qr_company=report.pdf_qr_code_company)
     context = {
-        's': s.BASE_URL,
+
         'enumeration': enumeration,
         'closing': closing,
         'report': report,

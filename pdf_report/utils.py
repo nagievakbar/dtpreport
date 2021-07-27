@@ -44,6 +44,8 @@ def check_qr_code(qrcode: str):
 
 
 def generate_pdf(context: dict, default_template: str, css_name: str, main_template_path: str = ""):
+    from  DTPreport.settings import  URL_LOCAL
+    context['s'] = URL_LOCAL
     load = os.path.abspath(os.path.join(s.MEDIA_ROOT, '..'))
     css = os.path.join(load, 'templates/css/{name}'.format(name=css_name))
     main_css = os.path.join(load, 'templates/css/main.css')
