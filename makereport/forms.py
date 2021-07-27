@@ -257,7 +257,7 @@ class ProductForm(forms.Form):
         widget=forms.Textarea(attrs={'class': 'input3 work-price-input3 name3', 'onkeyup': 'textAreaAdjust(this)'}))
     quantity = forms.FloatField(
         required=False,
-        widget=forms.TextInput(attrs={'class': 'input3 work-price-input3 time3 commaToPoint' , }))  # 'value': '0'
+        widget=forms.TextInput(attrs={'class': 'input3 work-price-input3 time3 commaToPoint', }))  # 'value': '0'
     price = forms.CharField(
         required=False,
         widget=forms.TextInput(attrs={'class': 'input3 work-price-input3 price3 divide-integer commaToPoint', }))
@@ -284,7 +284,8 @@ class ConsumableForm(forms.Form):
         widget=forms.TextInput(attrs={'class': 'input4 work-price-input4 price4 divide-integer commaToPoint', }))
     consumable_cost = forms.CharField(
         required=False,
-        widget=forms.TextInput(attrs={'class': 'input4 work-price-input4 sum4 divide-integer commaToPoint', 'readonly': ''}))
+        widget=forms.TextInput(
+            attrs={'class': 'input4 work-price-input4 sum4 divide-integer commaToPoint', 'readonly': ''}))
 
 
 class ImageForm(forms.ModelForm):
@@ -362,8 +363,9 @@ class ClosingDescForm(forms.ModelForm):
                                             widget=forms.TextInput(
                                                 attrs={'class': 'input_in'}), )
     movable_property = forms.CharField(required=False,
-                                       widget=forms.TextInput(
-                                           attrs={'placeholder': 'Движимое имущество', 'class': 'input_in'}),
+                                       widget=forms.Textarea(
+                                           attrs={'placeholder': 'Движимое имущество', 'class': 'input_in',
+                                                  'onkeyup': 'textAreaAdjust(this)'}),
                                        )
     place_registration_desc = forms.CharField(required=False,
                                               widget=forms.TextInput(

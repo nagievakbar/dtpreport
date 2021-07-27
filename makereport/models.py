@@ -431,12 +431,12 @@ class Closing(models.Model):
     # report_number = models.CharField(max_length=100, blank=True, null=True)
     movable_property_desc = models.CharField(max_length=100, blank=True, null=True, default="Движимое имущество")
     movable_property = models.CharField(
-        default="Движимое имущество легковой автомобиль НЕКСИЯ гос. номер 01 563 YBA 1997г/выпуска", max_length=100,
+        default="Движимое имущество легковой автомобиль НЕКСИЯ гос. номер 01 563 YBA 1997г/выпуска", max_length=300,
         blank=True, null=True)
 
     place_registration_desc = models.CharField(default="Место регистрации объекта оценки", max_length=100, blank=True,
                                                null=True)
-    damage_auto_desc = models.CharField(default="Ущерб автотранспортного средства по состоянию ", max_length=100,
+    damage_auto_desc = models.CharField(default="Ущерб автотранспортного средства по состоянию ", max_length=300,
                                         blank=True, null=True)
     damage_auto = models.CharField(
         default="Напишите сюда цену",
