@@ -63,9 +63,12 @@
 <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
 
 <!-- ======= Header ======= -->
-{% include 'makereport/header/left_navbar.html' with new_page="active" %}
 
-
+  {% if report.type_report == 2 %}
+      {% include 'makereport/header/left_navbar.html' with additional="active" %}
+    {% else %}
+      {% include 'makereport/header/left_navbar.html' with new_page="active" %}
+    {% endif %}
 <main id="main">
 
 
