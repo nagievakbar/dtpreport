@@ -140,8 +140,8 @@ def generate_finish_pdf(id: int):
         'report': report,
         'qrcode': check_qr_code(qrcode),
         'contract': contract,
-        # 'qrcode_some': QRcode.qrcode("{url}/pdf/{link}".format(url=s.URL_FILES, link=createQRcodeForReport(report))),
-        'qrcode_some': QRcode.qrcode('https://people.ischool.berkeley.edu/~buckland/20THCENT.pdf')
+        'qrcode_some': QRcode.qrcode("{url}/pdf/{link}".format(url=s.URL_FILES, link=createQRcodeForReport(report))),
+       # 'qrcode_some': QRcode.qrcode('https://people.ischool.berkeley.edu/~buckland/20THCENT.pdf')
     }
     file_path = get_name(TemplateMixing.objects.last())
     return generate_pdf(default_template="finishing_report.html", main_template_path=file_path,
