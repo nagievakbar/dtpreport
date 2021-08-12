@@ -17,8 +17,8 @@ class Contract(models.Model):
     customer = models.ForeignKey('Customer', null=True, blank=True, on_delete=models.CASCADE, related_name='Customer',
                                  verbose_name='Клиент')
 
-    contract_date = models.CharField(max_length=20, null=True, blank=True, default="")
-    contract_number = models.CharField(max_length=20, null=True, blank=True, default="")
+    contract_date = models.CharField(max_length=50, null=True, blank=True, default="")
+    contract_number = models.CharField(max_length=50, null=True, blank=True, default="")
 
     def __str__(self):
         return str(self.contract_id)
@@ -55,15 +55,15 @@ class Car(models.Model):
     car_id = models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')
     brand_text = models.CharField(max_length=30, blank=True, null=True, )
     brand = models.CharField(max_length=30, choices=BRANDS, null=True, blank=True)
-    car_number = models.CharField(max_length=20, blank=True, null=True, )
+    car_number = models.CharField(max_length=50, blank=True, null=True, )
     registration = models.CharField(max_length=15, blank=True, null=True, )
     engine_number = models.CharField(max_length=30, blank=True, null=True, )
     body_number = models.CharField(max_length=30, blank=True, null=True, )
     chassis = models.CharField(max_length=30, blank=True, null=True, )
     car_color = models.CharField(max_length=100, blank=True, null=True, )
-    mileage = models.CharField(max_length=20, blank=True, null=True, )
-    release_date = models.CharField(max_length=20, blank=True, null=True, )
-    car_type = models.CharField(max_length=20, blank=True, null=True, )
+    mileage = models.CharField(max_length=50, blank=True, null=True, )
+    release_date = models.CharField(max_length=50, blank=True, null=True, )
+    car_type = models.CharField(max_length=50, blank=True, null=True, )
     car_owner = models.CharField(max_length=60, blank=True, null=True, )
     owner_address = models.CharField(max_length=100, blank=True, null=True, )
     type_of_car = models.CharField(max_length=50, choices=TYPE_OF_CAR)
@@ -94,13 +94,13 @@ class Customer(models.Model):
     customer_id = models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')
     name = models.CharField(max_length=100, verbose_name='ФИО', blank=True, null=True, )
     address = models.CharField(max_length=100, blank=True, null=True, )
-    passport_number = models.CharField(max_length=20, verbose_name='Паспорт', blank=True, null=True, )
-    when_passport_issued = models.CharField(max_length=20)
+    passport_number = models.CharField(max_length=50, verbose_name='Паспорт', blank=True, null=True, )
+    when_passport_issued = models.CharField(max_length=50)
     whom_passport_issued = models.CharField(max_length=100, blank=True, null=True, )
-    phone_number = models.CharField(max_length=20, verbose_name='Тел. номер', blank=True, null=True, )
+    phone_number = models.CharField(max_length=50, verbose_name='Тел. номер', blank=True, null=True, )
     gnu_or_gje = models.CharField(max_length=40, blank=True, null=True, )
     uvajaemaya = models.CharField(max_length=40, blank=True, null=True, )
-    mesto_osmotra = models.CharField(max_length=200, blank=True, null=True, )
+    mesto_osmotra = models.CharField(max_length=500, blank=True, null=True, )
     type_customer = models.IntegerField(default=0)
 
     def __str__(self):
@@ -121,7 +121,7 @@ class Customer(models.Model):
 class Product(models.Model):
     product_id = models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')
     name = models.CharField(max_length=100, )
-    unit = models.CharField(max_length=20, verbose_name='Ед.измер.')
+    unit = models.CharField(max_length=50, verbose_name='Ед.измер.')
     nexia3 = models.FloatField(blank=True, null=True, verbose_name='Нексия 3')
     cobalt = models.FloatField(blank=True, null=True, verbose_name='Кобальт')
     malibu = models.FloatField(blank=True, null=True, verbose_name='Малибу')
@@ -195,7 +195,7 @@ class Service(models.Model):
 class Consumable(models.Model):
     consumable_id = models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')
     name = models.CharField(max_length=100)
-    unit = models.CharField(max_length=20, verbose_name='Ед.измер.')
+    unit = models.CharField(max_length=50, verbose_name='Ед.измер.')
 
     price = models.IntegerField(blank=True, null=True, verbose_name='Цена')
 
@@ -541,8 +541,8 @@ def delete_pdf_path(obj):
 class Report(models.Model):
     type_report = models.IntegerField(default=0, choices=TYPE_OF_REPORT)
     report_id = models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')
-    report_number = models.CharField(max_length=20, blank=True, null=True, )
-    report_date = models.CharField(max_length=20, blank=True, null=True, )
+    report_number = models.CharField(max_length=50, blank=True, null=True, )
+    report_date = models.CharField(max_length=50, blank=True, null=True, )
     created_by = models.ForeignKey(User, on_delete=models.CASCADE, related_name='created_by', verbose_name='Создан')
     created_at = models.DateField(blank=True, null=True, verbose_name='Время создания')
 
@@ -559,8 +559,8 @@ class Report(models.Model):
     consumable_cost = models.IntegerField(default=0, blank=True, null=True, )
     key = models.CharField(max_length=13, blank=True)
 
-    total_report_cost = models.CharField(max_length=20, blank=True, null=True, )
-    total_report_cost_txt = models.CharField(max_length=200, blank=True, null=True, )
+    total_report_cost = models.CharField(max_length=50, blank=True, null=True, )
+    total_report_cost_txt = models.CharField(max_length=500, blank=True, null=True, )
 
     pdf_report_additional = models.FileField(blank=True, null=True, upload_to='uploads_additional/%Y/%m/%d',
                                              verbose_name='Дополнительный отчет в пдф')
@@ -733,10 +733,10 @@ class Report(models.Model):
 
 
 class Calculation(models.Model):
-    total = models.CharField(max_length=20)
-    departure = models.CharField(max_length=20)
-    opr_ust = models.CharField(max_length=20)
-    opr_damage = models.CharField(max_length=20)
+    total = models.CharField(max_length=50)
+    departure = models.CharField(max_length=50)
+    opr_ust = models.CharField(max_length=50)
+    opr_damage = models.CharField(max_length=50)
     report = models.ForeignKey('Report', on_delete=models.CASCADE, related_name='report', verbose_name='Репорт',
                                null=True, blank=True)
 
