@@ -96,7 +96,7 @@ class Customer(models.Model):
     address = models.CharField(max_length=100, blank=True, null=True, )
     passport_number = models.CharField(max_length=20, verbose_name='Паспорт', blank=True, null=True, )
     when_passport_issued = models.CharField(max_length=20)
-    whom_passport_issued = models.CharField(max_length=50, blank=True, null=True, )
+    whom_passport_issued = models.CharField(max_length=100, blank=True, null=True, )
     phone_number = models.CharField(max_length=20, verbose_name='Тел. номер', blank=True, null=True, )
     gnu_or_gje = models.CharField(max_length=40, blank=True, null=True, )
     uvajaemaya = models.CharField(max_length=40, blank=True, null=True, )
