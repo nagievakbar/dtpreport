@@ -333,8 +333,7 @@ class ReportEditView(View):
                 new_report.wear_data.update(wd)
                 new_report.get_total_report_price()
             else:
-                print("ERRROS WEAR FORMSSS")
-                print(wear_form.errors)
+                raise Exception(wear_form.errors)
             new_report.set_private_key()
             new_report.save()
             total_price_report = new_report.total_report_cost
@@ -346,7 +345,16 @@ class ReportEditView(View):
             except KeyError:
                 pass
             make_pdf_additional.delay(new_report.report_id)
-
+        else:
+            raise Exception(
+                {
+                    "report_form": report_form.errors,
+                    "car_form": car_form.errors,
+                    "customer_form": customer_form.errors,
+                    "contract_form": contract_form.errors,
+                    "calculation_form": calculation_form.errors
+                }
+            )
         return render(request, 'makereport/add_repor.html', context)
 
     def init_service_formset(self, request):
@@ -567,8 +575,7 @@ class ReportView(View):
                 new_report.wear_data.update(wd)
                 new_report.get_total_report_price()
             else:
-                print("ERRROS WEAR FORMSSS")
-                print(wear_form.errors)
+                raise Exception(wear_form.errors)
 
             new_report.set_private_key()
             new_report.save()
@@ -581,6 +588,16 @@ class ReportView(View):
             except KeyError:
                 pass
             make_pdf.delay(new_report.report_id)
+        else:
+            raise Exception(
+                {
+                    "report_form": report_form.errors,
+                    "car_form": car_form.errors,
+                    "customer_form": customer_form.errors,
+                    "contract_form": contract_form.errors,
+                    "calculation_form": calculation_form.errors
+                }
+            )
             # make_pdf_additional.delay(new_report.report_id)
         return render(request, self.template_name, context)
 
@@ -688,8 +705,7 @@ class ReportView(View):
                 new_report.wear_data.update(wd)
                 new_report.get_total_report_price()
             else:
-                print("ERRROS WEAR FORMSSS")
-                print(wear_form.errors)
+                raise Exception(wear_form.errors)
 
             new_report.set_private_key()
             new_report.save()
@@ -732,7 +748,16 @@ class ReportView(View):
                     'ophotos': ophotos or None,
                     'checks': checks or None,
                 }
-
+        else:
+            raise Exception(
+                {
+                    "report_form": report_form.errors,
+                    "car_form": car_form.errors,
+                    "customer_form": customer_form.errors,
+                    "contract_form": contract_form.errors,
+                    "calculation_form": calculation_form.errors
+                }
+            )
         return render(request, self.template_name, context)
 
     def init_service_formset(self, request):
@@ -902,7 +927,17 @@ class EnumerationView(ReportView):
             except KeyError:
                 pass
             make_pdf_enumeration.delay(new_report.report_id)
-
+        else:
+            raise Exception(
+                {
+                    "report_form": report_form.errors,
+                    "car_form": car_form.errors,
+                    "customer_form": customer_form.errors,
+                    "contract_form": contract_form.errors,
+                    "calculation_form": calculation_form.errors,
+                    "enumeration_form" : enumeration_form.errors
+                }
+            )
         return render(request, self.template_name, context)
 
 
