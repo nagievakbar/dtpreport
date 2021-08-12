@@ -60,7 +60,7 @@ class Car(models.Model):
     engine_number = models.CharField(max_length=30, blank=True, null=True, )
     body_number = models.CharField(max_length=30, blank=True, null=True, )
     chassis = models.CharField(max_length=30, blank=True, null=True, )
-    car_color = models.CharField(max_length=20, blank=True, null=True, )
+    car_color = models.CharField(max_length=100, blank=True, null=True, )
     mileage = models.CharField(max_length=20, blank=True, null=True, )
     release_date = models.CharField(max_length=20, blank=True, null=True, )
     car_type = models.CharField(max_length=20, blank=True, null=True, )
